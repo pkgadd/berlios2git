@@ -118,6 +118,23 @@ end match
 # aptosid-manual end
 
 
+# aptosid-scripts start
+create repository aptosid-scripts.git
+end repository
+
+match /(kanotix|sidux|aptosid)-scripts/trunk/
+	repository aptosid-scripts.git
+	branch master
+end match
+
+match /(kanotix|sidux|aptosid)-scripts/tags/([^/]+)/
+	repository aptosid-scripts.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+end match
+# aptosid-scripts end
+
+
 # ar5523 start
 create repository ar5523.git
 end repository

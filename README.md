@@ -19,6 +19,7 @@ to migrate them into individual git repositories.
 * apt-conf-aptosid: apt-conf-sidux, apt-conf-aptosid
 * aptosid-irc: kanotix-irc, sidux-irc, aptosid-irc
 * aptosid-manual: sidux-manual, aptosid-manual
+* aptosid-scripts: kanotix-scripts, sidux-scripts, aptosid-scripts
 * b43-asm
 * linux-aptosid: linux-sidux-2.6, linux-aptosid-2.6, linux-aptosid
 * openfwwf
@@ -49,7 +50,6 @@ to migrate them into individual git repositories.
 * aptosid-keyring
 * aptosid-manual-reader
 * aptosid-manual-transition-helper
-* aptosid-scripts
 * aptosid-settings-kde
 * aptosid-settings-lxde
 * aptosid-settings-xfce
@@ -134,7 +134,6 @@ to migrate them into individual git repositories.
 * kanotix-ndiswrapper
 * kanotix-remountrw
 * kanotix-screenres
-* kanotix-scripts
 * kanotix-searchplugins
 * kanotix-setpassword
 * kanotix-sounds
@@ -265,7 +264,6 @@ to migrate them into individual git repositories.
 * sidux-keyring
 * sidux-manual-reader
 * sidux-menu
-* sidux-scripts
 * sidux-searchplugins
 * sidux-server-config
 * sidux-setpassword
