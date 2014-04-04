@@ -90,6 +90,23 @@ end match
 # aptosid-irc end
 
 
+# aptosid-keyring start
+create repository export/fullstory/aptosid-keyring.git
+end repository
+
+match /(kanotix-keyring|sidux-keyring|aptosid-keyring)/trunk/
+	repository export/fullstory/aptosid-keyring.git
+	branch master
+end match
+
+match /(kanotix-keyring|sidux-keyring|aptosid-keyring)/tags/([^/]+)/
+	repository export/fullstory/aptosid-keyring.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+end match
+# aptosid-keyring end
+
+
 # aptosid-manual start
 create repository export/fullstory/aptosid-manual.git
 end repository

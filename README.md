@@ -18,6 +18,7 @@ to migrate them into individual git repositories.
 ###Current
 * apt-conf-aptosid: apt-conf-sidux, apt-conf-aptosid
 * aptosid-irc: kanotix-irc, sidux-irc, aptosid-irc
+* aptosid-keyring: kanotix-keyring, sidux-keyring, aptosid-keyring
 * aptosid-manual: sidux-manual, aptosid-manual
 * aptosid-scripts: kanotix-scripts, sidux-scripts, aptosid-scripts
 * b43-asm
@@ -49,7 +50,6 @@ to migrate them into individual git repositories.
 * aptosid-art-legacy
 * aptosid-art-meta
 * aptosid-art-ponos
-* aptosid-keyring
 * aptosid-manual-reader
 * aptosid-manual-transition-helper
 * aptosid-settings-kde
@@ -131,7 +131,6 @@ to migrate them into individual git repositories.
 * kanotix-graphics
 * kanotix-isdn
 * kanotix-kernelhacking
-* kanotix-keyring
 * kanotix-menu
 * kanotix-ndiswrapper
 * kanotix-remountrw
@@ -261,7 +260,6 @@ to migrate them into individual git repositories.
 * sidux-hermes
 * sidux-icons
 * sidux-kernelhacking
-* sidux-keyring
 * sidux-manual-reader
 * sidux-menu
 * sidux-searchplugins
