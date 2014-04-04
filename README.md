@@ -1,7 +1,7 @@
 berlios2git
 ===========
 
-berlios2git
+Export and migrate BerliOS repositories to git.
 
 Howto
 =====
