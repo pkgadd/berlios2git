@@ -25,14 +25,17 @@ Package list and mapping
 ========================
 
 ##Current
-* acerhk
-* apt-conf-aptosid: apt-conf-aptosid, apt-conf-sidux
-* ar5523
+* apt-conf-aptosid: apt-conf-sidux, apt-conf-aptosid
 * linux-aptosid: linux-sidux-2.6, linux-aptosid-2.6, linux-aptosid
 * pyfll
+* udev-config-aptosid: kanotix-udev-config, udev-config-sidux, udev-config-aptosid
+
+##Semi-current
+* ar5523
 
 ##Morgue
 * acer-acpi
+* acerhk
 * ddcxinfo: ddcxinfo-kanotix, ddcxinfo-sidux
 
 Unsorted historic Packages (pending)
@@ -147,7 +150,6 @@ Unsorted historic Packages (pending)
 * kanotix-sounds
 * kanotix-su
 * kanotix-terminalserver
-* kanotix-udev-config
 * kanotix-vdr
 * kbdconfig-kanotix
 * kdeadmin
@@ -303,8 +305,6 @@ Unsorted historic Packages (pending)
 * sysv-freeze
 * teclasat
 * ttf-sidux
-* udev-config-aptosid
-* udev-config-sidux
 * usleep-kanotix
 * vdr-gui
 * xdg-browser-launcher
