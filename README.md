@@ -23,13 +23,16 @@ Further reading
 Package list and mapping
 ========================
 
+##Current
 * acerhk
 * ar5523
-* ddcxinfo: ddcxinfo-kanotix, ddcxinfo-sidux
 * linux-aptosid: linux-sidux-2.6, linux-aptosid-2.6, linux-aptosid
 * pyfll
 
-historic Packages (pending)
+##Morgue
+* ddcxinfo: ddcxinfo-kanotix, ddcxinfo-sidux
+
+Unsorted historic Packages (pending)
 ===========================
 
 * acer-acpi
