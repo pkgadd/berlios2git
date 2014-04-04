@@ -3,6 +3,11 @@ berlios2git
 
 berlios2git
 
+Howto
+=====
+
+$ svn-all-fast-export --identity-map=authors-transform.txt --rules fullstory.rules fullstory/
+
 historic Packages
 =================
 
