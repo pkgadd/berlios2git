@@ -20,11 +20,19 @@ Further reading
 - http://madduck.net/blog/2007.10.07:converting-a-package-to-git/
 - https://www.semitwist.com/articles/article/view/the-better-svn-git-guide
 
-historic Packages
-=================
+Package list and mapping
+========================
+
+* acerhk
+* ar5523
+* ddcxinfo: ddcxinfo-kanotix, ddcxinfo-sidux
+* linux-aptosid: linux-sidux-2.6, linux-aptosid-2.6, linux-aptosid
+* pyfll
+
+historic Packages (pending)
+===========================
 
 * acer-acpi
-* acerhk
 * apt-conf-aptosid
 * apt-conf-sidux
 * aptosid-art-apate
@@ -45,7 +53,6 @@ historic Packages
 * aptosid-settings-xfce
 * aptosid-transition-helper
 * aptosid-vdr
-* ar5523
 * atl1e
 * aufs
 * automount-kanotix
@@ -72,8 +79,6 @@ historic Packages
 * configure-xawtv
 * configure-xawtv-kanotix
 * cupsconfig-kanotix
-* ddcxinfo-kanotix
-* ddcxinfo-sidux
 * desktop-defaults
 * distro-defaults
 * dmakms
@@ -160,11 +165,8 @@ historic Packages
 * ksplash-theme-sidux-preview
 * kudzu-kanotix
 * libconfig-source-perl
-* linux-aptosid
-* linux-aptosid-2.6
 * linux-modules-extra-2.6
 * linux-modules-sidux-main-2.6
-* linux-sidux-2.6
 * lirc
 * live-initrd-kanotix
 * live-initrd-sidux
@@ -193,7 +195,6 @@ historic Packages
 * ppp-scripts
 * ppp-scripts-kanotix
 * print-utils-pfeifle-kanotix
-* pyfll
 * pyfll-installer
 * python-fll
 * qt-fll-iso2usb-gui
