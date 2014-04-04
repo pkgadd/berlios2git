@@ -113,6 +113,23 @@ end match
 # ddcxinfo end
 
 
+# fll-builder start
+create repository fll-builder.git
+end repository
+
+match /fll-builder/trunk/
+	repository fll-builder.git
+	branch master
+end match
+
+match /fll-builder/tags/([^/]+)/
+	repository fll-builder.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+end match
+# fll-builder end
+
+
 # linux-aptosid start
 create repository linux-aptosid.git
 end repository

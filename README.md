@@ -28,6 +28,7 @@ fullstory-doc, for migrating them to individual git repositories.
 
 ###Semi-current
 * ar5523
+* fll-builder
 
 ###Morgue
 * acer-acpi
@@ -91,7 +92,6 @@ fullstory-doc, for migrating them to individual git repositories.
 * firmware-carl9170
 * fix-cdrom
 * fix-fonts
-* fll-builder
 * fll-fshelper
 * fll-gfx
 * fll-installer
