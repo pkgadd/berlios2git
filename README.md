@@ -6,11 +6,9 @@ fullstory-doc, for migrating them to individual git repositories.
 
 ##Howto
 
-$ wget http://sourceforge.net/projects/svndumps.berlios/files/fullstory-svnroot.tar.gz/download -O./fullstory-svnroot.tar.gz
-
-$ tar -xzf fullstory-svnroot.tar.gz
-
-$ svn-all-fast-export --identity-map=authors-transform.txt --rules fullstory.rules fullstory/
+- wget http://sourceforge.net/projects/svndumps.berlios/files/fullstory-svnroot.tar.gz/download -O./fullstory-svnroot.tar.gz
+- tar -xzf fullstory-svnroot.tar.gz
+- svn-all-fast-export --identity-map=authors-transform.txt --rules fullstory.rules fullstory/
 
 ##Further reading
 
