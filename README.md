@@ -24,6 +24,7 @@ to migrate them into individual git repositories.
 
 ###Semi-current
 * ar5523
+* firmware-carl9170
 * fll-builder
 
 ###Morgue
@@ -86,7 +87,6 @@ to migrate them into individual git repositories.
 * etcskel-kanotix
 * etcskel-sidux
 * firewall-kanotix
-* firmware-carl9170
 * fix-cdrom
 * fix-fonts
 * fll-fshelper

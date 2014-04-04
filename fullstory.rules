@@ -124,6 +124,34 @@ end match
 # ddcxinfo end
 
 
+# firmware-carl9170 start
+create repository firmware-carl9170.git
+end repository
+
+match /firmware-carl9170/trunk/
+	repository firmware-carl9170.git
+	branch master
+end match
+
+match /firmware-carl9170/branches/upstream/current/
+	repository firmware-carl9170.git
+	branch upstream
+end match
+
+match /firmware-carl9170/branches/upstream/([^/]+)/
+	repository firmware-carl9170.git
+	branch refs/tags/upstream/\1
+	substitute branch s/~/_/
+end match
+
+match /firmware-carl9170/tags/([^/]+)/
+	repository firmware-carl9170.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+end match
+# firmware-carl9170 end
+
+
 # fll-builder start
 create repository fll-builder.git
 end repository
