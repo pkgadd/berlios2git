@@ -1,24 +1,20 @@
 berlios2git
 ===========
-
 Export BerliOS subversion repositories for fullstory and fullstory-doc,
 to migrate them into individual git repositories.
 
 ##Howto
-
 - wget http://sourceforge.net/projects/svndumps.berlios/files/fullstory-svnroot.tar.gz/download -O./fullstory-svnroot.tar.gz
 - tar -xzf fullstory-svnroot.tar.gz
 - svn-all-fast-export --identity-map=authors-transform.txt --rules fullstory.rules fullstory/
 
 ##Further reading
-
 - https://wiki.debian.org/PackagingWithGit/Svn-buildpackageConversion
 - http://techbase.kde.org/Projects/MoveToGit/UsingSvn2Git
 - http://madduck.net/blog/2007.10.07:converting-a-package-to-git/
 - https://www.semitwist.com/articles/article/view/the-better-svn-git-guide
 
 ##Package list and mapping
-
 ###Current
 * apt-conf-aptosid: apt-conf-sidux, apt-conf-aptosid
 * aptosid-irc: kanotix-irc, sidux-irc, aptosid-irc
@@ -34,9 +30,9 @@ to migrate them into individual git repositories.
 * acer-acpi
 * acerhk
 * ddcxinfo: ddcxinfo-kanotix, ddcxinfo-sidux
+* sudoers-sidux: sudoers-kanotix, sudores-sidux, sudoers-sidux
 
 ###Unsorted historic Packages (pending)
-
 * aptosid-art-apate
 * aptosid-art-geras
 * aptosid-art-imera
@@ -290,9 +286,6 @@ to migrate them into individual git repositories.
 * startsyslog
 * startsyslog-kanotix
 * startsyslog-sidux
-* sudoers-kanotix
-* sudoers-sidux
-* sudores-sidux
 * su-me
 * sysv-freeze
 * teclasat

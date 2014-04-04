@@ -176,6 +176,23 @@ end match
 # pyfll end
 
 
+# sudoers-sidux start
+create repository sudoers-sidux.git
+end repository
+
+match /(sudoers-kanotix|sudores-sidux|sudoers-sidux)/trunk/
+	repository sudoers-sidux.git
+	branch master
+end match
+
+match /(sudoers-kanotix|sudores-sidux|sudoers-sidux)/tags/([^/]+)/
+	repository sudoers-sidux.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+end match
+# sudoers-sidux end
+
+
 # udev-config-aptosid start
 create repository udev-config-aptosid.git
 end repository
