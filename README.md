@@ -36,6 +36,8 @@ to migrate them into individual git repositories.
 * acerhk
 * busybox-sidux: busybox-kanotix, busybox-sidux
 * ddcxinfo: ddcxinfo-kanotix, ddcxinfo-sidux
+* rt61
+* rt73-legacy
 * su-me: kanotix-su, su-me
 * sudoers-sidux: sudoers-kanotix, sudores-sidux, sudoers-sidux
 
@@ -200,8 +202,6 @@ to migrate them into individual git repositories.
 * rfswitch
 * rootshell
 * rootshell-kanotix
-* rt61
-* rt73-legacy
 * sambastart
 * sambastart-kanotix
 * sambastart-sidux

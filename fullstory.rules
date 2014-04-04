@@ -344,6 +344,62 @@ end match
 # pyfll end
 
 
+# rt61 start
+create repository export/fullstory.morgue/rt61.git
+end repository
+
+match /rt61/trunk/
+	repository export/fullstory.morgue/rt61.git
+	branch master
+end match
+
+match /rt61/branches/upstream/current/
+	repository export/fullstory.morgue/rt61.git
+	branch upstream
+end match
+
+match /rt61/branches/upstream/([^/]+)/
+	repository export/fullstory.morgue/rt61.git
+	branch refs/tags/upstream/\1
+	substitute branch s/~/_/
+end match
+
+match /rt61/tags/([^/]+)/
+	repository export/fullstory.morgue/rt61.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+end match
+# rt61 end
+
+
+# rt73-legacy start
+create repository export/fullstory.morgue/rt73-legacy.git
+end repository
+
+match /rt73-legacy/trunk/
+	repository export/fullstory.morgue/rt73-legacy.git
+	branch master
+end match
+
+match /rt73-legacy/branches/upstream/current/
+	repository export/fullstory.morgue/rt73-legacy.git
+	branch upstream
+end match
+
+match /rt73-legacy/branches/upstream/([^/]+)/
+	repository export/fullstory.morgue/rt73-legacy.git
+	branch refs/tags/upstream/\1
+	substitute branch s/~/_/
+end match
+
+match /rt73-legacy/tags/([^/]+)/
+	repository export/fullstory.morgue/rt73-legacy.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+end match
+# rt73-legacy end
+
+
 # su-me start
 create repository export/fullstory.morgue/su-me.git
 end repository
