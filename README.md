@@ -18,7 +18,9 @@ to migrate them into individual git repositories.
 ###Current
 * apt-conf-aptosid: apt-conf-sidux, apt-conf-aptosid
 * aptosid-irc: kanotix-irc, sidux-irc, aptosid-irc
+* b43-asm
 * linux-aptosid: linux-sidux-2.6, linux-aptosid-2.6, linux-aptosid
+* openfwwf
 * pyfll
 * udev-config-aptosid: kanotix-udev-config, udev-config-sidux, udev-config-aptosid
 
@@ -55,7 +57,6 @@ to migrate them into individual git repositories.
 * atl1e
 * aufs
 * automount-kanotix
-* b43-asm
 * btsco
 * busybox-kanotix
 * busybox-sidux
@@ -182,7 +183,6 @@ to migrate them into individual git repositories.
 * nxsetup
 * nxsetup-kanotix
 * omnibook
-* openfwwf
 * pdf-printerconfig-kanotix
 * playvideodisk
 * playvideodisk-kanotix

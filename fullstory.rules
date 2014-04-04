@@ -107,6 +107,34 @@ end match
 # ar5523 end
 
 
+# b43-asm start
+create repository b43-asm.git
+end repository
+
+match /b43-asm/trunk/
+	repository b43-asm.git
+	branch master
+end match
+
+match /b43-asm/branches/upstream/current/
+	repository b43-asm.git
+	branch upstream
+end match
+
+match /b43-asm/branches/upstream/([^/]+)/
+	repository b43-asm.git
+	branch refs/tags/upstream/\1
+	substitute branch s/~/_/
+end match
+
+match /b43-asm/tags/([^/]+)/
+	repository b43-asm.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+end match
+# b43-asm end
+
+
 # ddcxinfo start
 create repository ddcxinfo.git
 end repository
@@ -190,6 +218,34 @@ match /(linux-sidux-2.6|linux-aptosid-2.6|linux-aptosid)/tags/([^/]+)/
 	substitute branch s/~/_/
 end match
 # linux-aptosid end
+
+
+# openfwwf start
+create repository openfwwf.git
+end repository
+
+match /openfwwf/trunk/
+	repository openfwwf.git
+	branch master
+end match
+
+match /openfwwf/branches/upstream/current/
+	repository openfwwf.git
+	branch upstream
+end match
+
+match /openfwwf/branches/upstream/([^/]+)/
+	repository openfwwf.git
+	branch refs/tags/upstream/\1
+	substitute branch s/~/_/
+end match
+
+match /openfwwf/tags/([^/]+)/
+	repository openfwwf.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+end match
+# openfwwf end
 
 
 # pyfll start
