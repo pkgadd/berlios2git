@@ -18,6 +18,7 @@ to migrate them into individual git repositories.
 ###Current
 * apt-conf-aptosid: apt-conf-sidux, apt-conf-aptosid
 * aptosid-irc: kanotix-irc, sidux-irc, aptosid-irc
+* aptosid-manual: sidux-manual, aptosid-manual
 * b43-asm
 * linux-aptosid: linux-sidux-2.6, linux-aptosid-2.6, linux-aptosid
 * openfwwf
@@ -45,7 +46,6 @@ to migrate them into individual git repositories.
 * aptosid-art-meta
 * aptosid-art-ponos
 * aptosid-keyring
-* aptosid-manual
 * aptosid-manual-reader
 * aptosid-manual-transition-helper
 * aptosid-scripts
@@ -264,7 +264,6 @@ to migrate them into individual git repositories.
 * sidux-icons
 * sidux-kernelhacking
 * sidux-keyring
-* sidux-manual
 * sidux-manual-reader
 * sidux-menu
 * sidux-scripts

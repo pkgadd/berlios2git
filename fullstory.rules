@@ -90,6 +90,34 @@ end match
 # aptosid-irc end
 
 
+# aptosid-manual start
+create repository aptosid-manual.git
+end repository
+
+match /(sidux|aptosid)-manual/trunk/
+	repository aptosid-manual.git
+	branch master
+end match
+
+match /(sidux|aptosid)-manual/branches/upstream/current/
+	repository aptosid-manual.git
+	branch upstream
+end match
+
+match /(sidux|aptosid)-manual/branches/upstream/([^/]+)/
+	repository aptosid-manual.git
+	branch refs/tags/upstream/\2
+	substitute branch s/~/_/
+end match
+
+match /(sidux|aptosid)-manual/tags/([^/]+)/
+	repository aptosid-manual.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+end match
+# aptosid-manual end
+
+
 # ar5523 start
 create repository ar5523.git
 end repository
