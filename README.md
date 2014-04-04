@@ -1,8 +1,8 @@
 berlios2git
 ===========
 
-Export and BerliOS subversion repositories for fullstory and
-fullstory-doc, for migrating them to individual git repositories.
+Export BerliOS subversion repositories for fullstory and fullstory-doc,
+to migrate them into individual git repositories.
 
 ##Howto
 
