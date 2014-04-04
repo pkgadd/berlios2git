@@ -6,6 +6,7 @@ log-*.git
 acer-acpi.git
 acerhk.git
 apt-conf-aptosid.git
+aptosid-irc.git
 ar5523.git
 ddcxinfo.git
 linux-aptosid.git

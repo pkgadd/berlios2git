@@ -62,6 +62,23 @@ end match
 # apt-conf-aptosid end
 
 
+# aptosid-irc start
+create repository aptosid-irc.git
+end repository
+
+match /(kanotix-irc|sidux-irc|aptosid-irc)/trunk/
+	repository aptosid-irc.git
+	branch master
+end match
+
+match /(kanotix-irc|sidux-irc|aptosid-irc)/tags/([^/]+)/
+	repository aptosid-irc.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+end match
+# aptosid-irc end
+
+
 # ar5523 start
 create repository ar5523.git
 end repository

@@ -21,6 +21,7 @@ fullstory-doc, for migrating them to individual git repositories.
 
 ###Current
 * apt-conf-aptosid: apt-conf-sidux, apt-conf-aptosid
+* aptosid-irc: kanotix-irc, sidux-irc, aptosid-irc
 * linux-aptosid: linux-sidux-2.6, linux-aptosid-2.6, linux-aptosid
 * pyfll
 * udev-config-aptosid: kanotix-udev-config, udev-config-sidux, udev-config-aptosid
@@ -42,7 +43,6 @@ fullstory-doc, for migrating them to individual git repositories.
 * aptosid-art-legacy
 * aptosid-art-meta
 * aptosid-art-ponos
-* aptosid-irc
 * aptosid-keyring
 * aptosid-manual
 * aptosid-manual-reader
@@ -130,7 +130,6 @@ fullstory-doc, for migrating them to individual git repositories.
 * kanotix2sidux
 * kanotix-dsl
 * kanotix-graphics
-* kanotix-irc
 * kanotix-isdn
 * kanotix-kernelhacking
 * kanotix-keyring
@@ -267,7 +266,6 @@ fullstory-doc, for migrating them to individual git repositories.
 * sidux-graphics
 * sidux-hermes
 * sidux-icons
-* sidux-irc
 * sidux-kernelhacking
 * sidux-keyring
 * sidux-manual
