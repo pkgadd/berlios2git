@@ -26,7 +26,7 @@ to migrate them into individual git repositories.
 * pyfll
 * udev-config-aptosid: kanotix-udev-config, udev-config-sidux, udev-config-aptosid
 
-###Semi-current
+###Deprecated
 * ar5523
 * firmware-carl9170
 * fll-builder
@@ -36,8 +36,8 @@ to migrate them into individual git repositories.
 * acerhk
 * busybox-sidux: busybox-kanotix, busybox-sidux
 * ddcxinfo: ddcxinfo-kanotix, ddcxinfo-sidux
-* sudoers-sidux: sudoers-kanotix, sudores-sidux, sudoers-sidux
 * su-me: kanotix-su, su-me
+* sudoers-sidux: sudoers-kanotix, sudores-sidux, sudoers-sidux
 
 ###Unsorted historic Packages (pending)
 * aptosid-art-apate

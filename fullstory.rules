@@ -1,27 +1,27 @@
 # fullstory.rules
 
 # acer-apci start
-create repository acer-acpi.git
+create repository export/fullstory.morgue/acer-acpi.git
 end repository
 
 match /acer-acpi/trunk/
-	repository acer-acpi.git
+	repository export/fullstory.morgue/acer-acpi.git
 	branch master
 end match
 
 match /acer-acpi/branches/upstream/current/
-	repository acer-acpi.git
+	repository export/fullstory.morgue/acer-acpi.git
 	branch upstream
 end match
 
 match /acer-acpi/branches/upstream/([^/]+)/
-	repository acer-acpi.git
+	repository export/fullstory.morgue/acer-acpi.git
 	branch refs/tags/upstream/\1
 	substitute branch s/~/_/
 end match
 
 match /acer-acpi/tags/([^/]+)/
-	repository acer-acpi.git
+	repository export/fullstory.morgue/acer-acpi.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
 end match
@@ -29,27 +29,27 @@ end match
 
 
 # acerhk start
-create repository acerhk.git
+create repository export/fullstory.morgue/acerhk.git
 end repository
 
 match /acerhk/trunk/
-	repository acerhk.git
+	repository export/fullstory.morgue/acerhk.git
 	branch master
 end match
 
 match /acerhk/branches/upstream/current/
-	repository acerhk.git
+	repository export/fullstory.morgue/acerhk.git
 	branch upstream
 end match
 
 match /acerhk/branches/upstream/([^/]+)/
-	repository acerhk.git
+	repository export/fullstory.morgue/acerhk.git
 	branch refs/tags/upstream/\1
 	substitute branch s/~/_/
 end match
 
 match /acerhk/tags/([^/]+)/
-	repository acerhk.git
+	repository export/fullstory.morgue/acerhk.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
 end match
@@ -57,16 +57,16 @@ end match
 
 
 # apt-conf-aptosid start
-create repository apt-conf-aptosid.git
+create repository export/fullstory/apt-conf-aptosid.git
 end repository
 
 match /(apt-conf-sidux|apt-conf-aptosid)/trunk/
-	repository apt-conf-aptosid.git
+	repository export/fullstory/apt-conf-aptosid.git
 	branch master
 end match
 
 match /(apt-conf-sidux|apt-conf-aptosid)/tags/([^/]+)/
-	repository apt-conf-aptosid.git
+	repository export/fullstory/apt-conf-aptosid.git
 	branch refs/tags/debian/\2
 	substitute branch s/~/_/
 end match
@@ -74,16 +74,16 @@ end match
 
 
 # aptosid-irc start
-create repository aptosid-irc.git
+create repository export/fullstory/aptosid-irc.git
 end repository
 
 match /(kanotix-irc|sidux-irc|aptosid-irc)/trunk/
-	repository aptosid-irc.git
+	repository export/fullstory/aptosid-irc.git
 	branch master
 end match
 
 match /(kanotix-irc|sidux-irc|aptosid-irc)/tags/([^/]+)/
-	repository aptosid-irc.git
+	repository export/fullstory/aptosid-irc.git
 	branch refs/tags/debian/\2
 	substitute branch s/~/_/
 end match
@@ -91,27 +91,27 @@ end match
 
 
 # aptosid-manual start
-create repository aptosid-manual.git
+create repository export/fullstory/aptosid-manual.git
 end repository
 
 match /(sidux|aptosid)-manual/trunk/
-	repository aptosid-manual.git
+	repository export/fullstory/aptosid-manual.git
 	branch master
 end match
 
 match /(sidux|aptosid)-manual/branches/upstream/current/
-	repository aptosid-manual.git
+	repository export/fullstory/aptosid-manual.git
 	branch upstream
 end match
 
 match /(sidux|aptosid)-manual/branches/upstream/([^/]+)/
-	repository aptosid-manual.git
+	repository export/fullstory/aptosid-manual.git
 	branch refs/tags/upstream/\2
 	substitute branch s/~/_/
 end match
 
 match /(sidux|aptosid)-manual/tags/([^/]+)/
-	repository aptosid-manual.git
+	repository export/fullstory/aptosid-manual.git
 	branch refs/tags/debian/\2
 	substitute branch s/~/_/
 end match
@@ -119,16 +119,16 @@ end match
 
 
 # aptosid-scripts start
-create repository aptosid-scripts.git
+create repository export/fullstory/aptosid-scripts.git
 end repository
 
 match /(kanotix|sidux|aptosid)-scripts/trunk/
-	repository aptosid-scripts.git
+	repository export/fullstory/aptosid-scripts.git
 	branch master
 end match
 
 match /(kanotix|sidux|aptosid)-scripts/tags/([^/]+)/
-	repository aptosid-scripts.git
+	repository export/fullstory/aptosid-scripts.git
 	branch refs/tags/debian/\2
 	substitute branch s/~/_/
 end match
@@ -136,16 +136,16 @@ end match
 
 
 # ar5523 start
-create repository ar5523.git
+create repository export/fullstory.deprecated/ar5523.git
 end repository
 
 match /ar5523/trunk/
-	repository ar5523.git
+	repository export/fullstory.deprecated/ar5523.git
 	branch master
 end match
 
 match /ar5523/tags/([^/]+)/
-	repository ar5523.git
+	repository export/fullstory.deprecated/ar5523.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
 end match
@@ -153,27 +153,27 @@ end match
 
 
 # b43-asm start
-create repository b43-asm.git
+create repository export/fullstory/b43-asm.git
 end repository
 
 match /b43-asm/trunk/
-	repository b43-asm.git
+	repository export/fullstory/b43-asm.git
 	branch master
 end match
 
 match /b43-asm/branches/upstream/current/
-	repository b43-asm.git
+	repository export/fullstory/b43-asm.git
 	branch upstream
 end match
 
 match /b43-asm/branches/upstream/([^/]+)/
-	repository b43-asm.git
+	repository export/fullstory/b43-asm.git
 	branch refs/tags/upstream/\1
 	substitute branch s/~/_/
 end match
 
 match /b43-asm/tags/([^/]+)/
-	repository b43-asm.git
+	repository export/fullstory/b43-asm.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
 end match
@@ -181,27 +181,27 @@ end match
 
 
 # busybox-sidux start
-create repository busybox-sidux.git
+create repository export/fullstory.morgue/busybox-sidux.git
 end repository
 
 match /busybox-(kanotix|sidux)/trunk/
-	repository busybox-sidux.git
+	repository export/fullstory.morgue/busybox-sidux.git
 	branch master
 end match
 
 match /busybox-(kanotix|sidux)/branches/upstream/current/
-	repository busybox-sidux.git
+	repository export/fullstory.morgue/busybox-sidux.git
 	branch upstream
 end match
 
 match /busybox-(kanotix|sidux)/branches/upstream/([^/]+)/
-	repository busybox-sidux.git
+	repository export/fullstory.morgue/busybox-sidux.git
 	branch refs/tags/upstream/\2
 	substitute branch s/~/_/
 end match
 
 match /busybox-(kanotix|sidux)/tags/([^/]+)/
-	repository busybox-sidux.git
+	repository export/fullstory.morgue/busybox-sidux.git
 	branch refs/tags/debian/\2
 	substitute branch s/~/_/
 end match
@@ -209,16 +209,16 @@ end match
 
 
 # ddcxinfo start
-create repository ddcxinfo.git
+create repository export/fullstory.morgue/ddcxinfo.git
 end repository
 
 match /ddcxinfo-(kanotix|sidux)/trunk/
-	repository ddcxinfo.git
+	repository export/fullstory.morgue/ddcxinfo.git
 	branch master
 end match
 
 match /ddcxinfo-(kanotix|sidux)/tags/([^/]+)/
-	repository ddcxinfo.git
+	repository export/fullstory.morgue/ddcxinfo.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
 end match
@@ -226,27 +226,27 @@ end match
 
 
 # firmware-carl9170 start
-create repository firmware-carl9170.git
+create repository export/fullstory.deprecated/firmware-carl9170.git
 end repository
 
 match /firmware-carl9170/trunk/
-	repository firmware-carl9170.git
+	repository export/fullstory.deprecated/firmware-carl9170.git
 	branch master
 end match
 
 match /firmware-carl9170/branches/upstream/current/
-	repository firmware-carl9170.git
+	repository export/fullstory.deprecated/firmware-carl9170.git
 	branch upstream
 end match
 
 match /firmware-carl9170/branches/upstream/([^/]+)/
-	repository firmware-carl9170.git
+	repository export/fullstory.deprecated/firmware-carl9170.git
 	branch refs/tags/upstream/\1
 	substitute branch s/~/_/
 end match
 
 match /firmware-carl9170/tags/([^/]+)/
-	repository firmware-carl9170.git
+	repository export/fullstory.deprecated/firmware-carl9170.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
 end match
@@ -254,16 +254,16 @@ end match
 
 
 # fll-builder start
-create repository fll-builder.git
+create repository export/fullstory.deprecated/fll-builder.git
 end repository
 
 match /fll-builder/trunk/
-	repository fll-builder.git
+	repository export/fullstory.deprecated/fll-builder.git
 	branch master
 end match
 
 match /fll-builder/tags/([^/]+)/
-	repository fll-builder.git
+	repository export/fullstory.deprecated/fll-builder.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
 end match
@@ -271,22 +271,22 @@ end match
 
 
 # linux-aptosid start
-create repository linux-aptosid.git
+create repository export/fullstory/linux-aptosid.git
 end repository
 
 match /(linux-sidux-2.6|linux-aptosid-2.6|linux-aptosid)/trunk/
-	repository linux-aptosid.git
+	repository export/fullstory/linux-aptosid.git
 	branch master
 end match
 
 match /(linux-sidux-2.6|linux-aptosid-2.6|linux-aptosid)/branches/([^/]+)/
-	repository linux-aptosid.git
+	repository export/fullstory/linux-aptosid.git
 	branch refs/tags/debian/\2
 	substitute branch s/~/_/
 end match
 
 match /(linux-sidux-2.6|linux-aptosid-2.6|linux-aptosid)/tags/([^/]+)/
-	repository linux-aptosid.git
+	repository export/fullstory/linux-aptosid.git
 	branch refs/tags/debian/\2
 	substitute branch s/~/_/
 end match
@@ -294,27 +294,27 @@ end match
 
 
 # openfwwf start
-create repository openfwwf.git
+create repository export/fullstory/openfwwf.git
 end repository
 
 match /openfwwf/trunk/
-	repository openfwwf.git
+	repository export/fullstory/openfwwf.git
 	branch master
 end match
 
 match /openfwwf/branches/upstream/current/
-	repository openfwwf.git
+	repository export/fullstory/openfwwf.git
 	branch upstream
 end match
 
 match /openfwwf/branches/upstream/([^/]+)/
-	repository openfwwf.git
+	repository export/fullstory/openfwwf.git
 	branch refs/tags/upstream/\1
 	substitute branch s/~/_/
 end match
 
 match /openfwwf/tags/([^/]+)/
-	repository openfwwf.git
+	repository export/fullstory/openfwwf.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
 end match
@@ -322,22 +322,22 @@ end match
 
 
 # pyfll start
-create repository pyfll.git
+create repository export/fullstory/pyfll.git
 end repository
 
 match /(fll-builder/branches/pyfll|pyfll/trunk)/
-	repository pyfll.git
+	repository export/fullstory/pyfll.git
 	branch master
 end match
 
 # ignore pyfll-ubuntu
 match /pyfll/branches/pyfll-ubuntu/
-	#repository pyfll.git
+	#repository export/fullstory/pyfll.git
 	#branch pyfll-ubuntu
 end match
 
 match /pyfll/tags/([^/]+)/
-	repository pyfll.git
+	repository export/fullstory/pyfll.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
 end match
@@ -345,16 +345,16 @@ end match
 
 
 # su-me start
-create repository su-me.git
+create repository export/fullstory.morgue/su-me.git
 end repository
 
 match /(kanotix-su|su-me)/trunk/
-	repository su-me.git
+	repository export/fullstory.morgue/su-me.git
 	branch master
 end match
 
 match /(kanotix-su|su-me)/tags/([^/]+)/
-	repository su-me.git
+	repository export/fullstory.morgue/su-me.git
 	branch refs/tags/debian/\2
 	substitute branch s/~/_/
 end match
@@ -362,16 +362,16 @@ end match
 
 
 # sudoers-sidux start
-create repository sudoers-sidux.git
+create repository export/fullstory.morgue/sudoers-sidux.git
 end repository
 
 match /(sudoers-kanotix|sudores-sidux|sudoers-sidux)/trunk/
-	repository sudoers-sidux.git
+	repository export/fullstory.morgue/sudoers-sidux.git
 	branch master
 end match
 
 match /(sudoers-kanotix|sudores-sidux|sudoers-sidux)/tags/([^/]+)/
-	repository sudoers-sidux.git
+	repository export/fullstory.morgue/sudoers-sidux.git
 	branch refs/tags/debian/\2
 	substitute branch s/~/_/
 end match
@@ -379,16 +379,16 @@ end match
 
 
 # udev-config-aptosid start
-create repository udev-config-aptosid.git
+create repository export/fullstory/udev-config-aptosid.git
 end repository
 
 match /(kanotix-udev-config|udev-config-sidux|udev-config-aptosid)/trunk/
-	repository udev-config-aptosid.git
+	repository export/fullstory/udev-config-aptosid.git
 	branch master
 end match
 
 match /(kanotix-udev-config|udev-config-sidux|udev-config-aptosid)/tags/([^/]+)/
-	repository udev-config-aptosid.git
+	repository export/fullstory/udev-config-aptosid.git
 	branch refs/tags/debian/\2
 	substitute branch s/~/_/
 end match
