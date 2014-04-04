@@ -5,6 +5,7 @@ fullstory-doc
 log-*.git
 acer-acpi.git
 acerhk.git
+apt-conf-aptosid.git
 ar5523.git
 ddcxinfo.git
 linux-aptosid.git

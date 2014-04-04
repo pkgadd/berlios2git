@@ -45,6 +45,23 @@ end match
 # acerhk end
 
 
+# apt-conf-aptosid start
+create repository apt-conf-aptosid.git
+end repository
+
+match /(apt-conf-sidux|apt-conf-aptosid)/trunk/
+	repository apt-conf-aptosid.git
+	branch master
+end match
+
+match /(apt-conf-sidux|apt-conf-aptosid)/tags/([^/]+)/
+	repository apt-conf-aptosid.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+end match
+# apt-conf-aptosid end
+
+
 # ar5523 start
 create repository ar5523.git
 end repository

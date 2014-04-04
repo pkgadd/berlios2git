@@ -1,7 +1,8 @@
 berlios2git
 ===========
 
-Export and migrate BerliOS repositories to git.
+Export and BerliOS subversion repositories for fullstory and
+fullstory-doc, for migrating them to individual git repositories.
 
 Howto
 =====
@@ -25,6 +26,7 @@ Package list and mapping
 
 ##Current
 * acerhk
+* apt-conf-aptosid: apt-conf-aptosid, apt-conf-sidux
 * ar5523
 * linux-aptosid: linux-sidux-2.6, linux-aptosid-2.6, linux-aptosid
 * pyfll
@@ -36,8 +38,6 @@ Package list and mapping
 Unsorted historic Packages (pending)
 ===========================
 
-* apt-conf-aptosid
-* apt-conf-sidux
 * aptosid-art-apate
 * aptosid-art-geras
 * aptosid-art-imera
