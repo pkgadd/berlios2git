@@ -37,6 +37,17 @@ match /acerhk/trunk/
 	branch master
 end match
 
+match /acerhk/branches/upstream/current/
+	repository acerhk.git
+	branch upstream
+end match
+
+match /acerhk/branches/upstream/([^/]+)/
+	repository acerhk.git
+	branch refs/tags/upstream/\1
+	substitute branch s/~/_/
+end match
+
 match /acerhk/tags/([^/]+)/
 	repository acerhk.git
 	branch refs/tags/debian/\1
