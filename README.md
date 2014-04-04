@@ -4,8 +4,7 @@ berlios2git
 Export and BerliOS subversion repositories for fullstory and
 fullstory-doc, for migrating them to individual git repositories.
 
-Howto
-=====
+##Howto
 
 $ wget http://sourceforge.net/projects/svndumps.berlios/files/fullstory-svnroot.tar.gz/download -O./fullstory-svnroot.tar.gz
 
@@ -13,33 +12,30 @@ $ tar -xzf fullstory-svnroot.tar.gz
 
 $ svn-all-fast-export --identity-map=authors-transform.txt --rules fullstory.rules fullstory/
 
-Further reading
-===============
+##Further reading
 
 - https://wiki.debian.org/PackagingWithGit/Svn-buildpackageConversion
 - http://techbase.kde.org/Projects/MoveToGit/UsingSvn2Git
 - http://madduck.net/blog/2007.10.07:converting-a-package-to-git/
 - https://www.semitwist.com/articles/article/view/the-better-svn-git-guide
 
-Package list and mapping
-========================
+##Package list and mapping
 
-##Current
+###Current
 * apt-conf-aptosid: apt-conf-sidux, apt-conf-aptosid
 * linux-aptosid: linux-sidux-2.6, linux-aptosid-2.6, linux-aptosid
 * pyfll
 * udev-config-aptosid: kanotix-udev-config, udev-config-sidux, udev-config-aptosid
 
-##Semi-current
+###Semi-current
 * ar5523
 
-##Morgue
+###Morgue
 * acer-acpi
 * acerhk
 * ddcxinfo: ddcxinfo-kanotix, ddcxinfo-sidux
 
-Unsorted historic Packages (pending)
-===========================
+###Unsorted historic Packages (pending)
 
 * aptosid-art-apate
 * aptosid-art-geras
