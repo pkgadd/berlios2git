@@ -30,12 +30,12 @@ Package list and mapping
 * pyfll
 
 ##Morgue
+* acer-acpi
 * ddcxinfo: ddcxinfo-kanotix, ddcxinfo-sidux
 
 Unsorted historic Packages (pending)
 ===========================
 
-* acer-acpi
 * apt-conf-aptosid
 * apt-conf-sidux
 * aptosid-art-apate

@@ -1,5 +1,33 @@
 # fullstory.rules
 
+# acer-apci start
+create repository acer-acpi.git
+end repository
+
+match /acer-acpi/trunk/
+	repository acer-acpi.git
+	branch master
+end match
+
+match /acer-acpi/branches/upstream/current/
+	repository acer-acpi.git
+	branch upstream
+end match
+
+match /acer-acpi/branches/upstream/([^/]+)/
+	repository acer-acpi.git
+	branch refs/tags/upstream/\1
+	substitute branch s/~/_/
+end match
+
+match /acer-acpi/tags/([^/]+)/
+	repository acer-acpi.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+end match
+# acer-acpi end
+
+
 # acerhk start
 create repository acerhk.git
 end repository
