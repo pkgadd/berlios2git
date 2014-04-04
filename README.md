@@ -22,6 +22,7 @@ to migrate them into individual git repositories.
 * aptosid-manual: sidux-manual, aptosid-manual
 * aptosid-scripts: kanotix-scripts, sidux-scripts, aptosid-scripts
 * b43-asm
+* infobash
 * linux-aptosid: linux-sidux-2.6, linux-aptosid-2.6, linux-aptosid
 * openfwwf
 * pyfll
@@ -117,7 +118,6 @@ to migrate them into individual git repositories.
 * hwdata-kanotix
 * hwsetup-kanotix
 * hwsetup-ng
-* infobash
 * initscripts-kanotix-live
 * initscripts-sidux-live
 * install-gui

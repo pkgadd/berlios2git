@@ -287,6 +287,23 @@ end match
 # fll-builder end
 
 
+# infobash start
+create repository export/fullstory/infobash.git
+end repository
+
+match /(fll-builder/branches/infobash|infobash/trunk)/
+	repository export/fullstory/infobash.git
+	branch master
+end match
+
+match /infobash/tags/([^/]+)/
+	repository export/fullstory/infobash.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+end match
+# infobash end
+
+
 # linux-aptosid start
 create repository export/fullstory/linux-aptosid.git
 end repository
