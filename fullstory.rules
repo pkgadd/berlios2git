@@ -1,0 +1,102 @@
+# fullstory.rules
+
+# acerhk start
+create repository acerhk.git
+end repository
+
+match /acerhk/trunk/
+	repository acerhk.git
+	branch master
+end match
+
+match /acerhk/tags/([^/]+)/
+	repository acerhk.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+end match
+# acerhk end
+
+
+# ar5523 start
+create repository ar5523.git
+end repository
+
+match /ar5523/trunk/
+	repository ar5523.git
+	branch master
+end match
+
+match /ar5523/tags/([^/]+)/
+	repository ar5523.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+end match
+# ar5523 end
+
+
+# ddcxinfo start
+create repository ddcxinfo.git
+end repository
+
+match /ddcxinfo-(kanotix|sidux)/trunk/
+	repository ddcxinfo.git
+	branch master
+end match
+
+match /ddcxinfo-(kanotix|sidux)/tags/([^/]+)/
+	repository ddcxinfo.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+end match
+# ddcxinfo end
+
+
+# linux-aptosid start
+create repository linux-aptosid.git
+end repository
+
+match /(linux-sidux-2.6|linux-aptosid-2.6|linux-aptosid)/trunk/
+	repository linux-aptosid.git
+	branch master
+end match
+
+match /(linux-sidux-2.6|linux-aptosid-2.6|linux-aptosid)/branches/([^/]+)/
+	repository linux-aptosid.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+end match
+
+match /(linux-sidux-2.6|linux-aptosid-2.6|linux-aptosid)/tags/([^/]+)/
+	repository linux-aptosid.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+end match
+# linux-aptosid end
+
+
+# pyfll start
+create repository pyfll.git
+end repository
+
+match /(fll-builder/branches/pyfll|pyfll/trunk)/
+	repository pyfll.git
+	branch master
+end match
+
+# ignore pyfll-ubuntu
+match /pyfll/branches/pyfll-ubuntu/
+	#repository pyfll.git
+	#branch pyfll-ubuntu
+end match
+
+match /pyfll/tags/([^/]+)/
+	repository pyfll.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+end match
+# pyfll end
+
+
+# Ignore everything else
+match /
+end match
