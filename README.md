@@ -31,6 +31,7 @@ to migrate them into individual git repositories.
 * acerhk
 * ddcxinfo: ddcxinfo-kanotix, ddcxinfo-sidux
 * sudoers-sidux: sudoers-kanotix, sudores-sidux, sudoers-sidux
+* su-me: kanotix-su, su-me
 
 ###Unsorted historic Packages (pending)
 * aptosid-art-apate
@@ -137,7 +138,6 @@ to migrate them into individual git repositories.
 * kanotix-searchplugins
 * kanotix-setpassword
 * kanotix-sounds
-* kanotix-su
 * kanotix-terminalserver
 * kanotix-vdr
 * kbdconfig-kanotix
@@ -286,7 +286,6 @@ to migrate them into individual git repositories.
 * startsyslog
 * startsyslog-kanotix
 * startsyslog-sidux
-* su-me
 * sysv-freeze
 * teclasat
 * ttf-sidux

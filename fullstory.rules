@@ -176,6 +176,23 @@ end match
 # pyfll end
 
 
+# su-me start
+create repository su-me.git
+end repository
+
+match /(kanotix-su|su-me)/trunk/
+	repository su-me.git
+	branch master
+end match
+
+match /(kanotix-su|su-me)/tags/([^/]+)/
+	repository su-me.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+end match
+# su-me end
+
+
 # sudoers-sidux start
 create repository sudoers-sidux.git
 end repository
