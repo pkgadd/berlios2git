@@ -163,6 +163,34 @@ end match
 # b43-asm end
 
 
+# busybox-sidux start
+create repository busybox-sidux.git
+end repository
+
+match /busybox-(kanotix|sidux)/trunk/
+	repository busybox-sidux.git
+	branch master
+end match
+
+match /busybox-(kanotix|sidux)/branches/upstream/current/
+	repository busybox-sidux.git
+	branch upstream
+end match
+
+match /busybox-(kanotix|sidux)/branches/upstream/([^/]+)/
+	repository busybox-sidux.git
+	branch refs/tags/upstream/\2
+	substitute branch s/~/_/
+end match
+
+match /busybox-(kanotix|sidux)/tags/([^/]+)/
+	repository busybox-sidux.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+end match
+# busybox-sidux end
+
+
 # ddcxinfo start
 create repository ddcxinfo.git
 end repository

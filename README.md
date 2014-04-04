@@ -33,6 +33,7 @@ to migrate them into individual git repositories.
 ###Morgue
 * acer-acpi
 * acerhk
+* busybox-sidux: busybox-kanotix, busybox-sidux
 * ddcxinfo: ddcxinfo-kanotix, ddcxinfo-sidux
 * sudoers-sidux: sudoers-kanotix, sudores-sidux, sudoers-sidux
 * su-me: kanotix-su, su-me
@@ -58,8 +59,6 @@ to migrate them into individual git repositories.
 * aufs
 * automount-kanotix
 * btsco
-* busybox-kanotix
-* busybox-sidux
 * ceni
 * checkmem
 * checkmem-kanotix
