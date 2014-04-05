@@ -343,6 +343,23 @@ end match
 # grub-gfxboot end
 
 
+# grub2-fll-fromiso start
+create repository export/fullstory/grub2-fll-fromiso.git
+end repository
+
+match /grub2-fll-fromiso/trunk/
+	repository export/fullstory/grub2-fll-fromiso.git
+	branch master
+end match
+
+match /grub2-fll-fromiso/tags/([^/]+)/
+	repository export/fullstory/grub2-fll-fromiso.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+end match
+# grub2-fll-fromiso end
+
+
 # infobash start
 create repository export/fullstory/infobash.git
 end repository

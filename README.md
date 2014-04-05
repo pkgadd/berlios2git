@@ -22,6 +22,7 @@ to migrate them into individual git repositories.
 * aptosid-manual: sidux-manual, aptosid-manual
 * aptosid-scripts: kanotix-scripts, sidux-scripts, aptosid-scripts
 * b43-asm
+* grub2-fll-fromiso
 * infobash
 * linux-aptosid: linux-sidux-2.6, linux-aptosid-2.6, linux-aptosid
 * openfwwf
@@ -112,7 +113,6 @@ to migrate them into individual git repositories.
 * gfxboot-theme-sidux-old
 * gfxboot-themes-sidux
 * gprsconnect-kanotix
-* grub2-fll-fromiso
 * gtf
 * hotplug-kanotix
 * hwdata-kanotix
