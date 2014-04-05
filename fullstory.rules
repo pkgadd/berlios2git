@@ -287,6 +287,34 @@ end match
 # fll-builder end
 
 
+# gfxboot start
+create repository export/fullstory.morgue/gfxboot.git
+end repository
+
+match /gfxboot/trunk/
+	repository export/fullstory.morgue/gfxboot.git
+	branch master
+end match
+
+match /gfxboot/branches/upstream/current/
+	repository export/fullstory.morgue/gfxboot.git
+	branch upstream
+end match
+
+match /gfxboot/branches/upstream/([^/]+)/
+	repository export/fullstory.morgue/gfxboot.git
+	branch refs/tags/upstream/\1
+	substitute branch s/~/_/
+end match
+
+match /gfxboot/tags/([^/]+)/
+	repository export/fullstory.morgue/gfxboot.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+end match
+# gfxboot end
+
+
 # grub-gfxboot start
 create repository export/fullstory.morgue/grub-gfxboot.git
 end repository

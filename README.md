@@ -38,6 +38,7 @@ to migrate them into individual git repositories.
 * acerhk
 * busybox-sidux: busybox-kanotix, busybox-sidux
 * ddcxinfo: ddcxinfo-kanotix, ddcxinfo-sidux
+* gfxboot
 * grub-gfxboot
 * rt61
 * rt73-legacy
@@ -105,7 +106,6 @@ to migrate them into individual git repositories.
 * fusecram
 * fuseiso
 * gdm-themes-sidux
-* gfxboot
 * gfxboot-themes-aptosid
 * gfxboot-theme-sidux
 * gfxboot-theme-sidux-eros
