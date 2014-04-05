@@ -40,24 +40,24 @@ to migrate them into individual git repositories.
 ###Deprecated
 * ar5523
 * firmware-carl9170
-* fll-builder
 
 ###Morgue
 * acer-acpi
 * acerhk
 * busybox-sidux: busybox-kanotix, busybox-sidux
 * ddcxinfo: ddcxinfo-kanotix, ddcxinfo-sidux
+* fll-builder
 * gfxboot
 * grub-gfxboot
 * rt61
 * rt73-legacy
 * su-me: kanotix-su, su-me
 * sudoers-sidux: sudoers-kanotix, sudores-sidux, sudoers-sidux
+* sitar
 
 ###Zombie
 * fonts-ttf-decoratives
 * fonts-ttf-west-european
-* sitar
 
 ###Unsorted historic Packages (pending)
 * aptosid-art-apate

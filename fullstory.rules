@@ -339,16 +339,16 @@ end match
 
 
 # fll-builder start
-create repository export/fullstory.deprecated/fll-builder.git
+create repository export/fullstory.morgue/fll-builder.git
 end repository
 
 match /fll-builder/trunk/
-	repository export/fullstory.deprecated/fll-builder.git
+	repository export/fullstory.morgue/fll-builder.git
 	branch master
 end match
 
 match /fll-builder/tags/([^/]+)/
-	repository export/fullstory.deprecated/fll-builder.git
+	repository export/fullstory.morgue/fll-builder.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
 end match
@@ -678,27 +678,27 @@ end match
 
 
 # sitar start
-create repository export/fullstory.zombie/sitar.git
+create repository export/fullstory.morgue/sitar.git
 end repository
 
 match /sitar/trunk/
-	repository export/fullstory.zombie/sitar.git
+	repository export/fullstory.morgue/sitar.git
 	branch master
 end match
 
 match /sitar/branches/upstream/current/
-	repository export/fullstory.zombie/sitar.git
+	repository export/fullstory.morgue/sitar.git
 	branch upstream
 end match
 
 match /sitar/branches/upstream/([^/]+)/
-	repository export/fullstory.zombie/sitar.git
+	repository export/fullstory.morgue/sitar.git
 	branch refs/tags/upstream/\1
 	substitute branch s/~/_/
 end match
 
 match /sitar/tags/([^/]+)/
-	repository export/fullstory.zombie/sitar.git
+	repository export/fullstory.morgue/sitar.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
 end match
