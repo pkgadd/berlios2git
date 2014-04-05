@@ -38,6 +38,7 @@ to migrate them into individual git repositories.
 * acerhk
 * busybox-sidux: busybox-kanotix, busybox-sidux
 * ddcxinfo: ddcxinfo-kanotix, ddcxinfo-sidux
+* grub-gfxboot
 * rt61
 * rt73-legacy
 * su-me: kanotix-su, su-me
@@ -112,7 +113,6 @@ to migrate them into individual git repositories.
 * gfxboot-themes-sidux
 * gprsconnect-kanotix
 * grub2-fll-fromiso
-* grub-gfxboot
 * gtf
 * hotplug-kanotix
 * hwdata-kanotix
