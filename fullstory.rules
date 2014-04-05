@@ -242,6 +242,23 @@ end match
 # ceni end
 
 
+# cliinstaller start
+create repository export/fullstory.deprecated/cliinstaller.git
+end repository
+
+match /cliinstaller/trunk/
+	repository export/fullstory.deprecated/cliinstaller.git
+	branch master
+end match
+
+match /cliinstaller/tags/([^/]+)/
+	repository export/fullstory.deprecated/cliinstaller.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+end match
+# cliinstaller end
+
+
 # configure-cups start
 create repository export/fullstory/configure-cups.git
 end repository

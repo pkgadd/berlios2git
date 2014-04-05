@@ -42,6 +42,7 @@ to migrate them into individual git repositories.
 
 ###Deprecated
 * ar5523
+* cliinstaller
 * firmware-carl9170
 
 ###Morgue
@@ -83,7 +84,6 @@ to migrate them into individual git repositories.
 * btsco
 * checkmem
 * checkmem-kanotix
-* cliinstaller
 * configure-dsl
 * configure-freenx
 * configure-gprs
