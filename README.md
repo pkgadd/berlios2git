@@ -22,6 +22,7 @@ to migrate them into individual git repositories.
 * aptosid-manual: sidux-manual, aptosid-manual
 * aptosid-scripts: kanotix-scripts, sidux-scripts, aptosid-scripts
 * b43-asm
+* ceni
 * grub2-fll-fromiso
 * infobash
 * linux-aptosid: linux-sidux-2.6, linux-aptosid-2.6, linux-aptosid
@@ -65,7 +66,6 @@ to migrate them into individual git repositories.
 * aufs
 * automount-kanotix
 * btsco
-* ceni
 * checkmem
 * checkmem-kanotix
 * cliinstaller

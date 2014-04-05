@@ -225,6 +225,23 @@ end match
 # busybox-sidux end
 
 
+# ceni start
+create repository export/fullstory/ceni.git
+end repository
+
+match /ceni/trunk/
+	repository export/fullstory/ceni.git
+	branch master
+end match
+
+match /ceni/tags/([^/]+)/
+	repository export/fullstory/ceni.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+end match
+# ceni end
+
+
 # ddcxinfo start
 create repository export/fullstory.morgue/ddcxinfo.git
 end repository
