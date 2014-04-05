@@ -394,8 +394,8 @@ end match
 
 # ignore pyfll-ubuntu
 match /pyfll/branches/pyfll-ubuntu/
-	#repository export/fullstory/pyfll.git
-	#branch pyfll-ubuntu
+	repository export/fullstory/pyfll.git
+	branch pyfll-ubuntu
 end match
 
 match /pyfll/tags/([^/]+)/
