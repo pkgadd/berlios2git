@@ -1,0 +1,19 @@
+# aptosid-manual-prequel start
+create repository export/fullstory-doc/aptosid-manual-prequel.git
+end repository
+
+match /(sidux|aptosid)-manual/branches/upstream/current/
+	repository export/fullstory-doc/aptosid-manual-prequel.git
+	branch master
+end match
+
+match /(sidux|aptosid)-manual/branches/upstream/([^/]+)/
+	repository export/fullstory-doc/aptosid-manual-prequel.git
+	branch refs/tags/v\2
+	substitute branch s/~/_/
+end match
+# aptosid-manual-prequel end
+
+# Ignore everything else
+match /
+end match
