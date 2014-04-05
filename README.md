@@ -23,6 +23,7 @@ to migrate them into individual git repositories.
 * aptosid-scripts: kanotix-scripts, sidux-scripts, aptosid-scripts
 * b43-asm
 * ceni
+* configure-cups: cupsconfig-kanotix, configure-cups
 * grub2-fll-fromiso
 * infobash
 * linux-aptosid: linux-sidux-2.6, linux-aptosid-2.6, linux-aptosid
@@ -69,7 +70,6 @@ to migrate them into individual git repositories.
 * checkmem
 * checkmem-kanotix
 * cliinstaller
-* configure-cups
 * configure-dsl
 * configure-freenx
 * configure-gprs
@@ -83,7 +83,6 @@ to migrate them into individual git repositories.
 * configure-screenres
 * configure-xawtv
 * configure-xawtv-kanotix
-* cupsconfig-kanotix
 * desktop-defaults
 * distro-defaults
 * dmakms

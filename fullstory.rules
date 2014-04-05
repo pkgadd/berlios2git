@@ -242,6 +242,23 @@ end match
 # ceni end
 
 
+# configure-cups start
+create repository export/fullstory/configure-cups.git
+end repository
+
+match /(cupsconfig-kanotix|configure-cups)/trunk/
+	repository export/fullstory/configure-cups.git
+	branch master
+end match
+
+match /(cupsconfig-kanotix|configure-cups)/tags/([^/]+)/
+	repository export/fullstory/configure-cups.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+end match
+# configure-cups end
+
+
 # ddcxinfo start
 create repository export/fullstory.morgue/ddcxinfo.git
 end repository
