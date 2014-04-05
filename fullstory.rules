@@ -355,6 +355,23 @@ end match
 # fll-builder end
 
 
+# fll-installer start
+create repository export/fullstory/fll-installer.git
+end repository
+
+match /fll-installer/trunk/
+	repository export/fullstory/fll-installer.git
+	branch master
+end match
+
+match /fll-installer/tags/([^/]+)/
+	repository export/fullstory/fll-installer.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+end match
+# fll-installer end
+
+
 # gfxboot start
 create repository export/fullstory.morgue/gfxboot.git
 end repository
