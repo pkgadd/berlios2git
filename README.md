@@ -32,6 +32,8 @@ to migrate them into individual git repositories.
 * gfxboot-themes-aptosid: gfxboot-themes-sidux, gfxboot-themes-aptosid
 * grub2-fll-fromiso
 * infobash
+* install-gui
+* install-usb-gui
 * linux-aptosid: linux-sidux-2.6, linux-aptosid-2.6, linux-aptosid
 * openfwwf
 * pyfll
@@ -121,10 +123,8 @@ to migrate them into individual git repositories.
 * hwsetup-ng
 * initscripts-kanotix-live
 * initscripts-sidux-live
-* install-gui
 * install-meta
 * install-progressbar
-* install-usb-gui
 * k3b-defaults-kanotix
 * kanet
 * kanotix2sidux

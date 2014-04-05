@@ -547,6 +547,40 @@ end match
 # infobash end
 
 
+# install-gui start
+create repository export/fullstory/install-gui.git
+end repository
+
+match /install-gui/trunk/
+	repository export/fullstory/install-gui.git
+	branch master
+end match
+
+match /install-gui/tags/([^/]+)/
+	repository export/fullstory/install-gui.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+end match
+# install-gui end
+
+
+# install-usb-gui start
+create repository export/fullstory/install-usb-gui.git
+end repository
+
+match /install-usb-gui/trunk/
+	repository export/fullstory/install-usb-gui.git
+	branch master
+end match
+
+match /install-usb-gui/tags/([^/]+)/
+	repository export/fullstory/install-usb-gui.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+end match
+# install-usb-gui end
+
+
 # linux-aptosid start
 create repository export/fullstory/linux-aptosid.git
 end repository
