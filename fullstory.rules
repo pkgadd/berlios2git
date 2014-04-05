@@ -581,6 +581,23 @@ end match
 # install-usb-gui end
 
 
+# kernel-remover start
+create repository export/fullstory/kernel-remover.git
+end repository
+
+match /(kanotix-kernelhacking|sidux-kernelhacking|kernel-remover)/trunk/
+	repository export/fullstory/kernel-remover.git
+	branch master
+end match
+
+match /(kanotix-kernelhacking|sidux-kernelhacking|kernel-remover)/tags/([^/]+)/
+	repository export/fullstory/kernel-remover.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+end match
+# kernel-remover end
+
+
 # linux-aptosid start
 create repository export/fullstory/linux-aptosid.git
 end repository

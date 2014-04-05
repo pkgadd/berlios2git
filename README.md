@@ -34,6 +34,7 @@ to migrate them into individual git repositories.
 * infobash
 * install-gui
 * install-usb-gui
+* kernel-remover: kanotix-kernelhacking, sidux-kernelhacking, kernel-remover
 * linux-aptosid: linux-sidux-2.6, linux-aptosid-2.6, linux-aptosid
 * openfwwf
 * pyfll
@@ -131,7 +132,6 @@ to migrate them into individual git repositories.
 * kanotix-dsl
 * kanotix-graphics
 * kanotix-isdn
-* kanotix-kernelhacking
 * kanotix-menu
 * kanotix-ndiswrapper
 * kanotix-remountrw
@@ -149,7 +149,6 @@ to migrate them into individual git repositories.
 * kde-services-kanotix
 * kde-services-sidux
 * kdm-theme-kanotix-penguins
-* kernel-remover
 * klik
 * knxcc
 * knx-installer
@@ -260,7 +259,6 @@ to migrate them into individual git repositories.
 * sidux-graphics
 * sidux-hermes
 * sidux-icons
-* sidux-kernelhacking
 * sidux-manual-reader
 * sidux-menu
 * sidux-searchplugins
