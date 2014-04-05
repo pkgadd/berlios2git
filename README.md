@@ -54,6 +54,9 @@ to migrate them into individual git repositories.
 * sudoers-sidux: sudoers-kanotix, sudores-sidux, sudoers-sidux
 
 ###Zombie
+* fonts-ttf-decoratives
+* fonts-ttf-west-european
+* sitar
 
 ###Unsorted historic Packages (pending)
 * aptosid-art-apate
@@ -101,8 +104,6 @@ to migrate them into individual git repositories.
 * fix-fonts
 * fll-fshelper
 * fll-gfx
-* fonts-ttf-decoratives
-* fonts-ttf-west-european
 * freenx
 * fsam7400
 * fusecram
@@ -271,7 +272,6 @@ to migrate them into individual git repositories.
 * sidux-settings-xfce
 * sidux-vdr
 * sidux-xdg
-* sitar
 * smbconf-kanotix
 * smbconf-sidux
 * splashy-theme-kanotix-penguins

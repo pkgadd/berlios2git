@@ -406,6 +406,40 @@ end match
 # fll-live-initscripts end
 
 
+# fonts-ttf-decoratives start
+create repository export/fullstory.zombie/fonts-ttf-decoratives.git
+end repository
+
+match /fonts-ttf-decoratives/trunk/
+	repository export/fullstory.zombie/fonts-ttf-decoratives.git
+	branch master
+end match
+
+match /fonts-ttf-decoratives/tags/([^/]+)/
+	repository export/fullstory.zombie/fonts-ttf-decoratives.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+end match
+# fonts-ttf-decoratives end
+
+
+# fonts-ttf-west-european start
+create repository export/fullstory.zombie/fonts-ttf-west-european.git
+end repository
+
+match /fonts-ttf-west-european/trunk/
+	repository export/fullstory.zombie/fonts-ttf-west-european.git
+	branch master
+end match
+
+match /fonts-ttf-west-european/tags/([^/]+)/
+	repository export/fullstory.zombie/fonts-ttf-west-european.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+end match
+# fonts-ttf-west-european end
+
+
 # gfxboot start
 create repository export/fullstory.morgue/gfxboot.git
 end repository
@@ -624,6 +658,34 @@ match /rt73-legacy/tags/([^/]+)/
 	substitute branch s/~/_/
 end match
 # rt73-legacy end
+
+
+# sitar start
+create repository export/fullstory.zombie/sitar.git
+end repository
+
+match /sitar/trunk/
+	repository export/fullstory.zombie/sitar.git
+	branch master
+end match
+
+match /sitar/branches/upstream/current/
+	repository export/fullstory.zombie/sitar.git
+	branch upstream
+end match
+
+match /sitar/branches/upstream/([^/]+)/
+	repository export/fullstory.zombie/sitar.git
+	branch refs/tags/upstream/\1
+	substitute branch s/~/_/
+end match
+
+match /sitar/tags/([^/]+)/
+	repository export/fullstory.zombie/sitar.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+end match
+# sitar end
 
 
 # su-me start
