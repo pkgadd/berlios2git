@@ -29,6 +29,7 @@ to migrate them into individual git repositories.
 * fll-installer
 * fll-live-initramfs
 * fll-live-initscripts
+* gfxboot-themes-aptosid: gfxboot-themes-sidux, gfxboot-themes-aptosid
 * grub2-fll-fromiso
 * infobash
 * linux-aptosid: linux-sidux-2.6, linux-aptosid-2.6, linux-aptosid
@@ -109,11 +110,9 @@ to migrate them into individual git repositories.
 * fusecram
 * fuseiso
 * gdm-themes-sidux
-* gfxboot-themes-aptosid
 * gfxboot-theme-sidux
 * gfxboot-theme-sidux-eros
 * gfxboot-theme-sidux-old
-* gfxboot-themes-sidux
 * gprsconnect-kanotix
 * gtf
 * hotplug-kanotix

@@ -468,6 +468,23 @@ end match
 # gfxboot end
 
 
+# gfxboot-themes-aptosid start
+create repository export/fullstory/gfxboot-themes-aptosid.git
+end repository
+
+match /gfxboot-themes-(sidux|aptosid)/trunk/
+	repository export/fullstory/gfxboot-themes-aptosid.git
+	branch master
+end match
+
+match /gfxboot-themes-(sidux|aptosid)/tags/([^/]+)/
+	repository export/fullstory/gfxboot-themes-aptosid.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+end match
+# gfxboot-themes-aptosid end
+
+
 # grub-gfxboot start
 create repository export/fullstory.morgue/grub-gfxboot.git
 end repository
