@@ -276,6 +276,23 @@ end match
 # desktop-defaults end
 
 
+# dmakms start
+create repository export/fullstory/dmakms.git
+end repository
+
+match /dmakms/trunk/
+	repository export/fullstory/dmakms.git
+	branch master
+end match
+
+match /dmakms/tags/([^/]+)/
+	repository export/fullstory/dmakms.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+end match
+# dmakms end
+
+
 # ddcxinfo start
 create repository export/fullstory.morgue/ddcxinfo.git
 end repository

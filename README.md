@@ -25,6 +25,7 @@ to migrate them into individual git repositories.
 * ceni
 * configure-cups: cupsconfig-kanotix, configure-cups
 * desktop-defaults
+* dmakms
 * grub2-fll-fromiso
 * infobash
 * linux-aptosid: linux-sidux-2.6, linux-aptosid-2.6, linux-aptosid
@@ -87,7 +88,6 @@ to migrate them into individual git repositories.
 * configure-xawtv
 * configure-xawtv-kanotix
 * distro-defaults
-* dmakms
 * dvb-detect
 * eduversum
 * eduversum-howto
