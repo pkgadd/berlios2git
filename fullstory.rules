@@ -259,6 +259,23 @@ end match
 # configure-cups end
 
 
+# desktop-defaults start
+create repository export/fullstory/desktop-defaults.git
+end repository
+
+match /desktop-defaults/trunk/
+	repository export/fullstory/desktop-defaults.git
+	branch master
+end match
+
+match /desktop-defaults/tags/([^/]+)/
+	repository export/fullstory/desktop-defaults.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+end match
+# desktop-defaults end
+
+
 # ddcxinfo start
 create repository export/fullstory.morgue/ddcxinfo.git
 end repository

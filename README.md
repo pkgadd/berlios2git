@@ -24,6 +24,7 @@ to migrate them into individual git repositories.
 * b43-asm
 * ceni
 * configure-cups: cupsconfig-kanotix, configure-cups
+* desktop-defaults
 * grub2-fll-fromiso
 * infobash
 * linux-aptosid: linux-sidux-2.6, linux-aptosid-2.6, linux-aptosid
@@ -47,6 +48,8 @@ to migrate them into individual git repositories.
 * rt73-legacy
 * su-me: kanotix-su, su-me
 * sudoers-sidux: sudoers-kanotix, sudores-sidux, sudoers-sidux
+
+###Zombie
 
 ###Unsorted historic Packages (pending)
 * aptosid-art-apate
@@ -83,7 +86,6 @@ to migrate them into individual git repositories.
 * configure-screenres
 * configure-xawtv
 * configure-xawtv-kanotix
-* desktop-defaults
 * distro-defaults
 * dmakms
 * dvb-detect
