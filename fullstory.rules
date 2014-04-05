@@ -372,6 +372,40 @@ end match
 # fll-installer end
 
 
+# fll-live-initramfs start
+create repository export/fullstory/fll-live-initramfs.git
+end repository
+
+match /fll-live-initramfs/trunk/
+	repository export/fullstory/fll-live-initramfs.git
+	branch master
+end match
+
+match /fll-live-initramfs/tags/([^/]+)/
+	repository export/fullstory/fll-live-initramfs.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+end match
+# fll-live-initramfs end
+
+
+# fll-live-initscripts start
+create repository export/fullstory/fll-live-initscripts.git
+end repository
+
+match /fll-live-initscripts/trunk/
+	repository export/fullstory/fll-live-initscripts.git
+	branch master
+end match
+
+match /fll-live-initscripts/tags/([^/]+)/
+	repository export/fullstory/fll-live-initscripts.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+end match
+# fll-live-initscripts end
+
+
 # gfxboot start
 create repository export/fullstory.morgue/gfxboot.git
 end repository

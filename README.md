@@ -27,6 +27,8 @@ to migrate them into individual git repositories.
 * desktop-defaults
 * dmakms
 * fll-installer
+* fll-live-initramfs
+* fll-live-initscripts
 * grub2-fll-fromiso
 * infobash
 * linux-aptosid: linux-sidux-2.6, linux-aptosid-2.6, linux-aptosid
@@ -99,8 +101,6 @@ to migrate them into individual git repositories.
 * fix-fonts
 * fll-fshelper
 * fll-gfx
-* fll-live-initramfs
-* fll-live-initscripts
 * fonts-ttf-decoratives
 * fonts-ttf-west-european
 * freenx
