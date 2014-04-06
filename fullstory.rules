@@ -1026,6 +1026,23 @@ end match
 # sitar end
 
 
+# sshstart start
+create repository export/fullstory/sshstart.git
+end repository
+
+match /(sshstart-kanotix|sshstart-sidux|sshstart)/trunk/
+	repository export/fullstory/sshstart.git
+	branch master
+end match
+
+match /(sshstart-kanotix|sshstart-sidux|sshstart)/tags/([^/]+)/
+	repository export/fullstory/sshstart.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+end match
+# sshstart end
+
+
 # su-me start
 create repository export/fullstory.morgue/su-me.git
 end repository

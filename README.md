@@ -46,6 +46,7 @@ to migrate them into individual git repositories.
 * pyfll
 * python-fll
 * setpassword: kanotix-setpassword, sidux-setpassword, setpassword
+* sshstart: sshstart-kanotix, sshstart-sidux, sshstart
 * udev-config-aptosid: kanotix-udev-config, udev-config-sidux, udev-config-aptosid
 * xdg-browser-launcher: sidux-browser, xdg-browser-launcher
 
@@ -266,9 +267,6 @@ to migrate them into individual git repositories.
 * smbconf-kanotix
 * smbconf-sidux
 * splashy-theme-kanotix-penguins
-* sshstart
-* sshstart-kanotix
-* sshstart-sidux
 * startsyslog
 * startsyslog-kanotix
 * startsyslog-sidux
