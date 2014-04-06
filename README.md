@@ -56,6 +56,8 @@ to migrate them into individual git repositories.
 * firmware-carl9170
 
 ###Morgue
+* acer-acpi
+* acerhk
 * aptosid-art-apate
 * aptosid-art-geras
 * aptosid-art-imera
@@ -65,10 +67,9 @@ to migrate them into individual git repositories.
 * aptosid-manual-transition-helper
 * aptosid-transition-helper
 * aptosid-vdr: kanotix-vdr, sidux-vdr, aptosid-vdr
-* acer-acpi
-* acerhk
 * atl1e
 * aufs
+* automount-kanotix
 * busybox-sidux: busybox-kanotix, busybox-sidux
 * btsco
 * ddcxinfo: ddcxinfo-kanotix, ddcxinfo-sidux
@@ -96,7 +97,6 @@ to migrate them into individual git repositories.
 * fonts-ttf-west-european
 
 ###Unsorted historic Packages (pending)
-* automount-kanotix
 * checkmem
 * checkmem-kanotix
 * configure-dsl

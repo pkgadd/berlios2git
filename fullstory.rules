@@ -510,6 +510,24 @@ end match
 # aufs end
 
 
+# automount-kanotix start
+create repository export/fullstory.morgue/automount-kanotix.git
+end repository
+
+match /automount-kanotix/trunk/
+	repository export/fullstory.morgue/automount-kanotix.git
+	branch master
+end match
+
+match /automount-kanotix/tags/([^/]+)/
+	repository export/fullstory.morgue/automount-kanotix.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# automount-kanotix end
+
+
 # b43-asm start
 create repository export/fullstory/b43-asm.git
 end repository
