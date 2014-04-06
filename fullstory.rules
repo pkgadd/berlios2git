@@ -18,12 +18,14 @@ match /acer-acpi/branches/upstream/([^/]+)/
 	repository export/fullstory.morgue/acer-acpi.git
 	branch refs/tags/upstream/\1
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 
 match /acer-acpi/tags/([^/]+)/
 	repository export/fullstory.morgue/acer-acpi.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # acer-acpi end
 
@@ -46,12 +48,14 @@ match /acerhk/branches/upstream/([^/]+)/
 	repository export/fullstory.morgue/acerhk.git
 	branch refs/tags/upstream/\1
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 
 match /acerhk/tags/([^/]+)/
 	repository export/fullstory.morgue/acerhk.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # acerhk end
 
@@ -69,6 +73,7 @@ match /apt-conf-(sidux|aptosid)/tags/([^/]+)/
 	repository export/fullstory/apt-conf-aptosid.git
 	branch refs/tags/debian/\2
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # apt-conf-aptosid end
 
@@ -86,6 +91,7 @@ match /aptosid-art-apate/tags/([^/]+)/
 	repository export/fullstory/aptosid-art-apate.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # aptosid-art-apate end
 
@@ -103,6 +109,7 @@ match /aptosid-art-geras/tags/([^/]+)/
 	repository export/fullstory/aptosid-art-geras.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # aptosid-art-geras end
 
@@ -120,6 +127,7 @@ match /aptosid-art-imera/tags/([^/]+)/
 	repository export/fullstory/aptosid-art-imera.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # aptosid-art-imera end
 
@@ -137,6 +145,7 @@ match /(sidux|aptosid)-art-keres/tags/([^/]+)/
 	repository export/fullstory/aptosid-art-keres.git
 	branch refs/tags/debian/\2
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # aptosid-art-keres end
 
@@ -154,6 +163,7 @@ match /(sidux|aptosid)-art-legacy/tags/([^/]+)/
 	repository export/fullstory/aptosid-art-legacy.git
 	branch refs/tags/debian/\2
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # aptosid-art-legacy end
 
@@ -171,6 +181,7 @@ match /(sidux|aptosid)-art-meta/tags/([^/]+)/
 	repository export/fullstory/aptosid-art-meta.git
 	branch refs/tags/debian/\2
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # aptosid-art-meta end
 
@@ -188,6 +199,7 @@ match /aptosid-art-nemesis/tags/([^/]+)/
 	repository export/fullstory/aptosid-art-nemesis.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # aptosid-art-nemesis end
 
@@ -205,6 +217,7 @@ match /aptosid-art-ponos/tags/([^/]+)/
 	repository export/fullstory/aptosid-art-ponos.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # aptosid-art-ponos end
 
@@ -222,6 +235,7 @@ match /(kanotix-irc|sidux-irc|aptosid-irc)/tags/([^/]+)/
 	repository export/fullstory/aptosid-irc.git
 	branch refs/tags/debian/\2
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # aptosid-irc end
 
@@ -239,6 +253,7 @@ match /(kanotix-keyring|sidux-keyring|aptosid-keyring)/tags/([^/]+)/
 	repository export/fullstory/aptosid-keyring.git
 	branch refs/tags/debian/\2
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # aptosid-keyring end
 
@@ -261,12 +276,14 @@ match /(sidux|aptosid)-manual/branches/upstream/([^/]+)/
 	repository export/fullstory/aptosid-manual.git
 	branch refs/tags/upstream/\2
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 
 match /(sidux|aptosid)-manual/tags/([^/]+)/
 	repository export/fullstory/aptosid-manual.git
 	branch refs/tags/debian/\2
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # aptosid-manual end
 
@@ -320,6 +337,7 @@ match /(sidux|aptosid)-settings-kde/tags/([^/]+)/
 	repository export/fullstory/aptosid-settings-kde.git
 	branch refs/tags/debian/\2
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # aptosid-settings-kde end
 
@@ -337,6 +355,7 @@ match /(sidux|aptosid)-settings-lxde/tags/([^/]+)/
 	repository export/fullstory/aptosid-settings-lxde.git
 	branch refs/tags/debian/\2
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # aptosid-settings-lxde end
 
@@ -354,6 +373,7 @@ match /(sidux|aptosid)-settings-xfce/tags/([^/]+)/
 	repository export/fullstory/aptosid-settings-xfce.git
 	branch refs/tags/debian/\2
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # aptosid-settings-xfce end
 
@@ -371,6 +391,7 @@ match /(kanotix|sidux|aptosid)-scripts/tags/([^/]+)/
 	repository export/fullstory/aptosid-scripts.git
 	branch refs/tags/debian/\2
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # aptosid-scripts end
 
@@ -388,6 +409,7 @@ match /aptosid-transition-helper/tags/([^/]+)/
 	repository export/fullstory.morgue/aptosid-transition-helper.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # aptosid-transition-helper end
 
@@ -405,6 +427,7 @@ match /ar5523/tags/([^/]+)/
 	repository export/fullstory.deprecated/ar5523.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # ar5523 end
 
@@ -427,12 +450,14 @@ match /atl1e/branches/upstream/([^/]+)/
 	repository export/fullstory.morgue/atl1e.git
 	branch refs/tags/upstream/\1
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 
 match /atl1e/tags/([^/]+)/
 	repository export/fullstory.morgue/atl1e.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # atl1e end
 
@@ -455,12 +480,14 @@ match /b43-asm/branches/upstream/([^/]+)/
 	repository export/fullstory/b43-asm.git
 	branch refs/tags/upstream/\1
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 
 match /b43-asm/tags/([^/]+)/
 	repository export/fullstory/b43-asm.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # b43-asm end
 
@@ -483,12 +510,14 @@ match /busybox-(kanotix|sidux)/branches/upstream/([^/]+)/
 	repository export/fullstory.morgue/busybox-sidux.git
 	branch refs/tags/upstream/\2
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 
 match /busybox-(kanotix|sidux)/tags/([^/]+)/
 	repository export/fullstory.morgue/busybox-sidux.git
 	branch refs/tags/debian/\2
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # busybox-sidux end
 
@@ -506,6 +535,7 @@ match /ceni/tags/([^/]+)/
 	repository export/fullstory/ceni.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # ceni end
 
@@ -523,6 +553,7 @@ match /cliinstaller/tags/([^/]+)/
 	repository export/fullstory.deprecated/cliinstaller.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # cliinstaller end
 
@@ -540,6 +571,7 @@ match /(cupsconfig-kanotix|configure-cups)/tags/([^/]+)/
 	repository export/fullstory/configure-cups.git
 	branch refs/tags/debian/\2
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # configure-cups end
 
@@ -557,6 +589,7 @@ match /desktop-defaults/tags/([^/]+)/
 	repository export/fullstory/desktop-defaults.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # desktop-defaults end
 
@@ -574,6 +607,7 @@ match /dmakms/tags/([^/]+)/
 	repository export/fullstory/dmakms.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # dmakms end
 
@@ -591,6 +625,7 @@ match /ddcxinfo-(kanotix|sidux)/tags/([^/]+)/
 	repository export/fullstory.morgue/ddcxinfo.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # ddcxinfo end
 
@@ -613,12 +648,14 @@ match /firmware-carl9170/branches/upstream/([^/]+)/
 	repository export/fullstory.deprecated/firmware-carl9170.git
 	branch refs/tags/upstream/\1
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 
 match /firmware-carl9170/tags/([^/]+)/
 	repository export/fullstory.deprecated/firmware-carl9170.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # firmware-carl9170 end
 
@@ -636,6 +673,7 @@ match /fll-builder/tags/([^/]+)/
 	repository export/fullstory.morgue/fll-builder.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # fll-builder end
 
@@ -653,6 +691,7 @@ match /fll-installer/tags/([^/]+)/
 	repository export/fullstory/fll-installer.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # fll-installer end
 
@@ -670,6 +709,7 @@ match /fll-live-initramfs/tags/([^/]+)/
 	repository export/fullstory/fll-live-initramfs.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # fll-live-initramfs end
 
@@ -687,6 +727,7 @@ match /fll-live-initscripts/tags/([^/]+)/
 	repository export/fullstory/fll-live-initscripts.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # fll-live-initscripts end
 
@@ -704,6 +745,7 @@ match /fonts-ttf-decoratives/tags/([^/]+)/
 	repository export/fullstory.zombie/fonts-ttf-decoratives.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # fonts-ttf-decoratives end
 
@@ -721,6 +763,7 @@ match /fonts-ttf-west-european/tags/([^/]+)/
 	repository export/fullstory.zombie/fonts-ttf-west-european.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # fonts-ttf-west-european end
 
@@ -743,12 +786,14 @@ match /gfxboot/branches/upstream/([^/]+)/
 	repository export/fullstory.morgue/gfxboot.git
 	branch refs/tags/upstream/\1
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 
 match /gfxboot/tags/([^/]+)/
 	repository export/fullstory.morgue/gfxboot.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # gfxboot end
 
@@ -766,6 +811,7 @@ match /gfxboot-themes-(sidux|aptosid)/tags/([^/]+)/
 	repository export/fullstory/gfxboot-themes-aptosid.git
 	branch refs/tags/debian/\2
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # gfxboot-themes-aptosid end
 
@@ -788,12 +834,14 @@ match /grub-gfxboot/branches/upstream/([^/]+)/
 	repository export/fullstory.morgue/grub-gfxboot.git
 	branch refs/tags/upstream/\1
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 
 match /grub-gfxboot/tags/([^/]+)/
 	repository export/fullstory.morgue/grub-gfxboot.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # grub-gfxboot end
 
@@ -811,6 +859,7 @@ match /grub2-fll-fromiso/tags/([^/]+)/
 	repository export/fullstory/grub2-fll-fromiso.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # grub2-fll-fromiso end
 
@@ -828,6 +877,7 @@ match /infobash/tags/([^/]+)/
 	repository export/fullstory/infobash.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # infobash end
 
@@ -845,6 +895,7 @@ match /install-gui/tags/([^/]+)/
 	repository export/fullstory/install-gui.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # install-gui end
 
@@ -862,6 +913,7 @@ match /install-usb-gui/tags/([^/]+)/
 	repository export/fullstory/install-usb-gui.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # install-usb-gui end
 
@@ -879,6 +931,7 @@ match /(kanotix-kernelhacking|sidux-kernelhacking|kernel-remover)/tags/([^/]+)/
 	repository export/fullstory/kernel-remover.git
 	branch refs/tags/debian/\2
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # kernel-remover end
 
@@ -896,12 +949,14 @@ match /(linux-sidux-2.6|linux-aptosid-2.6|linux-aptosid)/branches/([^/]+)/
 	repository export/fullstory/linux-aptosid.git
 	branch refs/tags/debian/\2
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 
 match /(linux-sidux-2.6|linux-aptosid-2.6|linux-aptosid)/tags/([^/]+)/
 	repository export/fullstory/linux-aptosid.git
 	branch refs/tags/debian/\2
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # linux-aptosid end
 
@@ -924,12 +979,14 @@ match /openfwwf/branches/upstream/([^/]+)/
 	repository export/fullstory/openfwwf.git
 	branch refs/tags/upstream/\1
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 
 match /openfwwf/tags/([^/]+)/
 	repository export/fullstory/openfwwf.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # openfwwf end
 
@@ -953,6 +1010,7 @@ match /pyfll/tags/([^/]+)/
 	repository export/fullstory/pyfll.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # pyfll end
 
@@ -974,6 +1032,7 @@ match /python-fll/tags/([^/]+)/
 	repository export/fullstory/python-fll.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # python-fll end
 
@@ -996,12 +1055,14 @@ match /rt61/branches/upstream/([^/]+)/
 	repository export/fullstory.morgue/rt61.git
 	branch refs/tags/upstream/\1
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 
 match /rt61/tags/([^/]+)/
 	repository export/fullstory.morgue/rt61.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # rt61 end
 
@@ -1024,12 +1085,14 @@ match /rt73-legacy/branches/upstream/([^/]+)/
 	repository export/fullstory.morgue/rt73-legacy.git
 	branch refs/tags/upstream/\1
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 
 match /rt73-legacy/tags/([^/]+)/
 	repository export/fullstory.morgue/rt73-legacy.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # rt73-legacy end
 
@@ -1047,6 +1110,7 @@ match /(kanotix-setpassword|sidux-setpassword|setpassword)/tags/([^/]+)/
 	repository export/fullstory/setpassword.git
 	branch refs/tags/debian/\2
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # setpassword end
 
@@ -1069,12 +1133,14 @@ match /sitar/branches/upstream/([^/]+)/
 	repository export/fullstory.morgue/sitar.git
 	branch refs/tags/upstream/\1
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 
 match /sitar/tags/([^/]+)/
 	repository export/fullstory.morgue/sitar.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # sitar end
 
@@ -1092,6 +1158,7 @@ match /(sshstart-kanotix|sshstart-sidux|sshstart)/tags/([^/]+)/
 	repository export/fullstory/sshstart.git
 	branch refs/tags/debian/\2
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # sshstart end
 
@@ -1109,6 +1176,7 @@ match /(kanotix-su|su-me)/tags/([^/]+)/
 	repository export/fullstory.morgue/su-me.git
 	branch refs/tags/debian/\2
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # su-me end
 
@@ -1126,6 +1194,7 @@ match /(sudoers-kanotix|sudores-sidux|sudoers-sidux)/tags/([^/]+)/
 	repository export/fullstory.morgue/sudoers-sidux.git
 	branch refs/tags/debian/\2
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # sudoers-sidux end
 
@@ -1143,6 +1212,7 @@ match /(kanotix-udev-config|udev-config-sidux|udev-config-aptosid)/tags/([^/]+)/
 	repository export/fullstory/udev-config-aptosid.git
 	branch refs/tags/debian/\2
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # udev-config-aptosid end
 
@@ -1160,6 +1230,7 @@ match /(sidux-browser|xdg-browser)/tags/([^/]+)/
 	repository export/fullstory/xdg-browser.git
 	branch refs/tags/debian/\2
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # xdg-browser end
 
