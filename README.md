@@ -62,6 +62,8 @@ to migrate them into individual git repositories.
 * aptosid-art-keres: sidux-art-keres, aptosid-art-keres
 * aptosid-art-ponos
 * aptosid-manual-reader: sidux-manual-reader, aptosid-manual-reader
+* aptosid-manual-transition-helper
+* aptosid-transition-helper
 * acer-acpi
 * acerhk
 * atl1e
@@ -81,8 +83,6 @@ to migrate them into individual git repositories.
 * fonts-ttf-west-european
 
 ###Unsorted historic Packages (pending)
-* aptosid-manual-transition-helper
-* aptosid-transition-helper
 * aptosid-vdr
 * aufs
 * automount-kanotix

@@ -271,6 +271,24 @@ end match
 # aptosid-manual end
 
 
+# aptosid-manual-transition-helper start
+create repository export/fullstory.morgue/aptosid-manual-transition-helper.git
+end repository
+
+match /aptosid-manual-transition-helper/trunk/
+	repository export/fullstory.morgue/aptosid-manual-transition-helper.git
+	branch master
+end match
+
+match /aptosid-manual-transition-helper/tags/([^/]+)/
+	repository export/fullstory.morgue/aptosid-manual-transition-helper.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# aptosid-manual-transition-helper end
+
+
 # aptosid-manual-reader start
 create repository export/fullstory.morgue/aptosid-manual-reader.git
 end repository
@@ -284,6 +302,7 @@ match /(sidux|aptosid)-manual-reader/tags/([^/]+)/
 	repository export/fullstory.morgue/aptosid-manual-reader.git
 	branch refs/tags/debian/\2
 	substitute branch s/~/_/
+	substitute branch s/:/%/
 end match
 # aptosid-manual-reader end
 
@@ -354,6 +373,23 @@ match /(kanotix|sidux|aptosid)-scripts/tags/([^/]+)/
 	substitute branch s/~/_/
 end match
 # aptosid-scripts end
+
+
+# aptosid-transition-helper start
+create repository export/fullstory.morgue/aptosid-transition-helper.git
+end repository
+
+match /aptosid-transition-helper/trunk/
+	repository export/fullstory.morgue/aptosid-transition-helper.git
+	branch master
+end match
+
+match /aptosid-transition-helper/tags/([^/]+)/
+	repository export/fullstory.morgue/aptosid-transition-helper.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+end match
+# aptosid-transition-helper end
 
 
 # ar5523 start
