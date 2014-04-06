@@ -7,6 +7,7 @@ to migrate them into individual git repositories.
 - wget http://sourceforge.net/projects/svndumps.berlios/files/fullstory-svnroot.tar.gz/download -O./fullstory-svnroot.tar.gz
 - tar -xzf fullstory-svnroot.tar.gz
 - svn-all-fast-export --identity-map=authors-transform.txt --rules fullstory.rules fullstory/
+- svn-all-fast-export --identity-map=authors-transform.txt --rules fullstory-doc-prequel.rules fullstory/
 
 ##Further reading
 - https://wiki.debian.org/PackagingWithGit/Svn-buildpackageConversion
