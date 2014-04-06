@@ -981,6 +981,23 @@ end match
 # rt73-legacy end
 
 
+# setpassword start
+create repository export/fullstory/setpassword.git
+end repository
+
+match /(kanotix-setpassword|sidux-setpassword|setpassword)/trunk/
+	repository export/fullstory/setpassword.git
+	branch master
+end match
+
+match /(kanotix-setpassword|sidux-setpassword|setpassword)/tags/([^/]+)/
+	repository export/fullstory/setpassword.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+end match
+# setpassword end
+
+
 # sitar start
 create repository export/fullstory.morgue/sitar.git
 end repository

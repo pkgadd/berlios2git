@@ -45,6 +45,7 @@ to migrate them into individual git repositories.
 * openfwwf
 * pyfll
 * python-fll
+* setpassword: kanotix-setpassword, sidux-setpassword, setpassword
 * udev-config-aptosid: kanotix-udev-config, udev-config-sidux, udev-config-aptosid
 * xdg-browser-launcher: sidux-browser, xdg-browser-launcher
 
@@ -140,7 +141,6 @@ to migrate them into individual git repositories.
 * kanotix-remountrw
 * kanotix-screenres
 * kanotix-searchplugins
-* kanotix-setpassword
 * kanotix-sounds
 * kanotix-terminalserver
 * kanotix-vdr
@@ -216,7 +216,6 @@ to migrate them into individual git repositories.
 * seminarix-notebook-training
 * seminarix-samples
 * server-defaults
-* setpassword
 * sidux-art-aether
 * sidux-art-aethir
 * sidux-art-erebos
@@ -262,7 +261,6 @@ to migrate them into individual git repositories.
 * sidux-menu
 * sidux-searchplugins
 * sidux-server-config
-* sidux-setpassword
 * sidux-vdr
 * sidux-xdg
 * smbconf-kanotix
