@@ -89,6 +89,7 @@ to migrate them into individual git repositories.
 * r5u870
 * rt61
 * rt73-legacy
+* sidux-art-website
 * su-me: kanotix-su, su-me
 * sudoers-sidux: sudoers-kanotix, sudores-sidux, sudoers-sidux
 * sitar
@@ -99,7 +100,6 @@ to migrate them into individual git repositories.
 * fonts-ttf-west-european
 * notes.txt
 * server-defaults
-* sidux-art-website
 
 ###Unsorted historic Packages (pending)
 * configure-freenx

@@ -1536,19 +1536,12 @@ end match
 
 
 # sidux-art-website start
-create repository export/fullstory.zombie/sidux-art-website.git
+create repository export/fullstory.morgue/sidux-art-website.git
 end repository
 
 match /sidux-art-website/trunk/
-	repository export/fullstory.zombie/sidux-art-website.git
+	repository export/fullstory.morgue/sidux-art-website.git
 	branch master
-end match
-
-match /sidux-art-website/tags/([^/]+)/
-	repository export/fullstory.zombie/sidux-art-website.git
-	branch refs/tags/debian/\1
-	substitute branch s/~/_/
-	substitute branch s/:/%/
 end match
 # sidux-art-website end
 
