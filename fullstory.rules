@@ -60,12 +60,12 @@ end match
 create repository export/fullstory/apt-conf-aptosid.git
 end repository
 
-match /(apt-conf-sidux|apt-conf-aptosid)/trunk/
+match /apt-conf-(sidux|aptosid)/trunk/
 	repository export/fullstory/apt-conf-aptosid.git
 	branch master
 end match
 
-match /(apt-conf-sidux|apt-conf-aptosid)/tags/([^/]+)/
+match /apt-conf-(sidux|aptosid)/tags/([^/]+)/
 	repository export/fullstory/apt-conf-aptosid.git
 	branch refs/tags/debian/\2
 	substitute branch s/~/_/
