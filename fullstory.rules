@@ -271,6 +271,57 @@ end match
 # aptosid-manual end
 
 
+# aptosid-settings-kde start
+create repository export/fullstory/aptosid-settings-kde.git
+end repository
+
+match /(sidux|aptosid)-settings-kde/trunk/
+	repository export/fullstory/aptosid-settings-kde.git
+	branch master
+end match
+
+match /(sidux|aptosid)-settings-kde/tags/([^/]+)/
+	repository export/fullstory/aptosid-settings-kde.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+end match
+# aptosid-settings-kde end
+
+
+# aptosid-settings-lxde start
+create repository export/fullstory/aptosid-settings-lxde.git
+end repository
+
+match /(sidux|aptosid)-settings-lxde/trunk/
+	repository export/fullstory/aptosid-settings-lxde.git
+	branch master
+end match
+
+match /(sidux|aptosid)-settings-lxde/tags/([^/]+)/
+	repository export/fullstory/aptosid-settings-lxde.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+end match
+# aptosid-settings-lxde end
+
+
+# aptosid-settings-xfce start
+create repository export/fullstory/aptosid-settings-xfce.git
+end repository
+
+match /(sidux|aptosid)-settings-xfce/trunk/
+	repository export/fullstory/aptosid-settings-xfce.git
+	branch master
+end match
+
+match /(sidux|aptosid)-settings-xfce/tags/([^/]+)/
+	repository export/fullstory/aptosid-settings-xfce.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+end match
+# aptosid-settings-xfce end
+
+
 # aptosid-scripts start
 create repository export/fullstory/aptosid-scripts.git
 end repository

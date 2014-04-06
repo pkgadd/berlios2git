@@ -24,6 +24,9 @@ to migrate them into individual git repositories.
 * aptosid-keyring: kanotix-keyring, sidux-keyring, aptosid-keyring
 * aptosid-manual: sidux-manual, aptosid-manual
 * aptosid-scripts: kanotix-scripts, sidux-scripts, aptosid-scripts
+* aptosid-settings-kde: sidux-settings-kde, aptosid-settings-kde
+* aptosid-settings-lxde: sidux-settings-lxde, aptosid-settings-lxde
+* aptosid-settings-xfce: sidux-settings-xfce, aptosid-settings-xfce
 * b43-asm
 * ceni
 * configure-cups: cupsconfig-kanotix, configure-cups
@@ -76,9 +79,6 @@ to migrate them into individual git repositories.
 ###Unsorted historic Packages (pending)
 * aptosid-manual-reader
 * aptosid-manual-transition-helper
-* aptosid-settings-kde
-* aptosid-settings-lxde
-* aptosid-settings-xfce
 * aptosid-transition-helper
 * aptosid-vdr
 * aufs
@@ -263,9 +263,6 @@ to migrate them into individual git repositories.
 * sidux-searchplugins
 * sidux-server-config
 * sidux-setpassword
-* sidux-settings-kde
-* sidux-settings-lxde
-* sidux-settings-xfce
 * sidux-vdr
 * sidux-xdg
 * smbconf-kanotix
