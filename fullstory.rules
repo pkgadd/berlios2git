@@ -141,6 +141,23 @@ end match
 # aptosid-art-keres end
 
 
+# aptosid-art-legacy start
+create repository export/fullstory/aptosid-art-legacy.git
+end repository
+
+match /(sidux-art-legacy|aptosid-art-legacy)/trunk/
+	repository export/fullstory/aptosid-art-legacy.git
+	branch master
+end match
+
+match /(sidux-art-legacy|aptosid-art-legacy)/tags/([^/]+)/
+	repository export/fullstory/aptosid-art-legacy.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+end match
+# aptosid-art-legacy end
+
+
 # aptosid-art-ponos start
 create repository export/fullstory/aptosid-art-ponos.git
 end repository

@@ -17,6 +17,7 @@ to migrate them into individual git repositories.
 ##Package list and mapping
 ###Current
 * apt-conf-aptosid: apt-conf-sidux, apt-conf-aptosid
+* aptosid-art-legacy: sidux-art-legacy, aptosid-art-legacy
 * aptosid-irc: kanotix-irc, sidux-irc, aptosid-irc
 * aptosid-keyring: kanotix-keyring, sidux-keyring, aptosid-keyring
 * aptosid-manual: sidux-manual, aptosid-manual
@@ -71,7 +72,6 @@ to migrate them into individual git repositories.
 * fonts-ttf-west-european
 
 ###Unsorted historic Packages (pending)
-* aptosid-art-legacy
 * aptosid-art-meta
 * aptosid-manual-reader
 * aptosid-manual-transition-helper
@@ -230,7 +230,6 @@ to migrate them into individual git repositories.
 * sidux-art-kde-gaia
 * sidux-art-kde-nyx
 * sidux-art-kde-tartaros
-* sidux-art-legacy
 * sidux-art-meta
 * sidux-art-momos
 * sidux-art-moros
