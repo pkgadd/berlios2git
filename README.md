@@ -19,6 +19,7 @@ to migrate them into individual git repositories.
 * apt-conf-aptosid: apt-conf-sidux, apt-conf-aptosid
 * aptosid-art-legacy: sidux-art-legacy, aptosid-art-legacy
 * aptosid-art-meta
+* aptosid-art-nemesis
 * aptosid-irc: kanotix-irc, sidux-irc, aptosid-irc
 * aptosid-keyring: kanotix-keyring, sidux-keyring, aptosid-keyring
 * aptosid-manual: sidux-manual, aptosid-manual

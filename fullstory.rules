@@ -175,6 +175,23 @@ end match
 # aptosid-art-meta end
 
 
+# aptosid-art-nemesis start
+create repository export/fullstory/aptosid-art-nemesis.git
+end repository
+
+match /aptosid-art-nemesis/trunk/
+	repository export/fullstory/aptosid-art-nemesis.git
+	branch master
+end match
+
+match /aptosid-art-nemesis/tags/([^/]+)/
+	repository export/fullstory/aptosid-art-nemesis.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+end match
+# aptosid-art-nemesis end
+
+
 # aptosid-art-ponos start
 create repository export/fullstory/aptosid-art-ponos.git
 end repository
