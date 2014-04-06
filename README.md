@@ -44,6 +44,7 @@ to migrate them into individual git repositories.
 * linux-aptosid: linux-sidux-2.6, linux-aptosid-2.6, linux-aptosid
 * openfwwf
 * pyfll
+* python-fll
 * udev-config-aptosid: kanotix-udev-config, udev-config-sidux, udev-config-aptosid
 * xdg-browser-launcher: sidux-browser, xdg-browser-launcher
 
@@ -191,7 +192,6 @@ to migrate them into individual git repositories.
 * ppp-scripts-kanotix
 * print-utils-pfeifle-kanotix
 * pyfll-installer
-* python-fll
 * qt-fll-iso2usb-gui
 * r5u870
 * ralink-fwcutter

@@ -904,6 +904,27 @@ end match
 # pyfll end
 
 
+# python-fll start
+create repository export/fullstory/python-fll.git
+end repository
+
+match /python-fll/trunk/
+	repository export/fullstory/python-fll.git
+	branch master
+end match
+
+# ignore upstream branch
+match /python-fll/branches/
+end match
+
+match /python-fll/tags/([^/]+)/
+	repository export/fullstory/python-fll.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+end match
+# python-fll end
+
+
 # rt61 start
 create repository export/fullstory.morgue/rt61.git
 end repository
