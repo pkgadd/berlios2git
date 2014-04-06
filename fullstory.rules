@@ -1535,6 +1535,528 @@ end match
 # setpassword end
 
 
+# sidux-art-aether start
+create repository export/fullstory.morgue/sidux-art-aether.git
+end repository
+
+match /sidux-art-(aethir|aether)/trunk/
+	repository export/fullstory.morgue/sidux-art-aether.git
+	branch master
+end match
+
+match /sidux-art-(aethir|aether)/tags/([^/]+)/
+	repository export/fullstory.morgue/sidux-art-aether.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# sidux-art-aether end
+
+
+# sidux-art-erebos start
+create repository export/fullstory.morgue/sidux-art-erebos.git
+end repository
+
+match /sidux-art-erebos/trunk/
+	repository export/fullstory.morgue/sidux-art-erebos.git
+	branch master
+end match
+
+match /sidux-art-erebos/tags/([^/]+)/
+	repository export/fullstory.morgue/sidux-art-erebos.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# sidux-art-erebos end
+
+
+# sidux-art-gfxbootsplash start
+create repository export/fullstory.morgue/sidux-art-gfxbootsplash.git
+end repository
+
+match /sidux-art-gfxbootsplash/trunk/
+	repository export/fullstory.morgue/sidux-art-gfxbootsplash.git
+	branch master
+end match
+
+match /sidux-art-gfxbootsplash/tags/([^/]+)/
+	repository export/fullstory.morgue/sidux-art-gfxbootsplash.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# sidux-art-gfxbootsplash end
+
+
+# sidux-art-gnome start
+create repository export/fullstory.morgue/sidux-art-gnome.git
+end repository
+
+match /sidux-art-gnome/trunk/
+	repository export/fullstory.morgue/sidux-art-gnome.git
+	branch master
+end match
+
+match /sidux-art-gnome/tags/([^/]+)/
+	repository export/fullstory.morgue/sidux-art-gnome.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# sidux-art-gnome end
+
+
+# sidux-art-gnome-eros start
+create repository export/fullstory.morgue/sidux-art-gnome-eros.git
+end repository
+
+match /sidux-art-gnome-eros/trunk/
+	repository export/fullstory.morgue/sidux-art-gnome-eros.git
+	branch master
+end match
+
+match /sidux-art-gnome-eros/tags/([^/]+)/
+	repository export/fullstory.morgue/sidux-art-gnome-eros.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# sidux-art-gnome-eros end
+
+
+# sidux-art-gnome-gaia start
+create repository export/fullstory.morgue/sidux-art-gnome-gaia.git
+end repository
+
+match /sidux-art-gnome-gaia/trunk/
+	repository export/fullstory.morgue/sidux-art-gnome-gaia.git
+	branch master
+end match
+
+match /sidux-art-gnome-gaia/tags/([^/]+)/
+	repository export/fullstory.morgue/sidux-art-gnome-gaia.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# sidux-art-gnome-gaia end
+
+
+# sidux-art-gnome-nyx start
+create repository export/fullstory.morgue/sidux-art-gnome-nyx.git
+end repository
+
+match /sidux-art-gnome-nyx/trunk/
+	repository export/fullstory.morgue/sidux-art-gnome-nyx.git
+	branch master
+end match
+
+match /sidux-art-gnome-nyx/tags/([^/]+)/
+	repository export/fullstory.morgue/sidux-art-gnome-nyx.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# sidux-art-gnome-nyx end
+
+
+# sidux-art-hypnos start
+create repository export/fullstory.morgue/sidux-art-hypnos.git
+end repository
+
+match /sidux-art-hypnos/trunk/
+	repository export/fullstory.morgue/sidux-art-hypnos.git
+	branch master
+end match
+
+match /sidux-art-hypnos/tags/([^/]+)/
+	repository export/fullstory.morgue/sidux-art-hypnos.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# sidux-art-hypnos end
+
+
+# sidux-art-kde start
+create repository export/fullstory.morgue/sidux-art-kde.git
+end repository
+
+match /sidux-art-kde/trunk/
+	repository export/fullstory.morgue/sidux-art-kde.git
+	branch master
+end match
+
+match /sidux-art-kde/tags/([^/]+)/
+	repository export/fullstory.morgue/sidux-art-kde.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# sidux-art-kde end
+
+
+# sidux-art-kde-eros start
+create repository export/fullstory.morgue/sidux-art-kde-eros.git
+end repository
+
+match /sidux-art-kde-eros/trunk/
+	repository export/fullstory.morgue/sidux-art-kde-eros.git
+	branch master
+end match
+
+match /sidux-art-kde-eros/tags/([^/]+)/
+	repository export/fullstory.morgue/sidux-art-kde-eros.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# sidux-art-kde-eros end
+
+
+# sidux-art-kde-gaia start
+create repository export/fullstory.morgue/sidux-art-kde-gaia.git
+end repository
+
+match /sidux-art-kde-gaia/trunk/
+	repository export/fullstory.morgue/sidux-art-kde-gaia.git
+	branch master
+end match
+
+match /sidux-art-kde-gaia/tags/([^/]+)/
+	repository export/fullstory.morgue/sidux-art-kde-gaia.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# sidux-art-kde-gaia end
+
+
+# sidux-art-kde-nyx start
+create repository export/fullstory.morgue/sidux-art-kde-nyx.git
+end repository
+
+match /sidux-art-kde-nyx/trunk/
+	repository export/fullstory.morgue/sidux-art-kde-nyx.git
+	branch master
+end match
+
+match /sidux-art-kde-nyx/tags/([^/]+)/
+	repository export/fullstory.morgue/sidux-art-kde-nyx.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# sidux-art-kde-nyx end
+
+
+# sidux-art-kde-tartaros start
+create repository export/fullstory.morgue/sidux-art-kde-tartaros.git
+end repository
+
+match /sidux-art-kde-tartaros/trunk/
+	repository export/fullstory.morgue/sidux-art-kde-tartaros.git
+	branch master
+end match
+
+match /sidux-art-kde-tartaros/tags/([^/]+)/
+	repository export/fullstory.morgue/sidux-art-kde-tartaros.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# sidux-art-kde-tartaros end
+
+
+# sidux-art-momos start
+create repository export/fullstory.morgue/sidux-art-momos.git
+end repository
+
+match /sidux-art-momos/trunk/
+	repository export/fullstory.morgue/sidux-art-momos.git
+	branch master
+end match
+
+match /sidux-art-momos/tags/([^/]+)/
+	repository export/fullstory.morgue/sidux-art-momos.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# sidux-art-momos end
+
+
+# sidux-art-moros start
+create repository export/fullstory.morgue/sidux-art-moros.git
+end repository
+
+match /sidux-art-moros/trunk/
+	repository export/fullstory.morgue/sidux-art-moros.git
+	branch master
+end match
+
+match /sidux-art-moros/tags/([^/]+)/
+	repository export/fullstory.morgue/sidux-art-moros.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# sidux-art-moros end
+
+
+# sidux-art-ouranos start
+create repository export/fullstory.morgue/sidux-art-ouranos.git
+end repository
+
+match /sidux-art-(uranos|ouranos)/trunk/
+	repository export/fullstory.morgue/sidux-art-ouranos.git
+	branch master
+end match
+
+match /sidux-art-(uranos|ouranos)/tags/([^/]+)/
+	repository export/fullstory.morgue/sidux-art-ouranos.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# sidux-art-ouranos end
+
+
+# sidux-art-ourea start
+create repository export/fullstory.morgue/sidux-art-ourea.git
+end repository
+
+match /sidux-art-ourea/trunk/
+	repository export/fullstory.morgue/sidux-art-ourea.git
+	branch master
+end match
+
+match /sidux-art-ourea/tags/([^/]+)/
+	repository export/fullstory.morgue/sidux-art-ourea.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# sidux-art-ourea end
+
+
+# sidux-art-pontos start
+create repository export/fullstory.morgue/sidux-art-pontos.git
+end repository
+
+match /sidux-art-pontos/trunk/
+	repository export/fullstory.morgue/sidux-art-pontos.git
+	branch master
+end match
+
+match /sidux-art-pontos/tags/([^/]+)/
+	repository export/fullstory.morgue/sidux-art-pontos.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# sidux-art-pontos end
+
+
+# sidux-art-wallpaper start
+create repository export/fullstory.morgue/sidux-art-wallpaper.git
+end repository
+
+match /sidux-art-wallpaper/trunk/
+	repository export/fullstory.morgue/sidux-art-wallpaper.git
+	branch master
+end match
+
+match /sidux-art-wallpaper/tags/([^/]+)/
+	repository export/fullstory.morgue/sidux-art-wallpaper.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# sidux-art-wallpaper end
+
+
+# sidux-art-wallpaper-erebos start
+create repository export/fullstory.morgue/sidux-art-wallpaper-erebos.git
+end repository
+
+match /sidux-art-wallpaper-erebos/trunk/
+	repository export/fullstory.morgue/sidux-art-wallpaper-erebos.git
+	branch master
+end match
+
+match /sidux-art-wallpaper-erebos/tags/([^/]+)/
+	repository export/fullstory.morgue/sidux-art-wallpaper-erebos.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# sidux-art-wallpaper-erebos end
+
+
+# sidux-art-wallpaper-erebos-edu start
+create repository export/fullstory.morgue/sidux-art-wallpaper-erebos-edu.git
+end repository
+
+match /sidux-art-wallpaper-erebos-edu/trunk/
+	repository export/fullstory.morgue/sidux-art-wallpaper-erebos-edu.git
+	branch master
+end match
+
+match /sidux-art-wallpaper-erebos-edu/tags/([^/]+)/
+	repository export/fullstory.morgue/sidux-art-wallpaper-erebos-edu.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# sidux-art-wallpaper-erebos-edu end
+
+
+# sidux-art-wallpaper-erebus start
+create repository export/fullstory.morgue/sidux-art-wallpaper-erebus.git
+end repository
+
+match /sidux-art-wallpaper-erebus/trunk/
+	repository export/fullstory.morgue/sidux-art-wallpaper-erebus.git
+	branch master
+end match
+
+match /sidux-art-wallpaper-erebus/tags/([^/]+)/
+	repository export/fullstory.morgue/sidux-art-wallpaper-erebus.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# sidux-art-wallpaper-erebus end
+
+
+# sidux-art-wallpaper-eros start
+create repository export/fullstory.morgue/sidux-art-wallpaper-eros.git
+end repository
+
+match /sidux-art-wallpaper-eros/trunk/
+	repository export/fullstory.morgue/sidux-art-wallpaper-eros.git
+	branch master
+end match
+
+match /sidux-art-wallpaper-eros/tags/([^/]+)/
+	repository export/fullstory.morgue/sidux-art-wallpaper-eros.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# sidux-art-wallpaper-eros end
+
+
+# sidux-art-wallpaper-eros-edu start
+create repository export/fullstory.morgue/sidux-art-wallpaper-eros-edu.git
+end repository
+
+match /sidux-art-wallpaper-eros-edu/trunk/
+	repository export/fullstory.morgue/sidux-art-wallpaper-eros-edu.git
+	branch master
+end match
+
+match /sidux-art-wallpaper-eros-edu/tags/([^/]+)/
+	repository export/fullstory.morgue/sidux-art-wallpaper-eros-edu.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# sidux-art-wallpaper-eros-edu end
+
+
+# sidux-art-wallpaper-gaia start
+create repository export/fullstory.morgue/sidux-art-wallpaper-gaia.git
+end repository
+
+match /sidux-art-wallpaper-gaia/trunk/
+	repository export/fullstory.morgue/sidux-art-wallpaper-gaia.git
+	branch master
+end match
+
+match /sidux-art-wallpaper-gaia/tags/([^/]+)/
+	repository export/fullstory.morgue/sidux-art-wallpaper-gaia.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# sidux-art-wallpaper-gaia end
+
+
+# sidux-art-wallpaper-nyx start
+create repository export/fullstory.morgue/sidux-art-wallpaper-nyx.git
+end repository
+
+match /sidux-art-wallpaper-nyx/trunk/
+	repository export/fullstory.morgue/sidux-art-wallpaper-nyx.git
+	branch master
+end match
+
+match /sidux-art-wallpaper-nyx/tags/([^/]+)/
+	repository export/fullstory.morgue/sidux-art-wallpaper-nyx.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# sidux-art-wallpaper-nyx end
+
+
+# sidux-art-wallpaper-nyx-edu start
+create repository export/fullstory.morgue/sidux-art-wallpaper-nyx-edu.git
+end repository
+
+match /sidux-art-wallpaper-nyx-edu/trunk/
+	repository export/fullstory.morgue/sidux-art-wallpaper-nyx-edu.git
+	branch master
+end match
+
+match /sidux-art-wallpaper-nyx-edu/tags/([^/]+)/
+	repository export/fullstory.morgue/sidux-art-wallpaper-nyx-edu.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# sidux-art-wallpaper-nyx-edu end
+
+
+# sidux-art-wallpaper-tartaros start
+create repository export/fullstory.morgue/sidux-art-wallpaper-tartaros.git
+end repository
+
+match /sidux-art-wallpaper-tartaros/trunk/
+	repository export/fullstory.morgue/sidux-art-wallpaper-tartaros.git
+	branch master
+end match
+
+match /sidux-art-wallpaper-tartaros/tags/([^/]+)/
+	repository export/fullstory.morgue/sidux-art-wallpaper-tartaros.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# sidux-art-wallpaper-tartaros end
+
+
+# sidux-artwork-competition start
+create repository export/fullstory.morgue/sidux-artwork-competition.git
+end repository
+
+match /sidux-artwork-competition/trunk/
+	repository export/fullstory.morgue/sidux-artwork-competition.git
+	branch master
+end match
+
+match /sidux-artwork-competition/tags/([^/]+)/
+	repository export/fullstory.morgue/sidux-artwork-competition.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# sidux-artwork-competition end
+
+
 # sidux-art-website start
 create repository export/fullstory.morgue/sidux-art-website.git
 end repository
@@ -1544,6 +2066,24 @@ match /sidux-art-website/trunk/
 	branch master
 end match
 # sidux-art-website end
+
+
+# sidux-art-xfce start
+create repository export/fullstory.morgue/sidux-art-xfce.git
+end repository
+
+match /sidux-art-xfce/trunk/
+	repository export/fullstory.morgue/sidux-art-xfce.git
+	branch master
+end match
+
+match /sidux-art-xfce/tags/([^/]+)/
+	repository export/fullstory.morgue/sidux-art-xfce.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# sidux-art-xfce end
 
 
 # sitar start
