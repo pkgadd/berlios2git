@@ -690,6 +690,24 @@ end match
 # configure-cups end
 
 
+# configure-dsl start
+create repository export/fullstory.morgue/configure-dsl.git
+end repository
+
+match /(kanotix-dsl|configure-dsl)/trunk/
+	repository export/fullstory.morgue/configure-dsl.git
+	branch master
+end match
+
+match /(kanotix-dsl|configure-dsl)/tags/([^/]+)/
+	repository export/fullstory.morgue/configure-dsl.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# configure-dsl end
+
+
 # desktop-defaults start
 create repository export/fullstory/desktop-defaults.git
 end repository

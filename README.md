@@ -73,6 +73,7 @@ to migrate them into individual git repositories.
 * busybox-sidux: busybox-kanotix, busybox-sidux
 * btsco
 * checkmem: checkmem-kanotix, checkmem
+* configure-dsl: kanotix-dsl, configure-dsl
 * ddcxinfo: ddcxinfo-kanotix, ddcxinfo-sidux
 * fll-builder
 * freenx
@@ -98,7 +99,6 @@ to migrate them into individual git repositories.
 * fonts-ttf-west-european
 
 ###Unsorted historic Packages (pending)
-* configure-dsl
 * configure-freenx
 * configure-gprs
 * configure-isdn
@@ -139,7 +139,6 @@ to migrate them into individual git repositories.
 * k3b-defaults-kanotix
 * kanet
 * kanotix2sidux
-* kanotix-dsl
 * kanotix-graphics
 * kanotix-isdn
 * kanotix-menu
