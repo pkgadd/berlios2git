@@ -1499,6 +1499,24 @@ end match
 # rt73-legacy end
 
 
+# server-defaults start
+create repository export/fullstory.zombie/server-defaults.git
+end repository
+
+match /server-defaults/trunk/
+	repository export/fullstory.zombie/server-defaults.git
+	branch master
+end match
+
+match /server-defaults/tags/([^/]+)/
+	repository export/fullstory.zombie/server-defaults.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# server-defaults end
+
+
 # setpassword start
 create repository export/fullstory/setpassword.git
 end repository
@@ -1515,6 +1533,24 @@ match /(kanotix-setpassword|sidux-setpassword|setpassword)/tags/([^/]+)/
 	substitute branch s/:/%/
 end match
 # setpassword end
+
+
+# sidux-art-website start
+create repository export/fullstory.zombie/sidux-art-website.git
+end repository
+
+match /sidux-art-website/trunk/
+	repository export/fullstory.zombie/sidux-art-website.git
+	branch master
+end match
+
+match /sidux-art-website/tags/([^/]+)/
+	repository export/fullstory.zombie/sidux-art-website.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# sidux-art-website end
 
 
 # sitar start
@@ -1665,6 +1701,11 @@ match /(sidux-browser|xdg-browser)/tags/([^/]+)/
 	substitute branch s/:/%/
 end match
 # xdg-browser end
+
+
+# Ignore notes.txt
+match /notes.txt
+end match
 
 
 # Ignore everything else

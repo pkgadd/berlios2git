@@ -98,6 +98,8 @@ to migrate them into individual git repositories.
 * fonts-ttf-decoratives
 * fonts-ttf-west-european
 * notes.txt
+* server-defaults
+* sidux-art-website
 
 ###Unsorted historic Packages (pending)
 * configure-freenx
@@ -214,7 +216,6 @@ to migrate them into individual git repositories.
 * seminarix-latex
 * seminarix-notebook-training
 * seminarix-samples
-* server-defaults
 * sidux-art-aether
 * sidux-art-aethir
 * sidux-art-erebos
@@ -245,7 +246,6 @@ to migrate them into individual git repositories.
 * sidux-art-wallpaper-nyx
 * sidux-art-wallpaper-nyx-edu
 * sidux-art-wallpaper-tartaros
-* sidux-art-website
 * sidux-artwork-competition
 * sidux-art-xfce
 * sidux-binary-gfx
