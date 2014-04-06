@@ -414,6 +414,24 @@ end match
 # aptosid-transition-helper end
 
 
+# aptosid-vdr start
+create repository export/fullstory.morgue/aptosid-vdr.git
+end repository
+
+match /(kanotix|sidux|aptosid)-vdr/trunk/
+	repository export/fullstory.morgue/aptosid-vdr.git
+	branch master
+end match
+
+match /(kanotix|sidux|aptosid)-vdr/tags/([^/]+)/
+	repository export/fullstory.morgue/aptosid-vdr.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# aptosid-vdr end
+
+
 # ar5523 start
 create repository export/fullstory.deprecated/ar5523.git
 end repository

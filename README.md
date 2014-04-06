@@ -64,6 +64,7 @@ to migrate them into individual git repositories.
 * aptosid-manual-reader: sidux-manual-reader, aptosid-manual-reader
 * aptosid-manual-transition-helper
 * aptosid-transition-helper
+* aptosid-vdr: kanotix-vdr, sidux-vdr, aptosid-vdr
 * acer-acpi
 * acerhk
 * atl1e
@@ -83,7 +84,6 @@ to migrate them into individual git repositories.
 * fonts-ttf-west-european
 
 ###Unsorted historic Packages (pending)
-* aptosid-vdr
 * aufs
 * automount-kanotix
 * btsco
@@ -144,7 +144,6 @@ to migrate them into individual git repositories.
 * kanotix-searchplugins
 * kanotix-sounds
 * kanotix-terminalserver
-* kanotix-vdr
 * kbdconfig-kanotix
 * kdeadmin
 * kdelock-kanotix
@@ -261,7 +260,6 @@ to migrate them into individual git repositories.
 * sidux-menu
 * sidux-searchplugins
 * sidux-server-config
-* sidux-vdr
 * sidux-xdg
 * smbconf-kanotix
 * smbconf-sidux
