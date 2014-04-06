@@ -89,8 +89,7 @@ to migrate them into individual git repositories.
 * r5u870
 * rt61
 * rt73-legacy
-* sidux-art-aether
-* sidux-art-aethir
+* sidux-art-aether: sidux-art-aethir, sidux-art-aether
 * sidux-art-erebos
 * sidux-art-gfxbootsplash
 * sidux-art-gnome
@@ -105,10 +104,9 @@ to migrate them into individual git repositories.
 * sidux-art-kde-tartaros
 * sidux-art-momos
 * sidux-art-moros
-* sidux-art-ouranos
+* sidux-art-ouranos: sidux-art-uranos, sidux-art-ouranos
 * sidux-art-ourea
 * sidux-art-pontos
-* sidux-art-uranos
 * sidux-art-wallpaper
 * sidux-art-wallpaper-erebos
 * sidux-art-wallpaper-erebos-edu
