@@ -18,7 +18,7 @@ to migrate them into individual git repositories.
 ###Current
 * apt-conf-aptosid: apt-conf-sidux, apt-conf-aptosid
 * aptosid-art-legacy: sidux-art-legacy, aptosid-art-legacy
-* aptosid-art-meta
+* aptosid-art-meta: sidux-art-meta, aptosid-art-meta
 * aptosid-art-nemesis
 * aptosid-irc: kanotix-irc, sidux-irc, aptosid-irc
 * aptosid-keyring: kanotix-keyring, sidux-keyring, aptosid-keyring
@@ -72,6 +72,7 @@ to migrate them into individual git repositories.
 * automount-kanotix
 * busybox-sidux: busybox-kanotix, busybox-sidux
 * btsco
+* checkmem: checkmem-kanotix, checkmem
 * ddcxinfo: ddcxinfo-kanotix, ddcxinfo-sidux
 * fll-builder
 * freenx
@@ -97,8 +98,6 @@ to migrate them into individual git repositories.
 * fonts-ttf-west-european
 
 ###Unsorted historic Packages (pending)
-* checkmem
-* checkmem-kanotix
 * configure-dsl
 * configure-freenx
 * configure-gprs
@@ -231,7 +230,6 @@ to migrate them into individual git repositories.
 * sidux-art-kde-gaia
 * sidux-art-kde-nyx
 * sidux-art-kde-tartaros
-* sidux-art-meta
 * sidux-art-momos
 * sidux-art-moros
 * sidux-art-ouranos

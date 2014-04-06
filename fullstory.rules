@@ -636,6 +636,24 @@ end match
 # ceni end
 
 
+# checkmem start
+create repository export/fullstory.morgue/checkmem.git
+end repository
+
+match /(checkmem-kanotix|checkmem)/trunk/
+	repository export/fullstory.morgue/checkmem.git
+	branch master
+end match
+
+match /(checkmem-kanotix|checkmem)/tags/([^/]+)/
+	repository export/fullstory.morgue/checkmem.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# checkmem end
+
+
 # cliinstaller start
 create repository export/fullstory.deprecated/cliinstaller.git
 end repository
