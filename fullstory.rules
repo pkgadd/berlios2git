@@ -480,6 +480,36 @@ end match
 # atl1e end
 
 
+# aufs start
+create repository export/fullstory.morgue/aufs.git
+end repository
+
+match /aufs/trunk/
+	repository export/fullstory.morgue/aufs.git
+	branch master
+end match
+
+match /aufs/branches/upstream/current/
+	repository export/fullstory.morgue/aufs.git
+	branch upstream
+end match
+
+match /aufs/branches/upstream/([^/]+)/
+	repository export/fullstory.morgue/aufs.git
+	branch refs/tags/upstream/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+
+match /aufs/tags/([^/]+)/
+	repository export/fullstory.morgue/aufs.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# aufs end
+
+
 # b43-asm start
 create repository export/fullstory/b43-asm.git
 end repository
@@ -508,6 +538,36 @@ match /b43-asm/tags/([^/]+)/
 	substitute branch s/:/%/
 end match
 # b43-asm end
+
+
+# btsco start
+create repository export/fullstory.morgue/btsco.git
+end repository
+
+match /btsco/trunk/
+	repository export/fullstory.morgue/btsco.git
+	branch master
+end match
+
+match /btsco/branches/upstream/current/
+	repository export/fullstory.morgue/btsco.git
+	branch upstream
+end match
+
+match /btsco/branches/upstream/([^/]+)/
+	repository export/fullstory.morgue/btsco.git
+	branch refs/tags/upstream/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+
+match /btsco/tags/([^/]+)/
+	repository export/fullstory.morgue/btsco.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# btsco end
 
 
 # busybox-sidux start
@@ -786,6 +846,126 @@ end match
 # fonts-ttf-west-european end
 
 
+# freenx start
+create repository export/fullstory.morgue/freenx.git
+end repository
+
+match /freenx/trunk/
+	repository export/fullstory.morgue/freenx.git
+	branch master
+end match
+
+match /freenx/branches/upstream/current/
+	repository export/fullstory.morgue/freenx.git
+	branch upstream
+end match
+
+match /freenx/branches/upstream/([^/]+)/
+	repository export/fullstory.morgue/freenx.git
+	branch refs/tags/upstream/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+
+match /freenx/tags/([^/]+)/
+	repository export/fullstory.morgue/freenx.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# freenx end
+
+
+# fsam7400 start
+create repository export/fullstory.morgue/fsam7400.git
+end repository
+
+match /fsam7400/trunk/
+	repository export/fullstory.morgue/fsam7400.git
+	branch master
+end match
+
+match /fsam7400/branches/upstream/current/
+	repository export/fullstory.morgue/fsam7400.git
+	branch upstream
+end match
+
+match /fsam7400/branches/upstream/([^/]+)/
+	repository export/fullstory.morgue/fsam7400.git
+	branch refs/tags/upstream/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+
+match /fsam7400/tags/([^/]+)/
+	repository export/fullstory.morgue/fsam7400.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# fsam7400 end
+
+
+# fusecram start
+create repository export/fullstory.morgue/fusecram.git
+end repository
+
+match /fusecram/trunk/
+	repository export/fullstory.morgue/fusecram.git
+	branch master
+end match
+
+match /fusecram/branches/upstream/current/
+	repository export/fullstory.morgue/fusecram.git
+	branch upstream
+end match
+
+match /fusecram/branches/upstream/([^/]+)/
+	repository export/fullstory.morgue/fusecram.git
+	branch refs/tags/upstream/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+
+match /fusecram/tags/([^/]+)/
+	repository export/fullstory.morgue/fusecram.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# fusecram end
+
+
+# fuseiso start
+create repository export/fullstory.morgue/fuseiso.git
+end repository
+
+match /fuseiso/trunk/
+	repository export/fullstory.morgue/fuseiso.git
+	branch master
+end match
+
+match /fuseiso/branches/upstream/current/
+	repository export/fullstory.morgue/fuseiso.git
+	branch upstream
+end match
+
+match /fuseiso/branches/upstream/([^/]+)/
+	repository export/fullstory.morgue/fuseiso.git
+	branch refs/tags/upstream/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+
+match /fuseiso/tags/([^/]+)/
+	repository export/fullstory.morgue/fuseiso.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# fuseiso end
+
+
 # gfxboot start
 create repository export/fullstory.morgue/gfxboot.git
 end repository
@@ -954,6 +1134,36 @@ end match
 # kernel-remover end
 
 
+# klik start
+create repository export/fullstory.morgue/klik.git
+end repository
+
+match /klik/trunk/
+	repository export/fullstory.morgue/klik.git
+	branch master
+end match
+
+match /klik/branches/upstream/current/
+	repository export/fullstory.morgue/klik.git
+	branch upstream
+end match
+
+match /klik/branches/upstream/([^/]+)/
+	repository export/fullstory.morgue/klik.git
+	branch refs/tags/upstream/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+
+match /klik/tags/([^/]+)/
+	repository export/fullstory.morgue/klik.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# klik end
+
+
 # linux-aptosid start
 create repository export/fullstory/linux-aptosid.git
 end repository
@@ -977,6 +1187,96 @@ match /(linux-sidux-2.6|linux-aptosid-2.6|linux-aptosid)/tags/([^/]+)/
 	substitute branch s/:/%/
 end match
 # linux-aptosid end
+
+
+# lirc start
+create repository export/fullstory.morgue/lirc.git
+end repository
+
+match /lirc/trunk/
+	repository export/fullstory.morgue/lirc.git
+	branch master
+end match
+
+match /lirc/branches/upstream/current/
+	repository export/fullstory.morgue/lirc.git
+	branch upstream
+end match
+
+match /lirc/branches/upstream/([^/]+)/
+	repository export/fullstory.morgue/lirc.git
+	branch refs/tags/upstream/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+
+match /lirc/tags/([^/]+)/
+	repository export/fullstory.morgue/lirc.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# lirc end
+
+
+# ndiswrapper start
+create repository export/fullstory.morgue/ndiswrapper.git
+end repository
+
+match /ndiswrapper/trunk/
+	repository export/fullstory.morgue/ndiswrapper.git
+	branch master
+end match
+
+match /ndiswrapper/branches/upstream/current/
+	repository export/fullstory.morgue/ndiswrapper.git
+	branch upstream
+end match
+
+match /ndiswrapper/branches/upstream/([^/]+)/
+	repository export/fullstory.morgue/ndiswrapper.git
+	branch refs/tags/upstream/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+
+match /ndiswrapper/tags/([^/]+)/
+	repository export/fullstory.morgue/ndiswrapper.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# ndiswrapper end
+
+
+# omnibook start
+create repository export/fullstory.morgue/omnibook.git
+end repository
+
+match /omnibook/trunk/
+	repository export/fullstory.morgue/omnibook.git
+	branch master
+end match
+
+match /omnibook/branches/upstream/current/
+	repository export/fullstory.morgue/omnibook.git
+	branch upstream
+end match
+
+match /omnibook/branches/upstream/([^/]+)/
+	repository export/fullstory.morgue/omnibook.git
+	branch refs/tags/upstream/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+
+match /omnibook/tags/([^/]+)/
+	repository export/fullstory.morgue/omnibook.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# omnibook end
 
 
 # openfwwf start
@@ -1053,6 +1353,36 @@ match /python-fll/tags/([^/]+)/
 	substitute branch s/:/%/
 end match
 # python-fll end
+
+
+# r5u870 start
+create repository export/fullstory.morgue/r5u870.git
+end repository
+
+match /r5u870/trunk/
+	repository export/fullstory.morgue/r5u870.git
+	branch master
+end match
+
+match /r5u870/branches/upstream/current/
+	repository export/fullstory.morgue/r5u870.git
+	branch upstream
+end match
+
+match /r5u870/branches/upstream/([^/]+)/
+	repository export/fullstory.morgue/r5u870.git
+	branch refs/tags/upstream/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+
+match /r5u870/tags/([^/]+)/
+	repository export/fullstory.morgue/r5u870.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# r5u870 end
 
 
 # rt61 start
@@ -1215,6 +1545,36 @@ match /(sudoers-kanotix|sudores-sidux|sudoers-sidux)/tags/([^/]+)/
 	substitute branch s/:/%/
 end match
 # sudoers-sidux end
+
+
+# teclasat start
+create repository export/fullstory.morgue/teclasat.git
+end repository
+
+match /teclasat/trunk/
+	repository export/fullstory.morgue/teclasat.git
+	branch master
+end match
+
+match /teclasat/branches/upstream/current/
+	repository export/fullstory.morgue/teclasat.git
+	branch upstream
+end match
+
+match /teclasat/branches/upstream/([^/]+)/
+	repository export/fullstory.morgue/teclasat.git
+	branch refs/tags/upstream/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+
+match /teclasat/tags/([^/]+)/
+	repository export/fullstory.morgue/teclasat.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# teclasat end
 
 
 # udev-config-aptosid start

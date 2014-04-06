@@ -68,25 +68,35 @@ to migrate them into individual git repositories.
 * acer-acpi
 * acerhk
 * atl1e
+* aufs
 * busybox-sidux: busybox-kanotix, busybox-sidux
+* btsco
 * ddcxinfo: ddcxinfo-kanotix, ddcxinfo-sidux
 * fll-builder
+* freenx
+* fsam7400
+* fusecram
+* fuseiso
 * gfxboot
 * grub-gfxboot
+* klik
+* lirc
+* ndiswrapper
+* omnibook
+* r5u870
 * rt61
 * rt73-legacy
 * su-me: kanotix-su, su-me
 * sudoers-sidux: sudoers-kanotix, sudores-sidux, sudoers-sidux
 * sitar
+* teclasat
 
 ###Zombie
 * fonts-ttf-decoratives
 * fonts-ttf-west-european
 
 ###Unsorted historic Packages (pending)
-* aufs
 * automount-kanotix
-* btsco
 * checkmem
 * checkmem-kanotix
 * configure-dsl
@@ -113,10 +123,6 @@ to migrate them into individual git repositories.
 * fix-fonts
 * fll-fshelper
 * fll-gfx
-* freenx
-* fsam7400
-* fusecram
-* fuseiso
 * gdm-themes-sidux
 * gfxboot-theme-sidux
 * gfxboot-theme-sidux-eros
@@ -152,7 +158,6 @@ to migrate them into individual git repositories.
 * kde-services-kanotix
 * kde-services-sidux
 * kdm-theme-kanotix-penguins
-* klik
 * knxcc
 * knx-installer
 * knxinstaller
@@ -164,7 +169,6 @@ to migrate them into individual git repositories.
 * libconfig-source-perl
 * linux-modules-extra-2.6
 * linux-modules-sidux-main-2.6
-* lirc
 * live-initrd-kanotix
 * live-initrd-sidux
 * live-terminalserver-sidux
@@ -177,14 +181,12 @@ to migrate them into individual git repositories.
 * mkpersistenthome-kanotix
 * modemlink-kanotix
 * mouseconfig-kanotix
-* ndiswrapper
 * netcardconfig-kanotix
 * networkconfig-kanotix
 * networkconfig-sidux
 * notes.txt
 * nxsetup
 * nxsetup-kanotix
-* omnibook
 * pdf-printerconfig-kanotix
 * playvideodisk
 * playvideodisk-kanotix
@@ -193,7 +195,6 @@ to migrate them into individual git repositories.
 * print-utils-pfeifle-kanotix
 * pyfll-installer
 * qt-fll-iso2usb-gui
-* r5u870
 * ralink-fwcutter
 * rebuildfstab
 * rebuildfstab-kanotix
@@ -268,7 +269,6 @@ to migrate them into individual git repositories.
 * startsyslog-kanotix
 * startsyslog-sidux
 * sysv-freeze
-* teclasat
 * ttf-sidux
 * usleep-kanotix
 * vdr-gui
