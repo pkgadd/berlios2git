@@ -1170,6 +1170,36 @@ end match
 # install-usb-gui end
 
 
+# kdeadmin start
+create repository export/fullstory.zombie/kdeadmin.git
+end repository
+
+match /kdeadmin/trunk/
+	repository export/fullstory.zombie/kdeadmin.git
+	branch master
+end match
+
+match /kdeadmin/branches/upstream/current/
+	repository export/fullstory.zombie/kdeadmin.git
+	branch upstream
+end match
+
+match /kdeadmin/branches/upstream/([^/]+)/
+	repository export/fullstory.zombie/kdeadmin.git
+	branch refs/tags/upstream/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+
+match /kdeadmin/tags/([^/]+)/
+	repository export/fullstory.zombie/kdeadmin.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# kdeadmin end
+
+
 # kernel-remover start
 create repository export/fullstory/kernel-remover.git
 end repository

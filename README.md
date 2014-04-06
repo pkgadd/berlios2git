@@ -130,6 +130,7 @@ to migrate them into individual git repositories.
 ###Zombie
 * fonts-ttf-decoratives
 * fonts-ttf-west-european
+* kdeadmin
 * notes.txt
 * server-defaults
 
@@ -184,7 +185,6 @@ to migrate them into individual git repositories.
 * kanotix-sounds
 * kanotix-terminalserver
 * kbdconfig-kanotix
-* kdeadmin
 * kdelock-kanotix
 * kdeservicemenus-kanotix
 * kdeservicemenus-sidux
