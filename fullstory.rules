@@ -271,6 +271,23 @@ end match
 # aptosid-manual end
 
 
+# aptosid-manual-reader start
+create repository export/fullstory.morgue/aptosid-manual-reader.git
+end repository
+
+match /(sidux|aptosid)-manual-reader/trunk/
+	repository export/fullstory.morgue/aptosid-manual-reader.git
+	branch master
+end match
+
+match /(sidux|aptosid)-manual-reader/tags/([^/]+)/
+	repository export/fullstory.morgue/aptosid-manual-reader.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+end match
+# aptosid-manual-reader end
+
+
 # aptosid-settings-kde start
 create repository export/fullstory/aptosid-settings-kde.git
 end repository

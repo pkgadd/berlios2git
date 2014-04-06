@@ -61,6 +61,7 @@ to migrate them into individual git repositories.
 * aptosid-art-imera
 * aptosid-art-keres: sidux-art-keres, aptosid-art-keres
 * aptosid-art-ponos
+* aptosid-manual-reader: sidux-manual-reader, aptosid-manual-reader
 * acer-acpi
 * acerhk
 * atl1e
@@ -80,7 +81,6 @@ to migrate them into individual git repositories.
 * fonts-ttf-west-european
 
 ###Unsorted historic Packages (pending)
-* aptosid-manual-reader
 * aptosid-manual-transition-helper
 * aptosid-transition-helper
 * aptosid-vdr
@@ -258,7 +258,6 @@ to migrate them into individual git repositories.
 * sidux-graphics
 * sidux-hermes
 * sidux-icons
-* sidux-manual-reader
 * sidux-menu
 * sidux-searchplugins
 * sidux-server-config
