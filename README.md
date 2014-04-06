@@ -49,6 +49,7 @@ to migrate them into individual git repositories.
 ###Morgue
 * acer-acpi
 * acerhk
+* atl1e
 * busybox-sidux: busybox-kanotix, busybox-sidux
 * ddcxinfo: ddcxinfo-kanotix, ddcxinfo-sidux
 * fll-builder
@@ -79,7 +80,6 @@ to migrate them into individual git repositories.
 * aptosid-settings-xfce
 * aptosid-transition-helper
 * aptosid-vdr
-* atl1e
 * aufs
 * automount-kanotix
 * btsco

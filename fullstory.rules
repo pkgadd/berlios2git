@@ -169,6 +169,34 @@ end match
 # ar5523 end
 
 
+# atl1e start
+create repository export/fullstory.morgue/atl1e.git
+end repository
+
+match /atl1e/trunk/
+	repository export/fullstory.morgue/atl1e.git
+	branch master
+end match
+
+match /atl1e/branches/upstream/current/
+	repository export/fullstory.morgue/atl1e.git
+	branch upstream
+end match
+
+match /atl1e/branches/upstream/([^/]+)/
+	repository export/fullstory.morgue/atl1e.git
+	branch refs/tags/upstream/\1
+	substitute branch s/~/_/
+end match
+
+match /atl1e/tags/([^/]+)/
+	repository export/fullstory.morgue/atl1e.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+end match
+# atl1e end
+
+
 # b43-asm start
 create repository export/fullstory/b43-asm.git
 end repository
