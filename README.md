@@ -97,6 +97,7 @@ to migrate them into individual git repositories.
 ###Zombie
 * fonts-ttf-decoratives
 * fonts-ttf-west-european
+* notes.txt
 
 ###Unsorted historic Packages (pending)
 * configure-freenx
@@ -182,7 +183,6 @@ to migrate them into individual git repositories.
 * netcardconfig-kanotix
 * networkconfig-kanotix
 * networkconfig-sidux
-* notes.txt
 * nxsetup
 * nxsetup-kanotix
 * pdf-printerconfig-kanotix
