@@ -47,6 +47,11 @@ to migrate them into individual git repositories.
 * firmware-carl9170
 
 ###Morgue
+* aptosid-art-apate
+* aptosid-art-geras
+* aptosid-art-imera
+* aptosid-art-keres: sidux-art-keres, aptosid-art-keres
+* aptosid-art-ponos
 * acer-acpi
 * acerhk
 * atl1e
@@ -66,13 +71,8 @@ to migrate them into individual git repositories.
 * fonts-ttf-west-european
 
 ###Unsorted historic Packages (pending)
-* aptosid-art-apate
-* aptosid-art-geras
-* aptosid-art-imera
-* aptosid-art-keres
 * aptosid-art-legacy
 * aptosid-art-meta
-* aptosid-art-ponos
 * aptosid-manual-reader
 * aptosid-manual-transition-helper
 * aptosid-settings-kde
@@ -230,7 +230,6 @@ to migrate them into individual git repositories.
 * sidux-art-kde-gaia
 * sidux-art-kde-nyx
 * sidux-art-kde-tartaros
-* sidux-art-keres
 * sidux-art-legacy
 * sidux-art-meta
 * sidux-art-momos
