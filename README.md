@@ -39,6 +39,7 @@ to migrate them into individual git repositories.
 * openfwwf
 * pyfll
 * udev-config-aptosid: kanotix-udev-config, udev-config-sidux, udev-config-aptosid
+* xdg-browser-launcher: sidux-browser, xdg-browser-launcher
 
 ###Deprecated
 * ar5523
@@ -252,7 +253,6 @@ to migrate them into individual git repositories.
 * sidux-artwork-competition
 * sidux-art-xfce
 * sidux-binary-gfx
-* sidux-browser
 * siduxcc
 * sidux-edu
 * sidux-framework
@@ -283,7 +283,6 @@ to migrate them into individual git repositories.
 * ttf-sidux
 * usleep-kanotix
 * vdr-gui
-* xdg-browser-launcher
 * xf86config-kanotix
 * xf86config-sidux
 * xorgconfig

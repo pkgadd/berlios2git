@@ -824,6 +824,23 @@ end match
 # udev-config-aptosid end
 
 
+# xdg-browser start
+create repository export/fullstory/xdg-browser.git
+end repository
+
+match /(sidux-browser|xdg-browser)/trunk/
+	repository export/fullstory/xdg-browser.git
+	branch master
+end match
+
+match /(sidux-browser|xdg-browser)/tags/([^/]+)/
+	repository export/fullstory/xdg-browser.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+end match
+# xdg-browser end
+
+
 # Ignore everything else
 match /
 end match
