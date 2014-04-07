@@ -1632,6 +1632,24 @@ end match
 # hwdata-kanotix end
 
 
+# hwsetup-kanotix start
+create repository export/fullstory.morgue/hwsetup-kanotix.git
+end repository
+
+match /hwsetup-kanotix/trunk/
+	repository export/fullstory.morgue/hwsetup-kanotix.git
+	branch master
+end match
+
+match /hwsetup-kanotix/tags/([^/]+)/
+	repository export/fullstory.morgue/hwsetup-kanotix.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# hwsetup-kanotix end
+
+
 # infobash start
 create repository export/fullstory/infobash.git
 end repository
