@@ -2347,6 +2347,24 @@ end match
 # mkdosswapfile end
 
 
+# mkpersistenthome start
+create repository export/fullstory.morgue/mkpersistenthome.git
+end repository
+
+match /(mkpersistenthome-kanotix|mkpersistenthome)/trunk/
+	repository export/fullstory.morgue/mkpersistenthome.git
+	branch master
+end match
+
+match /(mkpersistenthome-kanotix|mkpersistenthome)/tags/([^/]+)/
+	repository export/fullstory.morgue/mkpersistenthome.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# mkpersistenthome end
+
+
 # ndiswrapper start
 create repository export/fullstory.morgue/ndiswrapper.git
 end repository

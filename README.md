@@ -142,6 +142,7 @@ to migrate them into individual git repositories.
 * ltmodem-detect
 * mkdesktophdicons-kanotix
 * mkdosswapfile: mkdosswapfile-kanotix, mkdosswapfile
+* mkpersistenthome: mkpersistenthome-kanotix, mkpersistenthome
 * ndiswrapper
 * networkconfig-sidux: networkconfig-kanotix, networkconfig-sidux
 * omnibook
@@ -202,8 +203,6 @@ to migrate them into individual git repositories.
 * server-defaults
 
 ###Unsorted historic Packages (pending)
-* mkpersistenthome
-* mkpersistenthome-kanotix
 * pdf-printerconfig-kanotix
 * playvideodisk
 * playvideodisk-kanotix
