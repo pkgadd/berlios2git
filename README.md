@@ -95,6 +95,7 @@ to migrate them into individual git repositories.
 * eduversum-howto
 * etcskel-sidux: etcskel-kanotix, etcskel-sidux
 * firewall-kanotix
+* fix-cdrom
 * fll-builder
 * freenx
 * fsam7400
@@ -159,7 +160,6 @@ to migrate them into individual git repositories.
 * server-defaults
 
 ###Unsorted historic Packages (pending)
-* fix-cdrom
 * fix-fonts
 * fll-fshelper
 * fll-gfx
