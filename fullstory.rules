@@ -1914,22 +1914,22 @@ end match
 # kdelock-kanotix end
 
 
-# kdeservicemenus-kanotix start
-create repository export/fullstory.morgue/kdeservicemenus-kanotix.git
+# kdeservicemenus-sidux start
+create repository export/fullstory.morgue/kdeservicemenus-sidux.git
 end repository
 
 match /kdeservicemenus-(kanotix|sidux)/trunk/
-	repository export/fullstory.morgue/kdeservicemenus-kanotix.git
+	repository export/fullstory.morgue/kdeservicemenus-sidux.git
 	branch master
 end match
 
 match /kdeservicemenus-(kanotix|sidux)/tags/([^/]+)/
-	repository export/fullstory.morgue/kdeservicemenus-kanotix.git
+	repository export/fullstory.morgue/kdeservicemenus-sidux.git
 	branch refs/tags/debian/\2
 	substitute branch s/~/_/
 	substitute branch s/:/%/
 end match
-# kdeservicemenus-kanotix end
+# kdeservicemenus-sidux end
 
 
 # kde-services-sidux start
