@@ -3712,6 +3712,24 @@ end match
 # sidux-server-config end
 
 
+# sidux-xdg start
+create repository export/fullstory.morgue/sidux-xdg.git
+end repository
+
+match /sidux-xdg/trunk/
+	repository export/fullstory.morgue/sidux-xdg.git
+	branch master
+end match
+
+match /sidux-xdg/tags/([^/]+)/
+	repository export/fullstory.morgue/sidux-xdg.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# sidux-xdg end
+
+
 # siduxcc start
 create repository export/fullstory.morgue/siduxcc.git
 end repository

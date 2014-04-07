@@ -208,10 +208,11 @@ to migrate them into individual git repositories.
 * sidux-icons
 * sidux-menu: kanotix-menu, sidux-menu
 * sidux-searchplugins: kanotix-searchplugins, sidux-searchplugins
+* sidux-xdg
 * siduxcc: knxcc, siduxcc
+* sitar
 * su-me: kanotix-su, su-me
 * sudoers-sidux: sudoers-kanotix, sudores-sidux, sudoers-sidux
-* sitar
 * teclasat
 
 ###Zombie
@@ -224,7 +225,6 @@ to migrate them into individual git repositories.
 * sidux-server-config
 
 ###Unsorted historic Packages (pending)
-* sidux-xdg
 * smbconf-kanotix
 * smbconf-sidux
 * splashy-theme-kanotix-penguins
