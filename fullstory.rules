@@ -2070,6 +2070,24 @@ end match
 # ksplash-theme-kanotix-penguins end
 
 
+# ksplash-theme-sidux-2006 start
+create repository export/fullstory.morgue/ksplash-theme-sidux-2006.git
+end repository
+
+match /ksplash-theme-sidux-2006/trunk/
+	repository export/fullstory.morgue/ksplash-theme-sidux-2006.git
+	branch master
+end match
+
+match /ksplash-theme-sidux-2006/tags/([^/]+)/
+	repository export/fullstory.morgue/ksplash-theme-sidux-2006.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# ksplash-theme-sidux-2006 end
+
+
 # linux-aptosid start
 create repository export/fullstory/linux-aptosid.git
 end repository
