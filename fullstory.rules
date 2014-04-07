@@ -1668,6 +1668,24 @@ end match
 # hwsetup-ng end
 
 
+# initscripts-sidux-live start
+create repository export/fullstory.morgue/initscripts-sidux-live.git
+end repository
+
+match /initscripts-(kanotix|sidux)-live/trunk/
+	repository export/fullstory.morgue/initscripts-sidux-live.git
+	branch master
+end match
+
+match /initscripts-(kanotix|sidux)-live/tags/([^/]+)/
+	repository export/fullstory.morgue/initscripts-sidux-live.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# initscripts-sidux-live end
+
+
 # infobash start
 create repository export/fullstory/infobash.git
 end repository
