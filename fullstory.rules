@@ -1848,6 +1848,24 @@ end match
 # kanotix-remountrw end
 
 
+# kanotix-sounds start
+create repository export/fullstory.zombie/kanotix-sounds.git
+end repository
+
+match /kanotix-sounds/trunk/
+	repository export/fullstory.zombie/kanotix-sounds.git
+	branch master
+end match
+
+match /kanotix-sounds/tags/([^/]+)/
+	repository export/fullstory.zombie/kanotix-sounds.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# kanotix-sounds end
+
+
 # kdeadmin start
 create repository export/fullstory.zombie/kdeadmin.git
 end repository
