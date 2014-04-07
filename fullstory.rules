@@ -1162,14 +1162,14 @@ end match
 create repository export/fullstory.morgue/gfxboot-theme-sidux.git
 end repository
 
-match /gfxboot-theme-sidux/trunk/
+match /gfxboot-theme-(sidux|sidux-old)/trunk/
 	repository export/fullstory.morgue/gfxboot-theme-sidux.git
 	branch master
 end match
 
-match /gfxboot-theme-sidux/tags/([^/]+)/
+match /gfxboot-theme-(sidux|sidux-old)/tags/([^/]+)/
 	repository export/fullstory.morgue/gfxboot-theme-sidux.git
-	branch refs/tags/debian/\1
+	branch refs/tags/debian/\2
 	substitute branch s/~/_/
 	substitute branch s/:/%/
 end match
