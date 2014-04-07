@@ -1650,6 +1650,24 @@ end match
 # hwsetup-kanotix end
 
 
+# hwsetup-ng start
+create repository export/fullstory.morgue/hwsetup-ng.git
+end repository
+
+match /hwsetup-ng/trunk/
+	repository export/fullstory.morgue/hwsetup-ng.git
+	branch master
+end match
+
+match /hwsetup-ng/tags/([^/]+)/
+	repository export/fullstory.morgue/hwsetup-ng.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# hwsetup-ng end
+
+
 # infobash start
 create repository export/fullstory/infobash.git
 end repository
