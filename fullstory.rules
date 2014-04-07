@@ -2106,6 +2106,36 @@ end match
 # ksplash-theme-sidux-preview end
 
 
+# kudzu-kanotix start
+create repository export/fullstory.morgue/kudzu-kanotix.git
+end repository
+
+match /kudzu-kanotix/trunk/
+	repository export/fullstory.morgue/kudzu-kanotix.git
+	branch master
+end match
+
+match /kudzu-kanotix/branches/upstream/current/
+	repository export/fullstory.morgue/kudzu-kanotix.git
+	branch upstream
+end match
+
+match /kudzu-kanotix/branches/upstream/([^/]+)/
+	repository export/fullstory.morgue/kudzu-kanotix.git
+	branch refs/tags/upstream/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+
+match /kudzu-kanotix/tags/([^/]+)/
+	repository export/fullstory.morgue/kudzu-kanotix.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# kudzu-kanotix end
+
+
 # linux-aptosid start
 create repository export/fullstory/linux-aptosid.git
 end repository
