@@ -149,6 +149,7 @@ to migrate them into individual git repositories.
 * pdf-printerconfig-kanotix
 * playvideodisk: playvideodisk-kanotix, playvideodisk
 * ppp-scripts: ppp-scripts-kanotix, ppp-scripts
+* print-utils-pfeifle-kanotix
 * pyfll-installer
 * qt-fll-iso2usb-gui
 * r5u870
@@ -214,7 +215,6 @@ to migrate them into individual git repositories.
 * kanotix-sounds
 * kdeadmin
 * notes.txt
-* print-utils-pfeifle-kanotix
 * server-defaults
 
 ###Unsorted historic Packages (pending)
