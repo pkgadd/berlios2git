@@ -128,6 +128,7 @@ to migrate them into individual git repositories.
 * kde-services-sidux: kde-services-kanotix, kde-services-sidux
 * kdm-theme-kanotix-penguins
 * klik
+* knx-installer: knxinstaller, knx-installer
 * lirc
 * live-terminalserver-sidux: kanotix-terminalserver, live-terminalserver-sidux
 * ndiswrapper
@@ -189,8 +190,6 @@ to migrate them into individual git repositories.
 * server-defaults
 
 ###Unsorted historic Packages (pending)
-* knx-installer
-* knxinstaller
 * ksplash-theme-kanotix-clouds
 * ksplash-theme-kanotix-penguins
 * ksplash-theme-sidux-2006

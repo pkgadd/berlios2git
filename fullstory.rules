@@ -2016,6 +2016,24 @@ end match
 # klik end
 
 
+# knx-installer start
+create repository export/fullstory.morgue/knx-installer.git
+end repository
+
+match /(knxinstaller|knx-installer)/trunk/
+	repository export/fullstory.morgue/knx-installer.git
+	branch master
+end match
+
+match /(knxinstaller|knx-installer)/tags/([^/]+)/
+	repository export/fullstory.morgue/knx-installer.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# knx-installer end
+
+
 # linux-aptosid start
 create repository export/fullstory/linux-aptosid.git
 end repository
