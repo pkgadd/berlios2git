@@ -1896,6 +1896,24 @@ end match
 # kdeadmin end
 
 
+# kdelock-kanotix start
+create repository export/fullstory.morgue/kdelock-kanotix.git
+end repository
+
+match /kdelock-kanotix/trunk/
+	repository export/fullstory.morgue/kdelock-kanotix.git
+	branch master
+end match
+
+match /kdelock-kanotix/tags/([^/]+)/
+	repository export/fullstory.morgue/kdelock-kanotix.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# kdelock-kanotix end
+
+
 # kernel-remover start
 create repository export/fullstory/kernel-remover.git
 end repository

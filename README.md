@@ -123,6 +123,7 @@ to migrate them into individual git repositories.
 * kanotix2sidux
 * kanotix-remountrw
 * kanotix-sounds
+* kdelock-kanotix
 * klik
 * lirc
 * live-terminalserver-sidux: kanotix-terminalserver, live-terminalserver-sidux
@@ -184,7 +185,6 @@ to migrate them into individual git repositories.
 * server-defaults
 
 ###Unsorted historic Packages (pending)
-* kdelock-kanotix
 * kdeservicemenus-kanotix
 * kdeservicemenus-sidux
 * kde-services-kanotix
