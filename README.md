@@ -205,6 +205,7 @@ to migrate them into individual git repositories.
 * sidux-framework
 * sidux-graphics: kanotix-graphics, sidux-graphics
 * sidux-hermes
+* sidux-icons
 * sidux-menu: kanotix-menu, sidux-menu
 * sidux-searchplugins: kanotix-searchplugins, sidux-searchplugins
 * siduxcc: knxcc, siduxcc
@@ -222,7 +223,6 @@ to migrate them into individual git repositories.
 * server-defaults
 
 ###Unsorted historic Packages (pending)
-* sidux-icons
 * sidux-server-config
 * sidux-xdg
 * smbconf-kanotix

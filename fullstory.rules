@@ -3640,6 +3640,24 @@ end match
 # sidux-hermes end
 
 
+# sidux-icons start
+create repository export/fullstory.morgue/sidux-icons.git
+end repository
+
+match /sidux-icons/trunk/
+	repository export/fullstory.morgue/sidux-icons.git
+	branch master
+end match
+
+match /sidux-icons/tags/([^/]+)/
+	repository export/fullstory.morgue/sidux-icons.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# sidux-icons end
+
+
 # sidux-menu start
 create repository export/fullstory.morgue/sidux-menu.git
 end repository
