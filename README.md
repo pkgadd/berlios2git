@@ -78,6 +78,7 @@ to migrate them into individual git repositories.
 * checkmem: checkmem-kanotix, checkmem
 * configure-dsl: kanotix-dsl, configure-dsl
 * configure-freenx: nxsetup, nxsetup-kanotix, configure-freenx
+* configure-gprs: gprsconnect-kanotix, configure-gprs
 * ddcxinfo: ddcxinfo-kanotix, ddcxinfo-sidux
 * fll-builder
 * freenx
@@ -137,7 +138,6 @@ to migrate them into individual git repositories.
 * server-defaults
 
 ###Unsorted historic Packages (pending)
-* configure-gprs
 * configure-isdn
 * configure-keyboard
 * configure-modemlink
@@ -163,7 +163,6 @@ to migrate them into individual git repositories.
 * gfxboot-theme-sidux
 * gfxboot-theme-sidux-eros
 * gfxboot-theme-sidux-old
-* gprsconnect-kanotix
 * gtf
 * hotplug-kanotix
 * hwdata-kanotix

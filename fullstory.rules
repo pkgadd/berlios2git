@@ -726,6 +726,24 @@ end match
 # configure-freenx end
 
 
+# configure-gprs start
+create repository export/fullstory.morgue/configure-gprs.git
+end repository
+
+match /(gprsconnect-kanotix|configure-gprs)/trunk/
+	repository export/fullstory.morgue/configure-gprs.git
+	branch master
+end match
+
+match /(gprsconnect-kanotix|configure-gprs)/tags/([^/]+)/
+	repository export/fullstory.morgue/configure-gprs.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# configure-gprs end
+
+
 # desktop-defaults start
 create repository export/fullstory/desktop-defaults.git
 end repository
