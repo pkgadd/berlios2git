@@ -1740,6 +1740,24 @@ end match
 # install-meta end
 
 
+# install-progressbar start
+create repository export/fullstory.morgue/install-progressbar.git
+end repository
+
+match /install-progressbar/trunk/
+	repository export/fullstory.morgue/install-progressbar.git
+	branch master
+end match
+
+match /install-progressbar/tags/([^/]+)/
+	repository export/fullstory.morgue/install-progressbar.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# install-progressbar end
+
+
 # install-usb-gui start
 create repository export/fullstory/install-usb-gui.git
 end repository
