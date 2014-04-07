@@ -3778,6 +3778,24 @@ end match
 # sitar end
 
 
+# smbconf-kanotix start
+create repository export/fullstory.morgue/smbconf-kanotix.git
+end repository
+
+match /smbconf-(kanotix|sidux)/trunk/
+	repository export/fullstory.morgue/smbconf-kanotix.git
+	branch master
+end match
+
+match /smbconf-(kanotix|sidux)/tags/([^/]+)/
+	repository export/fullstory.morgue/smbconf-kanotix.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# smbconf-kanotix end
+
+
 # sshstart start
 create repository export/fullstory/sshstart.git
 end repository
