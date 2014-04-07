@@ -1212,6 +1212,24 @@ end match
 # gfxboot-theme-sidux-old end
 
 
+# gtf start
+create repository export/fullstory.morgue/gtf.git
+end repository
+
+match /gtf/trunk/
+	repository export/fullstory.morgue/gtf.git
+	branch master
+end match
+
+match /gtf/tags/([^/]+)/
+	repository export/fullstory.morgue/gtf.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# gtf end
+
+
 # firmware-carl9170 start
 create repository export/fullstory.deprecated/firmware-carl9170.git
 end repository
