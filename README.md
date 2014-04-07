@@ -162,6 +162,7 @@ to migrate them into individual git repositories.
 * rt73-legacy
 * sambastart: sambastart-kanotix, sambastart-sidux, sambastart
 * saveconfig: saveconfig-kanotix, saveconfig
+* scanpartitions: scanpartitions-kanotix, scanpartitions
 * seminarix
 * seminarix-handbook
 * seminarix-latex
@@ -217,8 +218,6 @@ to migrate them into individual git repositories.
 * server-defaults
 
 ###Unsorted historic Packages (pending)
-* scanpartitions
-* scanpartitions-kanotix
 * sidux-binary-gfx
 * sidux-edu
 * sidux-framework

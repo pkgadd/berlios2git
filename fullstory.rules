@@ -2855,6 +2855,24 @@ end match
 # saveconfig end
 
 
+# scanpartitions start
+create repository export/fullstory.morgue/scanpartitions.git
+end repository
+
+match /(scanpartitions-kanotix|scanpartitions)/trunk/
+	repository export/fullstory.morgue/scanpartitions.git
+	branch master
+end match
+
+match /(scanpartitions-kanotix|scanpartitions)/tags/([^/]+)/
+	repository export/fullstory.morgue/scanpartitions.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# scanpartitions end
+
+
 # server-defaults start
 create repository export/fullstory.zombie/server-defaults.git
 end repository
