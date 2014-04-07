@@ -3622,6 +3622,24 @@ end match
 # sidux-graphics end
 
 
+# sidux-hermes start
+create repository export/fullstory.morgue/sidux-hermes.git
+end repository
+
+match /sidux-hermes/trunk/
+	repository export/fullstory.morgue/sidux-hermes.git
+	branch master
+end match
+
+match /sidux-hermes/tags/([^/]+)/
+	repository export/fullstory.morgue/sidux-hermes.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# sidux-hermes end
+
+
 # sidux-menu start
 create repository export/fullstory.morgue/sidux-menu.git
 end repository
