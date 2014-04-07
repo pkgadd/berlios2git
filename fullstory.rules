@@ -2419,6 +2419,42 @@ end match
 # ppp-scripts end
 
 
+# print-utils-pfeifle-kanotix start
+create repository export/fullstory.zombie/print-utils-pfeifle-kanotix.git
+end repository
+
+match /print-utils-pfeifle-kanotix/trunk/
+	repository export/fullstory.zombie/print-utils-pfeifle-kanotix.git
+	branch master
+end match
+
+match /print-utils-pfeifle-kanotix/tags/([^/]+)/
+	repository export/fullstory.zombie/print-utils-pfeifle-kanotix.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# print-utils-pfeifle-kanotix end
+
+
+# pyfll-installer start
+create repository export/fullstory.morgue/pyfll-installer.git
+end repository
+
+match /pyfll-installer/trunk/
+	repository export/fullstory.morgue/pyfll-installer.git
+	branch master
+end match
+
+match /pyfll-installer/tags/([^/]+)/
+	repository export/fullstory.morgue/pyfll-installer.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# pyfll-installer end
+
+
 # ndiswrapper start
 create repository export/fullstory.morgue/ndiswrapper.git
 end repository
