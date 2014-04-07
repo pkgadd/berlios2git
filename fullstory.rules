@@ -2711,6 +2711,36 @@ end match
 # restartx end
 
 
+# rfswitch start
+create repository export/fullstory.morgue/rfswitch.git
+end repository
+
+match /rfswitch/trunk/
+	repository export/fullstory.morgue/rfswitch.git
+	branch master
+end match
+
+match /rfswitch/branches/upstream/current/
+	repository export/fullstory.morgue/rfswitch.git
+	branch upstream
+end match
+
+match /rfswitch/branches/upstream/([^/]+)/
+	repository export/fullstory.morgue/rfswitch.git
+	branch refs/tags/upstream/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+
+match /rfswitch/tags/([^/]+)/
+	repository export/fullstory.morgue/rfswitch.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# rfswitch end
+
+
 # rt61 start
 create repository export/fullstory.morgue/rt61.git
 end repository
