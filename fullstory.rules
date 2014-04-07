@@ -1690,7 +1690,7 @@ end match
 create repository export/fullstory/infobash.git
 end repository
 
-match /(fll-builder/branches/infobash|infobash/trunk)/
+match /infobash/trunk/
 	repository export/fullstory/infobash.git
 	branch master
 end match
@@ -1726,7 +1726,7 @@ end match
 create repository export/fullstory.morgue/install-meta.git
 end repository
 
-match /(fll-builder/branches/install-meta|install-meta/trunk)/
+match /install-meta/trunk/
 	repository export/fullstory.morgue/install-meta.git
 	branch master
 end match
