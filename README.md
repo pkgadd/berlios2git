@@ -156,6 +156,8 @@ to migrate them into individual git repositories.
 * rebuildfstab: rebuildfstab-kanotix, rebuildfstab-sidux, rebuildfstab
 * restartx: restartx-kanotix, restartx
 * rfswitch
+* rootshell
+* rootshell-kanotix
 * rt61
 * rt73-legacy
 * seminarix
@@ -213,8 +215,6 @@ to migrate them into individual git repositories.
 * server-defaults
 
 ###Unsorted historic Packages (pending)
-* rootshell
-* rootshell-kanotix
 * sambastart
 * sambastart-kanotix
 * sambastart-sidux

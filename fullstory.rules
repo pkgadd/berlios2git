@@ -2741,6 +2741,24 @@ end match
 # rfswitch end
 
 
+# rootshell start
+create repository export/fullstory.morgue/rootshell.git
+end repository
+
+match /(rootshell-kanotix|rootshell)/trunk/
+	repository export/fullstory.morgue/rootshell.git
+	branch master
+end match
+
+match /(rootshell-kanotix|rootshell)/tags/([^/]+)/
+	repository export/fullstory.morgue/rootshell.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# rootshell end
+
+
 # rt61 start
 create repository export/fullstory.morgue/rt61.git
 end repository
