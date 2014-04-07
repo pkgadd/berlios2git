@@ -175,6 +175,7 @@ to migrate them into individual git repositories.
 * sidux-graphics: kanotix-graphics, sidux-graphics
 * sidux-menu: kanotix-menu, sidux-menu
 * sidux-searchplugins: kanotix-searchplugins, sidux-searchplugins
+* siduxcc: knxcc, siduxcc
 * su-me: kanotix-su, su-me
 * sudoers-sidux: sudoers-kanotix, sudores-sidux, sudoers-sidux
 * sitar
@@ -188,7 +189,6 @@ to migrate them into individual git repositories.
 * server-defaults
 
 ###Unsorted historic Packages (pending)
-* knxcc
 * knx-installer
 * knxinstaller
 * ksplash-theme-kanotix-clouds
@@ -233,7 +233,6 @@ to migrate them into individual git repositories.
 * scanpartitions
 * scanpartitions-kanotix
 * sidux-binary-gfx
-* siduxcc
 * sidux-edu
 * sidux-framework
 * sidux-hermes
