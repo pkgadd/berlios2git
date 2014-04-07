@@ -220,6 +220,7 @@ to migrate them into individual git repositories.
 * teclasat
 * ttf-sidux
 * usleep-kanotix
+* vdr-gui
 
 ###Zombie
 * fonts-ttf-decoratives
@@ -231,7 +232,6 @@ to migrate them into individual git repositories.
 * sidux-server-config
 
 ###Unsorted historic Packages (pending)
-* vdr-gui
 * xf86config-kanotix
 * xf86config-sidux
 * xorgconfig

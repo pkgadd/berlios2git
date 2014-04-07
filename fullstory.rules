@@ -3988,6 +3988,24 @@ end match
 # usleep-kanotix end
 
 
+# vdr-gui start
+create repository export/fullstory.morgue/vdr-gui.git
+end repository
+
+match /vdr-gui/trunk/
+	repository export/fullstory.morgue/vdr-gui.git
+	branch master
+end match
+
+match /vdr-gui/tags/([^/]+)/
+	repository export/fullstory.morgue/vdr-gui.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# vdr-gui end
+
+
 # xdg-browser start
 create repository export/fullstory/xdg-browser.git
 end repository
