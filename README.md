@@ -152,6 +152,7 @@ to migrate them into individual git repositories.
 * pyfll-installer
 * qt-fll-iso2usb-gui
 * r5u870
+* ralink-fwcutter
 * rt61
 * rt73-legacy
 * seminarix
@@ -209,7 +210,6 @@ to migrate them into individual git repositories.
 * server-defaults
 
 ###Unsorted historic Packages (pending)
-* ralink-fwcutter
 * rebuildfstab
 * rebuildfstab-kanotix
 * rebuildfstab-sidux

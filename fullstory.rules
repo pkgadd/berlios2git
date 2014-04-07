@@ -2657,6 +2657,24 @@ end match
 # r5u870 end
 
 
+# ralink-fwcutter start
+create repository export/fullstory.morgue/ralink-fwcutter.git
+end repository
+
+match /ralink-fwcutter/trunk/
+	repository export/fullstory.morgue/ralink-fwcutter.git
+	branch master
+end match
+
+match /ralink-fwcutter/tags/([^/]+)/
+	repository export/fullstory.morgue/ralink-fwcutter.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# ralink-fwcutter end
+
+
 # rt61 start
 create repository export/fullstory.morgue/rt61.git
 end repository
