@@ -219,6 +219,7 @@ to migrate them into individual git repositories.
 * sysv-freeze
 * teclasat
 * ttf-sidux
+* usleep-kanotix
 
 ###Zombie
 * fonts-ttf-decoratives
@@ -230,7 +231,6 @@ to migrate them into individual git repositories.
 * sidux-server-config
 
 ###Unsorted historic Packages (pending)
-* usleep-kanotix
 * vdr-gui
 * xf86config-kanotix
 * xf86config-sidux

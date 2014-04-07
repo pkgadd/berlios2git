@@ -3970,6 +3970,24 @@ end match
 # udev-config-aptosid end
 
 
+# usleep-kanotix start
+create repository export/fullstory.morgue/usleep-kanotix.git
+end repository
+
+match /usleep-kanotix/trunk/
+	repository export/fullstory.morgue/usleep-kanotix.git
+	branch master
+end match
+
+match /usleep-kanotix/tags/([^/]+)/
+	repository export/fullstory.morgue/usleep-kanotix.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# usleep-kanotix end
+
+
 # xdg-browser start
 create repository export/fullstory/xdg-browser.git
 end repository
