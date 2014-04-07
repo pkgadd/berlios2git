@@ -2191,6 +2191,24 @@ end match
 # linux-aptosid end
 
 
+# linux-modules-sidux-main-2.6 start
+create repository export/fullstory.morgue/linux-modules-sidux-main-2.6.git
+end repository
+
+match /linux-modules-(extra|sidux-main)-2.6/trunk/
+	repository export/fullstory.morgue/linux-modules-sidux-main-2.6.git
+	branch master
+end match
+
+match /linux-modules-(extra|sidux-main)-2.6/tags/([^/]+)/
+	repository export/fullstory.morgue/linux-modules-sidux-main-2.6.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# linux-modules-sidux-main-2.6 end
+
+
 # lirc start
 create repository export/fullstory.morgue/lirc.git
 end repository
