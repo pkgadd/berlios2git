@@ -708,6 +708,24 @@ end match
 # configure-dsl end
 
 
+# configure-freenx start
+create repository export/fullstory.morgue/configure-freenx.git
+end repository
+
+match /(nxsetup|nxsetup-kanotix|configure-freenx)/trunk/
+	repository export/fullstory.morgue/configure-freenx.git
+	branch master
+end match
+
+match /(nxsetup|nxsetup-kanotix|configure-freenx)/tags/([^/]+)/
+	repository export/fullstory.morgue/configure-freenx.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# configure-freenx end
+
+
 # desktop-defaults start
 create repository export/fullstory/desktop-defaults.git
 end repository

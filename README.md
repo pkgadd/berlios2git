@@ -75,6 +75,7 @@ to migrate them into individual git repositories.
 * btsco
 * checkmem: checkmem-kanotix, checkmem
 * configure-dsl: kanotix-dsl, configure-dsl
+* configure-freenx: nxsetup, nxsetup-kanotix, configure-freenx
 * ddcxinfo: ddcxinfo-kanotix, ddcxinfo-sidux
 * fll-builder
 * freenx
@@ -134,7 +135,6 @@ to migrate them into individual git repositories.
 * server-defaults
 
 ###Unsorted historic Packages (pending)
-* configure-freenx
 * configure-gprs
 * configure-isdn
 * configure-keyboard
@@ -216,8 +216,6 @@ to migrate them into individual git repositories.
 * netcardconfig-kanotix
 * networkconfig-kanotix
 * networkconfig-sidux
-* nxsetup
-* nxsetup-kanotix
 * pdf-printerconfig-kanotix
 * playvideodisk
 * playvideodisk-kanotix
