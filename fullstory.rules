@@ -1932,6 +1932,24 @@ end match
 # kdeservicemenus-kanotix end
 
 
+# kde-services-sidux start
+create repository export/fullstory.morgue/kde-services-sidux.git
+end repository
+
+match /kde-services-(kanotix|sidux)/trunk/
+	repository export/fullstory.morgue/kde-services-sidux.git
+	branch master
+end match
+
+match /kde-services-(kanotix|sidux)/tags/([^/]+)/
+	repository export/fullstory.morgue/kde-services-sidux.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# kde-services-sidux end
+
+
 # kernel-remover start
 create repository export/fullstory/kernel-remover.git
 end repository
