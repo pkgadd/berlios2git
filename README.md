@@ -154,6 +154,7 @@ to migrate them into individual git repositories.
 * r5u870
 * ralink-fwcutter
 * rebuildfstab: rebuildfstab-kanotix, rebuildfstab-sidux, rebuildfstab
+* restartx: restartx-kanotix, restartx
 * rt61
 * rt73-legacy
 * seminarix
@@ -211,8 +212,6 @@ to migrate them into individual git repositories.
 * server-defaults
 
 ###Unsorted historic Packages (pending)
-* restartx
-* restartx-kanotix
 * rfswitch
 * rootshell
 * rootshell-kanotix

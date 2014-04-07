@@ -2693,6 +2693,24 @@ end match
 # rebuildfstab end
 
 
+# restartx start
+create repository export/fullstory.morgue/restartx.git
+end repository
+
+match /(restartx-kanotix|restartx)/trunk/
+	repository export/fullstory.morgue/restartx.git
+	branch master
+end match
+
+match /(restartx-kanotix|restartx)/tags/([^/]+)/
+	repository export/fullstory.morgue/restartx.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# restartx end
+
+
 # rt61 start
 create repository export/fullstory.morgue/rt61.git
 end repository
