@@ -1176,6 +1176,24 @@ end match
 # gfxboot-theme-sidux end
 
 
+# gfxboot-theme-sidux-eros start
+create repository export/fullstory.morgue/gfxboot-theme-sidux-eros.git
+end repository
+
+match /gfxboot-theme-sidux-eros/trunk/
+	repository export/fullstory.morgue/gfxboot-theme-sidux-eros.git
+	branch master
+end match
+
+match /gfxboot-theme-sidux-eros/tags/([^/]+)/
+	repository export/fullstory.morgue/gfxboot-theme-sidux-eros.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# gfxboot-theme-sidux-eros end
+
+
 # firmware-carl9170 start
 create repository export/fullstory.deprecated/firmware-carl9170.git
 end repository

@@ -107,6 +107,7 @@ to migrate them into individual git repositories.
 * gdm-themes-sidux
 * gfxboot
 * gfxboot-theme-sidux
+* gfxboot-theme-sidux-eros
 * grub-gfxboot
 * klik
 * lirc
@@ -165,7 +166,6 @@ to migrate them into individual git repositories.
 * server-defaults
 
 ###Unsorted historic Packages (pending)
-* gfxboot-theme-sidux-eros
 * gfxboot-theme-sidux-old
 * gtf
 * hotplug-kanotix
