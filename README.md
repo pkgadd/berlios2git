@@ -79,6 +79,7 @@ to migrate them into individual git repositories.
 * configure-dsl: kanotix-dsl, configure-dsl
 * configure-freenx: nxsetup, nxsetup-kanotix, configure-freenx
 * configure-gprs: gprsconnect-kanotix, configure-gprs
+* configure-isdn: kanotix-isdn, configure-isdn
 * ddcxinfo: ddcxinfo-kanotix, ddcxinfo-sidux
 * fll-builder
 * freenx
@@ -138,7 +139,6 @@ to migrate them into individual git repositories.
 * server-defaults
 
 ###Unsorted historic Packages (pending)
-* configure-isdn
 * configure-keyboard
 * configure-modemlink
 * configure-mouse
@@ -176,7 +176,6 @@ to migrate them into individual git repositories.
 * kanet
 * kanotix2sidux
 * kanotix-graphics
-* kanotix-isdn
 * kanotix-menu
 * kanotix-ndiswrapper
 * kanotix-remountrw

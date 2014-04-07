@@ -744,6 +744,24 @@ end match
 # configure-gprs end
 
 
+# configure-isdn start
+create repository export/fullstory.morgue/configure-isdn.git
+end repository
+
+match /(kanotix-isdn|configure-isdn)/trunk/
+	repository export/fullstory.morgue/configure-isdn.git
+	branch master
+end match
+
+match /(kanotix-isdn|configure-isdn)/tags/([^/]+)/
+	repository export/fullstory.morgue/configure-isdn.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# configure-isdn end
+
+
 # desktop-defaults start
 create repository export/fullstory/desktop-defaults.git
 end repository
