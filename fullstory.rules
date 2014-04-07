@@ -2365,6 +2365,24 @@ end match
 # mkpersistenthome end
 
 
+# pdf-printerconfig-kanotix start
+create repository export/fullstory.morgue/pdf-printerconfig-kanotix.git
+end repository
+
+match /pdf-printerconfig-kanotix/trunk/
+	repository export/fullstory.morgue/pdf-printerconfig-kanotix.git
+	branch master
+end match
+
+match /pdf-printerconfig-kanotix/tags/([^/]+)/
+	repository export/fullstory.morgue/pdf-printerconfig-kanotix.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# pdf-printerconfig-kanotix end
+
+
 # ndiswrapper start
 create repository export/fullstory.morgue/ndiswrapper.git
 end repository

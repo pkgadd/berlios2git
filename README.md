@@ -146,6 +146,7 @@ to migrate them into individual git repositories.
 * ndiswrapper
 * networkconfig-sidux: networkconfig-kanotix, networkconfig-sidux
 * omnibook
+* pdf-printerconfig-kanotix
 * r5u870
 * rt61
 * rt73-legacy
@@ -203,7 +204,6 @@ to migrate them into individual git repositories.
 * server-defaults
 
 ###Unsorted historic Packages (pending)
-* pdf-printerconfig-kanotix
 * playvideodisk
 * playvideodisk-kanotix
 * ppp-scripts
