@@ -118,6 +118,7 @@ to migrate them into individual git repositories.
 * initscripts-sidux-live: initscripts-kanotix-live, initscripts-sidux-live
 * install-meta
 * install-progressbar
+* k3b-defaults-kanotix
 * klik
 * lirc
 * ndiswrapper
@@ -175,7 +176,6 @@ to migrate them into individual git repositories.
 * server-defaults
 
 ###Unsorted historic Packages (pending)
-* k3b-defaults-kanotix
 * kanet
 * kanotix2sidux
 * kanotix-graphics

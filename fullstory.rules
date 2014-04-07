@@ -1776,6 +1776,24 @@ end match
 # install-usb-gui end
 
 
+# k3b-defaults-kanotix start
+create repository export/fullstory.morgue/k3b-defaults-kanotix.git
+end repository
+
+match /k3b-defaults-kanotix/trunk/
+	repository export/fullstory.morgue/k3b-defaults-kanotix.git
+	branch master
+end match
+
+match /k3b-defaults-kanotix/tags/([^/]+)/
+	repository export/fullstory.morgue/k3b-defaults-kanotix.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# k3b-defaults-kanotix end
+
+
 # kdeadmin start
 create repository export/fullstory.zombie/kdeadmin.git
 end repository
