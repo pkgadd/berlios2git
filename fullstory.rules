@@ -3586,6 +3586,24 @@ end match
 # sidux-edu end
 
 
+# sidux-framework start
+create repository export/fullstory.morgue/sidux-framework.git
+end repository
+
+match /sidux-framework/trunk/
+	repository export/fullstory.morgue/sidux-framework.git
+	branch master
+end match
+
+match /sidux-framework/tags/([^/]+)/
+	repository export/fullstory.morgue/sidux-framework.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# sidux-framework end
+
+
 # sidux-graphics start
 create repository export/fullstory.morgue/sidux-graphics.git
 end repository
