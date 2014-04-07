@@ -131,6 +131,7 @@ to migrate them into individual git repositories.
 * ksplash-theme-kanotix-clouds
 * ksplash-theme-kanotix-penguins
 * ksplash-theme-sidux-2006
+* ksplash-theme-sidux-preview
 * lirc
 * live-terminalserver-sidux: kanotix-terminalserver, live-terminalserver-sidux
 * ndiswrapper
@@ -193,7 +194,6 @@ to migrate them into individual git repositories.
 * server-defaults
 
 ###Unsorted historic Packages (pending)
-* ksplash-theme-sidux-preview
 * kudzu-kanotix
 * libconfig-source-perl
 * linux-modules-extra-2.6
