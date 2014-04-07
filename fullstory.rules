@@ -996,6 +996,24 @@ end match
 # dvb-detect end
 
 
+# eduversum start
+create repository export/fullstory.morgue/eduversum.git
+end repository
+
+match /eduversum/trunk/
+	repository export/fullstory.morgue/eduversum.git
+	branch master
+end match
+
+match /eduversum/tags/([^/]+)/
+	repository export/fullstory.morgue/eduversum.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# eduversum end
+
+
 # firmware-carl9170 start
 create repository export/fullstory.deprecated/firmware-carl9170.git
 end repository

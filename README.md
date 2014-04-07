@@ -91,6 +91,7 @@ to migrate them into individual git repositories.
 * ddcxinfo: ddcxinfo-kanotix, ddcxinfo-sidux
 * distro-defaults
 * dvb-detect
+* eduversum
 * fll-builder
 * freenx
 * fsam7400
@@ -155,7 +156,6 @@ to migrate them into individual git repositories.
 * server-defaults
 
 ###Unsorted historic Packages (pending)
-* eduversum
 * eduversum-howto
 * etcskel-kanotix
 * etcskel-sidux
