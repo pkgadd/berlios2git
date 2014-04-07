@@ -3568,6 +3568,24 @@ end match
 # sidux-binary-gfx end
 
 
+# sidux-edu start
+create repository export/fullstory.morgue/sidux-edu.git
+end repository
+
+match /sidux-edu/trunk/
+	repository export/fullstory.morgue/sidux-edu.git
+	branch master
+end match
+
+match /sidux-edu/tags/([^/]+)/
+	repository export/fullstory.morgue/sidux-edu.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# sidux-edu end
+
+
 # sidux-graphics start
 create repository export/fullstory.morgue/sidux-graphics.git
 end repository

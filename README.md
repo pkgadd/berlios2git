@@ -200,6 +200,8 @@ to migrate them into individual git repositories.
 * sidux-art-website
 * sidux-artwork-competition
 * sidux-art-xfce
+* sidux-binary-gfx
+* sidux-edu
 * sidux-graphics: kanotix-graphics, sidux-graphics
 * sidux-menu: kanotix-menu, sidux-menu
 * sidux-searchplugins: kanotix-searchplugins, sidux-searchplugins
@@ -218,8 +220,6 @@ to migrate them into individual git repositories.
 * server-defaults
 
 ###Unsorted historic Packages (pending)
-* sidux-binary-gfx
-* sidux-edu
 * sidux-framework
 * sidux-hermes
 * sidux-icons
