@@ -122,7 +122,6 @@ to migrate them into individual git repositories.
 * kanet
 * kanotix2sidux
 * kanotix-remountrw
-* kanotix-sounds
 * kdelock-kanotix
 * kdeservicemenus-sidux: kdeservicemenus-kanotix, kdeservicemenus-sidux
 * kde-services-sidux: kde-services-kanotix, kde-services-sidux
@@ -185,6 +184,7 @@ to migrate them into individual git repositories.
 ###Zombie
 * fonts-ttf-decoratives
 * fonts-ttf-west-european
+* kanotix-sounds
 * kdeadmin
 * notes.txt
 * server-defaults
