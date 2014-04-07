@@ -1914,6 +1914,24 @@ end match
 # kdelock-kanotix end
 
 
+# kdeservicemenus-kanotix start
+create repository export/fullstory.morgue/kdeservicemenus-kanotix.git
+end repository
+
+match /kdeservicemenus-(kanotix|sidux)/trunk/
+	repository export/fullstory.morgue/kdeservicemenus-kanotix.git
+	branch master
+end match
+
+match /kdeservicemenus-(kanotix|sidux)/tags/([^/]+)/
+	repository export/fullstory.morgue/kdeservicemenus-kanotix.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# kdeservicemenus-kanotix end
+
+
 # kernel-remover start
 create repository export/fullstory/kernel-remover.git
 end repository
