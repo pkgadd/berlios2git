@@ -3832,6 +3832,24 @@ end match
 # sshstart end
 
 
+# startsyslog start
+create repository export/fullstory.morgue/startsyslog.git
+end repository
+
+match /(startsyslog-kanotix|startsyslog-sidux|startsyslog)/trunk/
+	repository export/fullstory.morgue/startsyslog.git
+	branch master
+end match
+
+match /(startsyslog-kanotix|startsyslog-sidux|startsyslog)/tags/([^/]+)/
+	repository export/fullstory.morgue/startsyslog.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# startsyslog end
+
+
 # su-me start
 create repository export/fullstory.morgue/su-me.git
 end repository
