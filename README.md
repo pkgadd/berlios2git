@@ -221,9 +221,9 @@ to migrate them into individual git repositories.
 * kdeadmin
 * notes.txt
 * server-defaults
+* sidux-server-config
 
 ###Unsorted historic Packages (pending)
-* sidux-server-config
 * sidux-xdg
 * smbconf-kanotix
 * smbconf-sidux

@@ -3694,6 +3694,24 @@ end match
 # sidux-searchplugins end
 
 
+# sidux-server-config start
+create repository export/fullstory.zombie/sidux-server-config.git
+end repository
+
+match /sidux-server-config/trunk/
+	repository export/fullstory.zombie/sidux-server-config.git
+	branch master
+end match
+
+match /sidux-server-config/tags/([^/]+)/
+	repository export/fullstory.zombie/sidux-server-config.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# sidux-server-config end
+
+
 # siduxcc start
 create repository export/fullstory.morgue/siduxcc.git
 end repository
