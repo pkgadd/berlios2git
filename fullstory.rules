@@ -2275,6 +2275,24 @@ end match
 # live-terminalserver-sidux end
 
 
+# liveusb-creator start
+create repository export/fullstory.morgue/liveusb-creator.git
+end repository
+
+match /liveusb-creator/trunk/
+	repository export/fullstory.morgue/liveusb-creator.git
+	branch master
+end match
+
+match /liveusb-creator/tags/([^/]+)/
+	repository export/fullstory.morgue/liveusb-creator.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# liveusb-creator end
+
+
 # ndiswrapper start
 create repository export/fullstory.morgue/ndiswrapper.git
 end repository

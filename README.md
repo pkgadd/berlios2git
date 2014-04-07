@@ -138,6 +138,7 @@ to migrate them into individual git repositories.
 * lirc
 * live-initrd-sidux: live-initrd-kanotix, live-initrd-sidux
 * live-terminalserver-sidux: kanotix-terminalserver, live-terminalserver-sidux
+* liveusb-creator
 * ndiswrapper
 * networkconfig-sidux: networkconfig-kanotix, networkconfig-sidux
 * omnibook
@@ -198,7 +199,6 @@ to migrate them into individual git repositories.
 * server-defaults
 
 ###Unsorted historic Packages (pending)
-* liveusb-creator
 * ltmodem-detect
 * mkdesktophdicons-kanotix
 * mkdosswapfile
