@@ -2239,6 +2239,24 @@ end match
 # lirc end
 
 
+# live-initrd-sidux start
+create repository export/fullstory.morgue/live-initrd-sidux.git
+end repository
+
+match /live-initrd-(kanotix|sidux)/trunk/
+	repository export/fullstory.morgue/live-initrd-sidux.git
+	branch master
+end match
+
+match /live-initrd-(kanotix|sidux)/tags/([^/]+)/
+	repository export/fullstory.morgue/live-initrd-sidux.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# live-initrd-sidux end
+
+
 # live-terminalserver-sidux start
 create repository export/fullstory.morgue/live-terminalserver-sidux.git
 end repository

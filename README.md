@@ -136,6 +136,7 @@ to migrate them into individual git repositories.
 * libconfig-source-perl
 * linux-modules-sidux-main-2.6: linux-modules-extra-2.6, linux-modules-sidux-main-2.6
 * lirc
+* live-initrd-sidux: live-initrd-kanotix, live-initrd-sidux
 * live-terminalserver-sidux: kanotix-terminalserver, live-terminalserver-sidux
 * ndiswrapper
 * networkconfig-sidux: networkconfig-kanotix, networkconfig-sidux
@@ -197,8 +198,6 @@ to migrate them into individual git repositories.
 * server-defaults
 
 ###Unsorted historic Packages (pending)
-* live-initrd-kanotix
-* live-initrd-sidux
 * liveusb-creator
 * ltmodem-detect
 * mkdesktophdicons-kanotix
