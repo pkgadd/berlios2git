@@ -124,6 +124,7 @@ to migrate them into individual git repositories.
 * klik
 * lirc
 * ndiswrapper
+* networkconfig-sidux: networkconfig-kanotix, networkconfig-sidux
 * omnibook
 * r5u870
 * rt61
@@ -165,7 +166,7 @@ to migrate them into individual git repositories.
 * sidux-artwork-competition
 * sidux-art-xfce
 * sidux-graphics: kanotix-graphics, sidux-graphics
-* networkconfig-sidux: networkconfig-kanotix, networkconfig-sidux
+* sidux-menu: kanotix-menu, sidux-menu
 * su-me: kanotix-su, su-me
 * sudoers-sidux: sudoers-kanotix, sudores-sidux, sudoers-sidux
 * sitar
@@ -179,7 +180,6 @@ to migrate them into individual git repositories.
 * server-defaults
 
 ###Unsorted historic Packages (pending)
-* kanotix-menu
 * kanotix-remountrw
 * kanotix-searchplugins
 * kanotix-sounds
@@ -241,7 +241,6 @@ to migrate them into individual git repositories.
 * sidux-framework
 * sidux-hermes
 * sidux-icons
-* sidux-menu
 * sidux-searchplugins
 * sidux-server-config
 * sidux-xdg
