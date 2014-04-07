@@ -119,6 +119,7 @@ to migrate them into individual git repositories.
 * install-meta
 * install-progressbar
 * k3b-defaults-kanotix
+* kanet
 * klik
 * lirc
 * ndiswrapper
@@ -176,7 +177,6 @@ to migrate them into individual git repositories.
 * server-defaults
 
 ###Unsorted historic Packages (pending)
-* kanet
 * kanotix2sidux
 * kanotix-graphics
 * kanotix-menu

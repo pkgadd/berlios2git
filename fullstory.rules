@@ -1794,6 +1794,24 @@ end match
 # k3b-defaults-kanotix end
 
 
+# kanet start
+create repository export/fullstory.morgue/kanet.git
+end repository
+
+match /kanet/trunk/
+	repository export/fullstory.morgue/kanet.git
+	branch master
+end match
+
+match /kanet/tags/([^/]+)/
+	repository export/fullstory.morgue/kanet.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# kanet end
+
+
 # kdeadmin start
 create repository export/fullstory.zombie/kdeadmin.git
 end repository
