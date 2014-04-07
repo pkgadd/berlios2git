@@ -2136,6 +2136,36 @@ end match
 # kudzu-kanotix end
 
 
+# libconfig-source-perl start
+create repository export/fullstory.morgue/libconfig-source-perl.git
+end repository
+
+match /libconfig-source-perl/trunk/
+	repository export/fullstory.morgue/libconfig-source-perl.git
+	branch master
+end match
+
+match /libconfig-source-perl/branches/upstream/current/
+	repository export/fullstory.morgue/libconfig-source-perl.git
+	branch upstream
+end match
+
+match /libconfig-source-perl/branches/upstream/([^/]+)/
+	repository export/fullstory.morgue/libconfig-source-perl.git
+	branch refs/tags/upstream/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+
+match /libconfig-source-perl/tags/([^/]+)/
+	repository export/fullstory.morgue/libconfig-source-perl.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# libconfig-source-perl end
+
+
 # linux-aptosid start
 create repository export/fullstory/linux-aptosid.git
 end repository
