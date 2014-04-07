@@ -125,6 +125,7 @@ to migrate them into individual git repositories.
 * kanotix-sounds
 * klik
 * lirc
+* live-terminalserver-sidux: kanotix-terminalserver, live-terminalserver-sidux
 * ndiswrapper
 * networkconfig-sidux: networkconfig-kanotix, networkconfig-sidux
 * omnibook
@@ -183,7 +184,6 @@ to migrate them into individual git repositories.
 * server-defaults
 
 ###Unsorted historic Packages (pending)
-* kanotix-terminalserver
 * kdelock-kanotix
 * kdeservicemenus-kanotix
 * kdeservicemenus-sidux
@@ -203,7 +203,6 @@ to migrate them into individual git repositories.
 * linux-modules-sidux-main-2.6
 * live-initrd-kanotix
 * live-initrd-sidux
-* live-terminalserver-sidux
 * liveusb-creator
 * ltmodem-detect
 * mkdesktophdicons-kanotix

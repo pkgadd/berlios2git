@@ -1999,6 +1999,24 @@ end match
 # lirc end
 
 
+# live-terminalserver-sidux start
+create repository export/fullstory.morgue/live-terminalserver-sidux.git
+end repository
+
+match /(kanotix-terminalserver|live-terminalserver-sidux)/trunk/
+	repository export/fullstory.morgue/live-terminalserver-sidux.git
+	branch master
+end match
+
+match /(kanotix-terminalserver|live-terminalserver-sidux)/tags/([^/]+)/
+	repository export/fullstory.morgue/live-terminalserver-sidux.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# live-terminalserver-sidux end
+
+
 # ndiswrapper start
 create repository export/fullstory.morgue/ndiswrapper.git
 end repository
