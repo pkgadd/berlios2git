@@ -2675,6 +2675,24 @@ end match
 # ralink-fwcutter end
 
 
+# rebuildfstab start
+create repository export/fullstory.morgue/rebuildfstab.git
+end repository
+
+match /(rebuildfstab-kanotix|rebuildfstab-sidux|rebuildfstab)/trunk/
+	repository export/fullstory.morgue/rebuildfstab.git
+	branch master
+end match
+
+match /(rebuildfstab-kanotix|rebuildfstab-sidux|rebuildfstab)/tags/([^/]+)/
+	repository export/fullstory.morgue/rebuildfstab.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# rebuildfstab end
+
+
 # rt61 start
 create repository export/fullstory.morgue/rt61.git
 end repository
