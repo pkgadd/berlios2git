@@ -2329,6 +2329,24 @@ end match
 # mkdesktophdicons-kanotix end
 
 
+# mkdosswapfile start
+create repository export/fullstory.morgue/mkdosswapfile.git
+end repository
+
+match /(mkdosswapfile-kanotix|mkdosswapfile)/trunk/
+	repository export/fullstory.morgue/mkdosswapfile.git
+	branch master
+end match
+
+match /(mkdosswapfile-kanotix|mkdosswapfile)/tags/([^/]+)/
+	repository export/fullstory.morgue/mkdosswapfile.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# mkdosswapfile end
+
+
 # ndiswrapper start
 create repository export/fullstory.morgue/ndiswrapper.git
 end repository
