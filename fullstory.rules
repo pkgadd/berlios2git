@@ -2383,6 +2383,24 @@ end match
 # pdf-printerconfig-kanotix end
 
 
+# playvideodisk start
+create repository export/fullstory.morgue/playvideodisk.git
+end repository
+
+match /(playvideodisk-kanotix|playvideodisk)/trunk/
+	repository export/fullstory.morgue/playvideodisk.git
+	branch master
+end match
+
+match /(playvideodisk-kanotix|playvideodisk)/tags/([^/]+)/
+	repository export/fullstory.morgue/playvideodisk.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# playvideodisk end
+
+
 # ndiswrapper start
 create repository export/fullstory.morgue/ndiswrapper.git
 end repository
