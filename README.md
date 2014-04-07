@@ -218,6 +218,7 @@ to migrate them into individual git repositories.
 * sudoers-sidux: sudoers-kanotix, sudores-sidux, sudoers-sidux
 * sysv-freeze
 * teclasat
+* ttf-sidux
 
 ###Zombie
 * fonts-ttf-decoratives
@@ -229,7 +230,6 @@ to migrate them into individual git repositories.
 * sidux-server-config
 
 ###Unsorted historic Packages (pending)
-* ttf-sidux
 * usleep-kanotix
 * vdr-gui
 * xf86config-kanotix

@@ -3934,6 +3934,24 @@ end match
 # teclasat end
 
 
+# ttf-sidux start
+create repository export/fullstory.morgue/ttf-sidux.git
+end repository
+
+match /ttf-sidux/trunk/
+	repository export/fullstory.morgue/ttf-sidux.git
+	branch master
+end match
+
+match /ttf-sidux/tags/([^/]+)/
+	repository export/fullstory.morgue/ttf-sidux.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# ttf-sidux end
+
+
 # udev-config-aptosid start
 create repository export/fullstory/udev-config-aptosid.git
 end repository
