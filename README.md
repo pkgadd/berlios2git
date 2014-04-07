@@ -92,6 +92,7 @@ to migrate them into individual git repositories.
 * distro-defaults
 * dvb-detect
 * eduversum
+* eduversum-howto
 * fll-builder
 * freenx
 * fsam7400
@@ -156,7 +157,6 @@ to migrate them into individual git repositories.
 * server-defaults
 
 ###Unsorted historic Packages (pending)
-* eduversum-howto
 * etcskel-kanotix
 * etcskel-sidux
 * firewall-kanotix

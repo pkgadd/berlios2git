@@ -1014,6 +1014,24 @@ end match
 # eduversum end
 
 
+# eduversum-howto start
+create repository export/fullstory.morgue/eduversum-howto.git
+end repository
+
+match /eduversum-howto/trunk/
+	repository export/fullstory.morgue/eduversum-howto.git
+	branch master
+end match
+
+match /eduversum-howto/tags/([^/]+)/
+	repository export/fullstory.morgue/eduversum-howto.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# eduversum-howto end
+
+
 # firmware-carl9170 start
 create repository export/fullstory.deprecated/firmware-carl9170.git
 end repository
