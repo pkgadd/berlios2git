@@ -221,6 +221,7 @@ to migrate them into individual git repositories.
 * ttf-sidux
 * usleep-kanotix
 * vdr-gui
+* xorgconfig: xf86config-kanotix, xf86config-sidux, xorgconfig-sidux, xorgconfig
 
 ###Zombie
 * fonts-ttf-decoratives
@@ -232,10 +233,6 @@ to migrate them into individual git repositories.
 * sidux-server-config
 
 ###Unsorted historic Packages (pending)
-* xf86config-kanotix
-* xf86config-sidux
-* xorgconfig
-* xorgconfig-sidux
 * xsession-initscript-kanotix
 * xsession-initscript-sidux
 * xsession-kanotix

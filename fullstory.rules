@@ -4024,6 +4024,24 @@ end match
 # xdg-browser end
 
 
+# xorgconfig start
+create repository export/fullstory.morgue/xorgconfig.git
+end repository
+
+match /(xf86config-kanotix|xf86config-sidux|xorgconfig-sidux|xorgconfig)/trunk/
+	repository export/fullstory.morgue/xorgconfig.git
+	branch master
+end match
+
+match /(xf86config-kanotix|xf86config-sidux|xorgconfig-sidux|xorgconfig)/tags/([^/]+)/
+	repository export/fullstory.morgue/xorgconfig.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# xorgconfig end
+
+
 # Ignore notes.txt
 match /notes.txt
 end match
