@@ -150,6 +150,7 @@ to migrate them into individual git repositories.
 * playvideodisk: playvideodisk-kanotix, playvideodisk
 * ppp-scripts: ppp-scripts-kanotix, ppp-scripts
 * pyfll-installer
+* qt-fll-iso2usb-gui
 * r5u870
 * rt61
 * rt73-legacy
@@ -208,7 +209,6 @@ to migrate them into individual git repositories.
 * server-defaults
 
 ###Unsorted historic Packages (pending)
-* qt-fll-iso2usb-gui
 * ralink-fwcutter
 * rebuildfstab
 * rebuildfstab-kanotix

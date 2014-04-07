@@ -2365,96 +2365,6 @@ end match
 # mkpersistenthome end
 
 
-# pdf-printerconfig-kanotix start
-create repository export/fullstory.morgue/pdf-printerconfig-kanotix.git
-end repository
-
-match /pdf-printerconfig-kanotix/trunk/
-	repository export/fullstory.morgue/pdf-printerconfig-kanotix.git
-	branch master
-end match
-
-match /pdf-printerconfig-kanotix/tags/([^/]+)/
-	repository export/fullstory.morgue/pdf-printerconfig-kanotix.git
-	branch refs/tags/debian/\1
-	substitute branch s/~/_/
-	substitute branch s/:/%/
-end match
-# pdf-printerconfig-kanotix end
-
-
-# playvideodisk start
-create repository export/fullstory.morgue/playvideodisk.git
-end repository
-
-match /(playvideodisk-kanotix|playvideodisk)/trunk/
-	repository export/fullstory.morgue/playvideodisk.git
-	branch master
-end match
-
-match /(playvideodisk-kanotix|playvideodisk)/tags/([^/]+)/
-	repository export/fullstory.morgue/playvideodisk.git
-	branch refs/tags/debian/\2
-	substitute branch s/~/_/
-	substitute branch s/:/%/
-end match
-# playvideodisk end
-
-
-# ppp-scripts start
-create repository export/fullstory.morgue/ppp-scripts.git
-end repository
-
-match /(ppp-scripts-kanotix|ppp-scripts)/trunk/
-	repository export/fullstory.morgue/ppp-scripts.git
-	branch master
-end match
-
-match /(ppp-scripts-kanotix|ppp-scripts)/tags/([^/]+)/
-	repository export/fullstory.morgue/ppp-scripts.git
-	branch refs/tags/debian/\2
-	substitute branch s/~/_/
-	substitute branch s/:/%/
-end match
-# ppp-scripts end
-
-
-# print-utils-pfeifle-kanotix start
-create repository export/fullstory.zombie/print-utils-pfeifle-kanotix.git
-end repository
-
-match /print-utils-pfeifle-kanotix/trunk/
-	repository export/fullstory.zombie/print-utils-pfeifle-kanotix.git
-	branch master
-end match
-
-match /print-utils-pfeifle-kanotix/tags/([^/]+)/
-	repository export/fullstory.zombie/print-utils-pfeifle-kanotix.git
-	branch refs/tags/debian/\1
-	substitute branch s/~/_/
-	substitute branch s/:/%/
-end match
-# print-utils-pfeifle-kanotix end
-
-
-# pyfll-installer start
-create repository export/fullstory.morgue/pyfll-installer.git
-end repository
-
-match /pyfll-installer/trunk/
-	repository export/fullstory.morgue/pyfll-installer.git
-	branch master
-end match
-
-match /pyfll-installer/tags/([^/]+)/
-	repository export/fullstory.morgue/pyfll-installer.git
-	branch refs/tags/debian/\1
-	substitute branch s/~/_/
-	substitute branch s/:/%/
-end match
-# pyfll-installer end
-
-
 # ndiswrapper start
 create repository export/fullstory.morgue/ndiswrapper.git
 end repository
@@ -2563,6 +2473,78 @@ end match
 # openfwwf end
 
 
+# pdf-printerconfig-kanotix start
+create repository export/fullstory.morgue/pdf-printerconfig-kanotix.git
+end repository
+
+match /pdf-printerconfig-kanotix/trunk/
+	repository export/fullstory.morgue/pdf-printerconfig-kanotix.git
+	branch master
+end match
+
+match /pdf-printerconfig-kanotix/tags/([^/]+)/
+	repository export/fullstory.morgue/pdf-printerconfig-kanotix.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# pdf-printerconfig-kanotix end
+
+
+# playvideodisk start
+create repository export/fullstory.morgue/playvideodisk.git
+end repository
+
+match /(playvideodisk-kanotix|playvideodisk)/trunk/
+	repository export/fullstory.morgue/playvideodisk.git
+	branch master
+end match
+
+match /(playvideodisk-kanotix|playvideodisk)/tags/([^/]+)/
+	repository export/fullstory.morgue/playvideodisk.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# playvideodisk end
+
+
+# ppp-scripts start
+create repository export/fullstory.morgue/ppp-scripts.git
+end repository
+
+match /(ppp-scripts-kanotix|ppp-scripts)/trunk/
+	repository export/fullstory.morgue/ppp-scripts.git
+	branch master
+end match
+
+match /(ppp-scripts-kanotix|ppp-scripts)/tags/([^/]+)/
+	repository export/fullstory.morgue/ppp-scripts.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# ppp-scripts end
+
+
+# print-utils-pfeifle-kanotix start
+create repository export/fullstory.zombie/print-utils-pfeifle-kanotix.git
+end repository
+
+match /print-utils-pfeifle-kanotix/trunk/
+	repository export/fullstory.zombie/print-utils-pfeifle-kanotix.git
+	branch master
+end match
+
+match /print-utils-pfeifle-kanotix/tags/([^/]+)/
+	repository export/fullstory.zombie/print-utils-pfeifle-kanotix.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# print-utils-pfeifle-kanotix end
+
+
 # pyfll start
 create repository export/fullstory/pyfll.git
 end repository
@@ -2587,6 +2569,24 @@ end match
 # pyfll end
 
 
+# pyfll-installer start
+create repository export/fullstory.morgue/pyfll-installer.git
+end repository
+
+match /pyfll-installer/trunk/
+	repository export/fullstory.morgue/pyfll-installer.git
+	branch master
+end match
+
+match /pyfll-installer/tags/([^/]+)/
+	repository export/fullstory.morgue/pyfll-installer.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# pyfll-installer end
+
+
 # python-fll start
 create repository export/fullstory/python-fll.git
 end repository
@@ -2607,6 +2607,24 @@ match /python-fll/tags/([^/]+)/
 	substitute branch s/:/%/
 end match
 # python-fll end
+
+
+# qt-fll-iso2usb-gui start
+create repository export/fullstory.morgue/qt-fll-iso2usb-gui.git
+end repository
+
+match /qt-fll-iso2usb-gui/trunk/
+	repository export/fullstory.morgue/qt-fll-iso2usb-gui.git
+	branch master
+end match
+
+match /qt-fll-iso2usb-gui/tags/([^/]+)/
+	repository export/fullstory.morgue/qt-fll-iso2usb-gui.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# qt-fll-iso2usb-gui end
 
 
 # r5u870 start
