@@ -1086,6 +1086,24 @@ end match
 # fix-cdrom end
 
 
+# fix-fonts start
+create repository export/fullstory.morgue/fix-fonts.git
+end repository
+
+match /fix-fonts/trunk/
+	repository export/fullstory.morgue/fix-fonts.git
+	branch master
+end match
+
+match /fix-fonts/tags/([^/]+)/
+	repository export/fullstory.morgue/fix-fonts.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# fix-fonts end
+
+
 # firmware-carl9170 start
 create repository export/fullstory.deprecated/firmware-carl9170.git
 end repository

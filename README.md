@@ -96,6 +96,7 @@ to migrate them into individual git repositories.
 * etcskel-sidux: etcskel-kanotix, etcskel-sidux
 * firewall-kanotix
 * fix-cdrom
+* fix-fonts
 * fll-builder
 * freenx
 * fsam7400
@@ -160,7 +161,6 @@ to migrate them into individual git repositories.
 * server-defaults
 
 ###Unsorted historic Packages (pending)
-* fix-fonts
 * fll-fshelper
 * fll-gfx
 * gdm-themes-sidux
