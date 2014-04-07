@@ -1050,6 +1050,24 @@ end match
 # etcskel-sidux end
 
 
+# firewall-kanotix start
+create repository export/fullstory.morgue/firewall-kanotix.git
+end repository
+
+match /firewall-kanotix/trunk/
+	repository export/fullstory.morgue/firewall-kanotix.git
+	branch master
+end match
+
+match /firewall-kanotix/tags/([^/]+)/
+	repository export/fullstory.morgue/firewall-kanotix.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# firewall-kanotix end
+
+
 # firmware-carl9170 start
 create repository export/fullstory.deprecated/firmware-carl9170.git
 end repository
