@@ -216,6 +216,7 @@ to migrate them into individual git repositories.
 * startsyslog: startsyslog-kanotix, startsyslog-sidux, startsyslog
 * su-me: kanotix-su, su-me
 * sudoers-sidux: sudoers-kanotix, sudores-sidux, sudoers-sidux
+* sysv-freeze
 * teclasat
 
 ###Zombie
@@ -228,7 +229,6 @@ to migrate them into individual git repositories.
 * sidux-server-config
 
 ###Unsorted historic Packages (pending)
-* sysv-freeze
 * ttf-sidux
 * usleep-kanotix
 * vdr-gui

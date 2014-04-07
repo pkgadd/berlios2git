@@ -3886,6 +3886,24 @@ end match
 # sudoers-sidux end
 
 
+# sysv-freeze start
+create repository export/fullstory.morgue/sysv-freeze.git
+end repository
+
+match /sysv-freeze/trunk/
+	repository export/fullstory.morgue/sysv-freeze.git
+	branch master
+end match
+
+match /sysv-freeze/tags/([^/]+)/
+	repository export/fullstory.morgue/sysv-freeze.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# sysv-freeze end
+
+
 # teclasat start
 create repository export/fullstory.morgue/teclasat.git
 end repository
