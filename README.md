@@ -164,6 +164,7 @@ to migrate them into individual git repositories.
 * sidux-art-website
 * sidux-artwork-competition
 * sidux-art-xfce
+* sidux-graphics: kanotix-graphics, sidux-graphics
 * networkconfig-sidux: networkconfig-kanotix, networkconfig-sidux
 * su-me: kanotix-su, su-me
 * sudoers-sidux: sudoers-kanotix, sudores-sidux, sudoers-sidux
@@ -178,7 +179,6 @@ to migrate them into individual git repositories.
 * server-defaults
 
 ###Unsorted historic Packages (pending)
-* kanotix-graphics
 * kanotix-menu
 * kanotix-remountrw
 * kanotix-searchplugins
@@ -239,7 +239,6 @@ to migrate them into individual git repositories.
 * siduxcc
 * sidux-edu
 * sidux-framework
-* sidux-graphics
 * sidux-hermes
 * sidux-icons
 * sidux-menu

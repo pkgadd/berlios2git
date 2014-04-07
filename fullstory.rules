@@ -2884,6 +2884,24 @@ end match
 # sidux-art-xfce end
 
 
+# sidux-graphics start
+create repository export/fullstory.morgue/sidux-graphics.git
+end repository
+
+match /(kanotix|sidux)-graphics/trunk/
+	repository export/fullstory.morgue/sidux-graphics.git
+	branch master
+end match
+
+match /(kanotix|sidux)-graphics/tags/([^/]+)/
+	repository export/fullstory.morgue/sidux-graphics.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# sidux-graphics end
+
+
 # sitar start
 create repository export/fullstory.morgue/sitar.git
 end repository
