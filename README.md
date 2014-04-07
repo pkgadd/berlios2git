@@ -120,6 +120,7 @@ to migrate them into individual git repositories.
 * install-progressbar
 * k3b-defaults-kanotix
 * kanet
+* kanotix2sidux
 * klik
 * lirc
 * ndiswrapper
@@ -177,7 +178,6 @@ to migrate them into individual git repositories.
 * server-defaults
 
 ###Unsorted historic Packages (pending)
-* kanotix2sidux
 * kanotix-graphics
 * kanotix-menu
 * kanotix-remountrw

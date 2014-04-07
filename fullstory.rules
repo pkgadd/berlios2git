@@ -1812,6 +1812,24 @@ end match
 # kanet end
 
 
+# kanotix2sidux start
+create repository export/fullstory.morgue/kanotix2sidux.git
+end repository
+
+match /kanotix2sidux/trunk/
+	repository export/fullstory.morgue/kanotix2sidux.git
+	branch master
+end match
+
+match /kanotix2sidux/tags/([^/]+)/
+	repository export/fullstory.morgue/kanotix2sidux.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# kanotix2sidux end
+
+
 # kdeadmin start
 create repository export/fullstory.zombie/kdeadmin.git
 end repository
