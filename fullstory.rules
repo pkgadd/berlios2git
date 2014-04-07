@@ -1212,72 +1212,6 @@ end match
 # gfxboot-theme-sidux-old end
 
 
-# gtf start
-create repository export/fullstory.morgue/gtf.git
-end repository
-
-match /gtf/trunk/
-	repository export/fullstory.morgue/gtf.git
-	branch master
-end match
-
-match /gtf/tags/([^/]+)/
-	repository export/fullstory.morgue/gtf.git
-	branch refs/tags/debian/\1
-	substitute branch s/~/_/
-	substitute branch s/:/%/
-end match
-# gtf end
-
-
-# hotplug-kanotix start
-create repository export/fullstory.morgue/hotplug-kanotix.git
-end repository
-
-match /hotplug-kanotix/trunk/
-	repository export/fullstory.morgue/hotplug-kanotix.git
-	branch master
-end match
-
-match /hotplug-kanotix/tags/([^/]+)/
-	repository export/fullstory.morgue/hotplug-kanotix.git
-	branch refs/tags/debian/\1
-	substitute branch s/~/_/
-	substitute branch s/:/%/
-end match
-# hotplug-kanotix end
-
-
-# hwdata-kanotix start
-create repository export/fullstory.morgue/hwdata-kanotix.git
-end repository
-
-match /hwdata-kanotix/trunk/
-	repository export/fullstory.morgue/hwdata-kanotix.git
-	branch master
-end match
-
-match /hwdata-kanotix/branches/upstream/current/
-	repository export/fullstory.morgue/hwdata-kanotix.git
-	branch upstream
-end match
-
-match /hwdata-kanotix/branches/upstream/([^/]+)/
-	repository export/fullstory.morgue/hwdata-kanotix.git
-	branch refs/tags/upstream/\1
-	substitute branch s/~/_/
-	substitute branch s/:/%/
-end match
-
-match /hwdata-kanotix/tags/([^/]+)/
-	repository export/fullstory.morgue/hwdata-kanotix.git
-	branch refs/tags/debian/\1
-	substitute branch s/~/_/
-	substitute branch s/:/%/
-end match
-# hwdata-kanotix end
-
-
 # firmware-carl9170 start
 create repository export/fullstory.deprecated/firmware-carl9170.git
 end repository
@@ -1630,6 +1564,72 @@ match /grub2-fll-fromiso/tags/([^/]+)/
 	substitute branch s/:/%/
 end match
 # grub2-fll-fromiso end
+
+
+# gtf start
+create repository export/fullstory.morgue/gtf.git
+end repository
+
+match /gtf/trunk/
+	repository export/fullstory.morgue/gtf.git
+	branch master
+end match
+
+match /gtf/tags/([^/]+)/
+	repository export/fullstory.morgue/gtf.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# gtf end
+
+
+# hotplug-kanotix start
+create repository export/fullstory.morgue/hotplug-kanotix.git
+end repository
+
+match /hotplug-kanotix/trunk/
+	repository export/fullstory.morgue/hotplug-kanotix.git
+	branch master
+end match
+
+match /hotplug-kanotix/tags/([^/]+)/
+	repository export/fullstory.morgue/hotplug-kanotix.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# hotplug-kanotix end
+
+
+# hwdata-kanotix start
+create repository export/fullstory.morgue/hwdata-kanotix.git
+end repository
+
+match /hwdata-kanotix/trunk/
+	repository export/fullstory.morgue/hwdata-kanotix.git
+	branch master
+end match
+
+match /hwdata-kanotix/branches/upstream/current/
+	repository export/fullstory.morgue/hwdata-kanotix.git
+	branch upstream
+end match
+
+match /hwdata-kanotix/branches/upstream/([^/]+)/
+	repository export/fullstory.morgue/hwdata-kanotix.git
+	branch refs/tags/upstream/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+
+match /hwdata-kanotix/tags/([^/]+)/
+	repository export/fullstory.morgue/hwdata-kanotix.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# hwdata-kanotix end
 
 
 # infobash start
