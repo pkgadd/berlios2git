@@ -86,7 +86,11 @@ to migrate them into individual git repositories.
 * configure-ndiswrapper: kanotix-ndiswrapper, configure-ndiswrapper
 * configure-networkcard: netcardconfig-kanotix, configure-networkcard
 * configure-ppp-connections
+* configure-screenres: kanotix-screenres, configure-screenres
+* configure-xawtv: configure-xawtv-kanotix, configure-xawtv
 * ddcxinfo: ddcxinfo-kanotix, ddcxinfo-sidux
+* distro-defaults
+* dvb-detect
 * fll-builder
 * freenx
 * fsam7400
@@ -151,11 +155,6 @@ to migrate them into individual git repositories.
 * server-defaults
 
 ###Unsorted historic Packages (pending)
-* configure-screenres
-* configure-xawtv
-* configure-xawtv-kanotix
-* distro-defaults
-* dvb-detect
 * eduversum
 * eduversum-howto
 * etcskel-kanotix
@@ -184,7 +183,6 @@ to migrate them into individual git repositories.
 * kanotix-graphics
 * kanotix-menu
 * kanotix-remountrw
-* kanotix-screenres
 * kanotix-searchplugins
 * kanotix-sounds
 * kanotix-terminalserver

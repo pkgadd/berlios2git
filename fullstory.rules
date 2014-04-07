@@ -870,6 +870,60 @@ end match
 # configure-ppp-connections end
 
 
+# configure-screenres start
+create repository export/fullstory.morgue/configure-screenres.git
+end repository
+
+match /(kanotix|configure)-screenres/trunk/
+	repository export/fullstory.morgue/configure-screenres.git
+	branch master
+end match
+
+match /(kanotix|configure)-screenres/tags/([^/]+)/
+	repository export/fullstory.morgue/configure-screenres.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# configure-screenres end
+
+
+# configure-xawtv start
+create repository export/fullstory.morgue/configure-xawtv.git
+end repository
+
+match /(configure-xawtv-kanotix|configure-xawtv)/trunk/
+	repository export/fullstory.morgue/configure-xawtv.git
+	branch master
+end match
+
+match /(configure-xawtv-kanotix|configure-xawtv)/tags/([^/]+)/
+	repository export/fullstory.morgue/configure-xawtv.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# configure-xawtv end
+
+
+# ddcxinfo start
+create repository export/fullstory.morgue/ddcxinfo.git
+end repository
+
+match /ddcxinfo-(kanotix|sidux)/trunk/
+	repository export/fullstory.morgue/ddcxinfo.git
+	branch master
+end match
+
+match /ddcxinfo-(kanotix|sidux)/tags/([^/]+)/
+	repository export/fullstory.morgue/ddcxinfo.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# ddcxinfo end
+
+
 # desktop-defaults start
 create repository export/fullstory/desktop-defaults.git
 end repository
@@ -886,6 +940,24 @@ match /desktop-defaults/tags/([^/]+)/
 	substitute branch s/:/%/
 end match
 # desktop-defaults end
+
+
+# distro-defaults start
+create repository export/fullstory.morgue/distro-defaults.git
+end repository
+
+match /distro-defaults/trunk/
+	repository export/fullstory.morgue/distro-defaults.git
+	branch master
+end match
+
+match /distro-defaults/tags/([^/]+)/
+	repository export/fullstory.morgue/distro-defaults.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# distro-defaults end
 
 
 # dmakms start
@@ -906,22 +978,22 @@ end match
 # dmakms end
 
 
-# ddcxinfo start
-create repository export/fullstory.morgue/ddcxinfo.git
+# dvb-detect start
+create repository export/fullstory.morgue/dvb-detect.git
 end repository
 
-match /ddcxinfo-(kanotix|sidux)/trunk/
-	repository export/fullstory.morgue/ddcxinfo.git
+match /dvb-detect/trunk/
+	repository export/fullstory.morgue/dvb-detect.git
 	branch master
 end match
 
-match /ddcxinfo-(kanotix|sidux)/tags/([^/]+)/
-	repository export/fullstory.morgue/ddcxinfo.git
+match /dvb-detect/tags/([^/]+)/
+	repository export/fullstory.morgue/dvb-detect.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
 	substitute branch s/:/%/
 end match
-# ddcxinfo end
+# dvb-detect end
 
 
 # firmware-carl9170 start
