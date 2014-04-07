@@ -2528,16 +2528,16 @@ end match
 
 
 # print-utils-pfeifle-kanotix start
-create repository export/fullstory.zombie/print-utils-pfeifle-kanotix.git
+create repository export/fullstory.morgue/print-utils-pfeifle-kanotix.git
 end repository
 
 match /print-utils-pfeifle-kanotix/trunk/
-	repository export/fullstory.zombie/print-utils-pfeifle-kanotix.git
+	repository export/fullstory.morgue/print-utils-pfeifle-kanotix.git
 	branch master
 end match
 
 match /print-utils-pfeifle-kanotix/tags/([^/]+)/
-	repository export/fullstory.zombie/print-utils-pfeifle-kanotix.git
+	repository export/fullstory.morgue/print-utils-pfeifle-kanotix.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
 	substitute branch s/:/%/
