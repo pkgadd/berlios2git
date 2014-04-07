@@ -160,6 +160,7 @@ to migrate them into individual git repositories.
 * rootshell-kanotix
 * rt61
 * rt73-legacy
+* sambastart: sambastart-kanotix, sambastart-sidux, sambastart
 * seminarix
 * seminarix-handbook
 * seminarix-latex
@@ -215,9 +216,6 @@ to migrate them into individual git repositories.
 * server-defaults
 
 ###Unsorted historic Packages (pending)
-* sambastart
-* sambastart-kanotix
-* sambastart-sidux
 * saveconfig
 * saveconfig-kanotix
 * scanpartitions

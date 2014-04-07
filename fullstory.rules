@@ -2819,6 +2819,24 @@ end match
 # rt73-legacy end
 
 
+# sambastart start
+create repository export/fullstory.morgue/sambastart.git
+end repository
+
+match /(sambastart-kanotix|sambastart-sidux|sambastart)/trunk/
+	repository export/fullstory.morgue/sambastart.git
+	branch master
+end match
+
+match /(sambastart-kanotix|sambastart-sidux|sambastart)/tags/([^/]+)/
+	repository export/fullstory.morgue/sambastart.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# sambastart end
+
+
 # server-defaults start
 create repository export/fullstory.zombie/server-defaults.git
 end repository
