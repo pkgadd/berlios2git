@@ -2401,6 +2401,24 @@ end match
 # playvideodisk end
 
 
+# ppp-scripts start
+create repository export/fullstory.morgue/ppp-scripts.git
+end repository
+
+match /(ppp-scripts-kanotix|ppp-scripts)/trunk/
+	repository export/fullstory.morgue/ppp-scripts.git
+	branch master
+end match
+
+match /(ppp-scripts-kanotix|ppp-scripts)/tags/([^/]+)/
+	repository export/fullstory.morgue/ppp-scripts.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# ppp-scripts end
+
+
 # ndiswrapper start
 create repository export/fullstory.morgue/ndiswrapper.git
 end repository

@@ -148,6 +148,7 @@ to migrate them into individual git repositories.
 * omnibook
 * pdf-printerconfig-kanotix
 * playvideodisk: playvideodisk-kanotix, playvideodisk
+* ppp-scripts: ppp-scripts-kanotix, ppp-scripts
 * r5u870
 * rt61
 * rt73-legacy
@@ -205,8 +206,6 @@ to migrate them into individual git repositories.
 * server-defaults
 
 ###Unsorted historic Packages (pending)
-* ppp-scripts
-* ppp-scripts-kanotix
 * print-utils-pfeifle-kanotix
 * pyfll-installer
 * qt-fll-iso2usb-gui
