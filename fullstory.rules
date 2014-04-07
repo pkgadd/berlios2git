@@ -2293,6 +2293,24 @@ end match
 # liveusb-creator end
 
 
+# ltmodem-detect start
+create repository export/fullstory.morgue/ltmodem-detect.git
+end repository
+
+match /ltmodem-detect/trunk/
+	repository export/fullstory.morgue/ltmodem-detect.git
+	branch master
+end match
+
+match /ltmodem-detect/tags/([^/]+)/
+	repository export/fullstory.morgue/ltmodem-detect.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# ltmodem-detect end
+
+
 # ndiswrapper start
 create repository export/fullstory.morgue/ndiswrapper.git
 end repository
