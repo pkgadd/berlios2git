@@ -1230,6 +1230,24 @@ end match
 # gtf end
 
 
+# hotplug-kanotix start
+create repository export/fullstory.morgue/hotplug-kanotix.git
+end repository
+
+match /hotplug-kanotix/trunk/
+	repository export/fullstory.morgue/hotplug-kanotix.git
+	branch master
+end match
+
+match /hotplug-kanotix/tags/([^/]+)/
+	repository export/fullstory.morgue/hotplug-kanotix.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# hotplug-kanotix end
+
+
 # firmware-carl9170 start
 create repository export/fullstory.deprecated/firmware-carl9170.git
 end repository

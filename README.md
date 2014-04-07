@@ -111,6 +111,7 @@ to migrate them into individual git repositories.
 * gfxboot-theme-sidux-old
 * gtf
 * grub-gfxboot
+* hotplug-kanotix
 * klik
 * lirc
 * ndiswrapper
@@ -168,7 +169,6 @@ to migrate them into individual git repositories.
 * server-defaults
 
 ###Unsorted historic Packages (pending)
-* hotplug-kanotix
 * hwdata-kanotix
 * hwsetup-kanotix
 * hwsetup-ng
