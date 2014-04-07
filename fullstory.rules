@@ -2052,6 +2052,24 @@ end match
 # ksplash-theme-kanotix-clouds end
 
 
+# ksplash-theme-kanotix-penguins start
+create repository export/fullstory.morgue/ksplash-theme-kanotix-penguins.git
+end repository
+
+match /ksplash-theme-kanotix-penguins/trunk/
+	repository export/fullstory.morgue/ksplash-theme-kanotix-penguins.git
+	branch master
+end match
+
+match /ksplash-theme-kanotix-penguins/tags/([^/]+)/
+	repository export/fullstory.morgue/ksplash-theme-kanotix-penguins.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# ksplash-theme-kanotix-penguins end
+
+
 # linux-aptosid start
 create repository export/fullstory/linux-aptosid.git
 end repository
