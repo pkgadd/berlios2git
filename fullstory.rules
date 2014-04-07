@@ -1122,6 +1122,24 @@ end match
 # fll-fshelper end
 
 
+# fll-gfx start
+create repository export/fullstory.morgue/fll-gfx.git
+end repository
+
+match /fll-gfx/trunk/
+	repository export/fullstory.morgue/fll-gfx.git
+	branch master
+end match
+
+match /fll-gfx/tags/([^/]+)/
+	repository export/fullstory.morgue/fll-gfx.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# fll-gfx end
+
+
 # firmware-carl9170 start
 create repository export/fullstory.deprecated/firmware-carl9170.git
 end repository

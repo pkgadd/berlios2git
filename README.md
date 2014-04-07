@@ -38,6 +38,7 @@ to migrate them into individual git repositories.
 * fll-installer
 * fll-live-initramfs
 * fll-live-initscripts
+* fll-gfx
 * gfxboot-themes-aptosid: gfxboot-themes-sidux, gfxboot-themes-aptosid
 * grub2-fll-fromiso
 * infobash
@@ -162,7 +163,6 @@ to migrate them into individual git repositories.
 * server-defaults
 
 ###Unsorted historic Packages (pending)
-* fll-gfx
 * gdm-themes-sidux
 * gfxboot-theme-sidux
 * gfxboot-theme-sidux-eros
