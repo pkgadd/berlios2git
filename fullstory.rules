@@ -1619,6 +1619,96 @@ end match
 # setpassword end
 
 
+# seminarix start
+create repository export/fullstory.morgue/seminarix.git
+end repository
+
+match /seminarix/trunk/
+	repository export/fullstory.morgue/seminarix.git
+	branch master
+end match
+
+match /seminarix/tags/([^/]+)/
+	repository export/fullstory.morgue/seminarix.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# seminarix end
+
+
+# seminarix-handbook start
+create repository export/fullstory.morgue/seminarix-handbook.git
+end repository
+
+match /seminarix-handbook/trunk/
+	repository export/fullstory.morgue/seminarix-handbook.git
+	branch master
+end match
+
+match /seminarix-handbook/tags/([^/]+)/
+	repository export/fullstory.morgue/seminarix-handbook.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# seminarix-handbook end
+
+
+# seminarix-latex start
+create repository export/fullstory.morgue/seminarix-latex.git
+end repository
+
+match /seminarix-latex/trunk/
+	repository export/fullstory.morgue/seminarix-latex.git
+	branch master
+end match
+
+match /seminarix-latex/tags/([^/]+)/
+	repository export/fullstory.morgue/seminarix-latex.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# seminarix-latex end
+
+
+# seminarix-notebook-training start
+create repository export/fullstory.morgue/seminarix-notebook-training.git
+end repository
+
+match /seminarix-notebook-training/trunk/
+	repository export/fullstory.morgue/seminarix-notebook-training.git
+	branch master
+end match
+
+match /seminarix-notebook-training/tags/([^/]+)/
+	repository export/fullstory.morgue/seminarix-notebook-training.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# seminarix-notebook-training end
+
+
+# seminarix-samples start
+create repository export/fullstory.morgue/seminarix-samples.git
+end repository
+
+match /seminarix-samples/trunk/
+	repository export/fullstory.morgue/seminarix-samples.git
+	branch master
+end match
+
+match /seminarix-samples/tags/([^/]+)/
+	repository export/fullstory.morgue/seminarix-samples.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# seminarix-samples end
+
+
 # sidux-art-aether start
 create repository export/fullstory.morgue/sidux-art-aether.git
 end repository

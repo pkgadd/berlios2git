@@ -95,6 +95,11 @@ to migrate them into individual git repositories.
 * r5u870
 * rt61
 * rt73-legacy
+* seminarix
+* seminarix-handbook
+* seminarix-latex
+* seminarix-notebook-training
+* seminarix-samples
 * sidux-art-aether: sidux-art-aethir, sidux-art-aether
 * sidux-art-erebos
 * sidux-art-gfxbootsplash
@@ -240,11 +245,6 @@ to migrate them into individual git repositories.
 * saveconfig-kanotix
 * scanpartitions
 * scanpartitions-kanotix
-* seminarix
-* seminarix-handbook
-* seminarix-latex
-* seminarix-notebook-training
-* seminarix-samples
 * sidux-binary-gfx
 * siduxcc
 * sidux-edu
