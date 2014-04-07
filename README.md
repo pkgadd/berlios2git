@@ -104,6 +104,7 @@ to migrate them into individual git repositories.
 * fsam7400
 * fusecram
 * fuseiso
+* gdm-themes-sidux
 * gfxboot
 * grub-gfxboot
 * klik
@@ -163,7 +164,6 @@ to migrate them into individual git repositories.
 * server-defaults
 
 ###Unsorted historic Packages (pending)
-* gdm-themes-sidux
 * gfxboot-theme-sidux
 * gfxboot-theme-sidux-eros
 * gfxboot-theme-sidux-old

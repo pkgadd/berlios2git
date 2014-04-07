@@ -1140,6 +1140,24 @@ end match
 # fll-gfx end
 
 
+# gdm-themes-sidux start
+create repository export/fullstory.morgue/gdm-themes-sidux.git
+end repository
+
+match /gdm-themes-sidux/trunk/
+	repository export/fullstory.morgue/gdm-themes-sidux.git
+	branch master
+end match
+
+match /gdm-themes-sidux/tags/([^/]+)/
+	repository export/fullstory.morgue/gdm-themes-sidux.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# gdm-themes-sidux end
+
+
 # firmware-carl9170 start
 create repository export/fullstory.deprecated/firmware-carl9170.git
 end repository
