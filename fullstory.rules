@@ -1104,6 +1104,24 @@ end match
 # fix-fonts end
 
 
+# fll-fshelper start
+create repository export/fullstory.morgue/fll-fshelper.git
+end repository
+
+match /fll-fshelper/trunk/
+	repository export/fullstory.morgue/fll-fshelper.git
+	branch master
+end match
+
+match /fll-fshelper/tags/([^/]+)/
+	repository export/fullstory.morgue/fll-fshelper.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# fll-fshelper end
+
+
 # firmware-carl9170 start
 create repository export/fullstory.deprecated/firmware-carl9170.git
 end repository

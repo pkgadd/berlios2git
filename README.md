@@ -98,6 +98,7 @@ to migrate them into individual git repositories.
 * fix-cdrom
 * fix-fonts
 * fll-builder
+* fll-fshelper
 * freenx
 * fsam7400
 * fusecram
@@ -161,7 +162,6 @@ to migrate them into individual git repositories.
 * server-defaults
 
 ###Unsorted historic Packages (pending)
-* fll-fshelper
 * fll-gfx
 * gdm-themes-sidux
 * gfxboot-theme-sidux
