@@ -3550,6 +3550,24 @@ end match
 # sidux-art-xfce end
 
 
+# sidux-binary-gfx start
+create repository export/fullstory.morgue/sidux-binary-gfx.git
+end repository
+
+match /sidux-binary-gfx/trunk/
+	repository export/fullstory.morgue/sidux-binary-gfx.git
+	branch master
+end match
+
+match /sidux-binary-gfx/tags/([^/]+)/
+	repository export/fullstory.morgue/sidux-binary-gfx.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# sidux-binary-gfx end
+
+
 # sidux-graphics start
 create repository export/fullstory.morgue/sidux-graphics.git
 end repository
