@@ -3789,7 +3789,7 @@ end match
 
 match /smbconf-(kanotix|sidux)/tags/([^/]+)/
 	repository export/fullstory.morgue/smbconf-kanotix.git
-	branch refs/tags/debian/\1
+	branch refs/tags/debian/\2
 	substitute branch s/~/_/
 	substitute branch s/:/%/
 end match
