@@ -2938,6 +2938,24 @@ end match
 # sidux-menu end
 
 
+# sidux-searchplugins start
+create repository export/fullstory.morgue/sidux-searchplugins.git
+end repository
+
+match /(kanotix|sidux)-searchplugins/trunk/
+	repository export/fullstory.morgue/sidux-searchplugins.git
+	branch master
+end match
+
+match /(kanotix|sidux)-searchplugins/tags/([^/]+)/
+	repository export/fullstory.morgue/sidux-searchplugins.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# sidux-searchplugins end
+
+
 # sitar start
 create repository export/fullstory.morgue/sitar.git
 end repository
