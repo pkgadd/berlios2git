@@ -1950,6 +1950,24 @@ end match
 # kde-services-sidux end
 
 
+# kdm-theme-kanotix-penguins start
+create repository export/fullstory.morgue/kdm-theme-kanotix-penguins.git
+end repository
+
+match /kdm-theme-kanotix-penguins/trunk/
+	repository export/fullstory.morgue/kdm-theme-kanotix-penguins.git
+	branch master
+end match
+
+match /kdm-theme-kanotix-penguins/tags/([^/]+)/
+	repository export/fullstory.morgue/kdm-theme-kanotix-penguins.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# kdm-theme-kanotix-penguins end
+
+
 # kernel-remover start
 create repository export/fullstory/kernel-remover.git
 end repository
