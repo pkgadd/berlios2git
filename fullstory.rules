@@ -1248,6 +1248,36 @@ end match
 # hotplug-kanotix end
 
 
+# hwdata-kanotix start
+create repository export/fullstory.morgue/hwdata-kanotix.git
+end repository
+
+match /hwdata-kanotix/trunk/
+	repository export/fullstory.morgue/hwdata-kanotix.git
+	branch master
+end match
+
+match /hwdata-kanotix/branches/upstream/current/
+	repository export/fullstory.morgue/hwdata-kanotix.git
+	branch upstream
+end match
+
+match /hwdata-kanotix/branches/upstream/([^/]+)/
+	repository export/fullstory.morgue/hwdata-kanotix.git
+	branch refs/tags/upstream/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+
+match /hwdata-kanotix/tags/([^/]+)/
+	repository export/fullstory.morgue/hwdata-kanotix.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# hwdata-kanotix end
+
+
 # firmware-carl9170 start
 create repository export/fullstory.deprecated/firmware-carl9170.git
 end repository

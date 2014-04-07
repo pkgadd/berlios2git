@@ -112,6 +112,7 @@ to migrate them into individual git repositories.
 * gtf
 * grub-gfxboot
 * hotplug-kanotix
+* hwdata-kanotix
 * klik
 * lirc
 * ndiswrapper
@@ -169,7 +170,6 @@ to migrate them into individual git repositories.
 * server-defaults
 
 ###Unsorted historic Packages (pending)
-* hwdata-kanotix
 * hwsetup-kanotix
 * hwsetup-ng
 * initscripts-kanotix-live
