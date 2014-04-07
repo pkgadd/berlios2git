@@ -1722,6 +1722,24 @@ end match
 # install-gui end
 
 
+# install-meta start
+create repository export/fullstory.morgue/install-meta.git
+end repository
+
+match /(fll-builder/branches/install-meta|install-meta/trunk)/
+	repository export/fullstory.morgue/install-meta.git
+	branch master
+end match
+
+match /install-meta/tags/([^/]+)/
+	repository export/fullstory.morgue/install-meta.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# install-meta end
+
+
 # install-usb-gui start
 create repository export/fullstory/install-usb-gui.git
 end repository
