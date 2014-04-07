@@ -4042,6 +4042,24 @@ end match
 # xorgconfig end
 
 
+# xsession-initscript-sidux start
+create repository export/fullstory.morgue/xsession-initscript-sidux.git
+end repository
+
+match /xsession-initscript-(kanotix|sidux)/trunk/
+	repository export/fullstory.morgue/xsession-initscript-sidux.git
+	branch master
+end match
+
+match /xsession-initscript-(kanotix|sidux)/tags/([^/]+)/
+	repository export/fullstory.morgue/xsession-initscript-sidux.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# xsession-initscript-sidux end
+
+
 # Ignore notes.txt
 match /notes.txt
 end match
