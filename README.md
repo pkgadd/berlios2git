@@ -80,10 +80,12 @@ to migrate them into individual git repositories.
 * configure-freenx: nxsetup, nxsetup-kanotix, configure-freenx
 * configure-gprs: gprsconnect-kanotix, configure-gprs
 * configure-isdn: kanotix-isdn, configure-isdn
-* configure-keyboard
+* configure-keyboard: kbdconfig-kanotix, configure-keyboard
 * configure-modemlink: modemlink-kanotix, configure-modemlink
 * configure-mouse: mouseconfig-kanotix, configure-mouse
 * configure-ndiswrapper: kanotix-ndiswrapper, configure-ndiswrapper
+* configure-networkcard: netcardconfig-kanotix, configure-networkcard
+* configure-ppp-connections
 * ddcxinfo: ddcxinfo-kanotix, ddcxinfo-sidux
 * fll-builder
 * freenx
@@ -135,6 +137,7 @@ to migrate them into individual git repositories.
 * sidux-art-website
 * sidux-artwork-competition
 * sidux-art-xfce
+* networkconfig-sidux: networkconfig-kanotix, networkconfig-sidux
 * su-me: kanotix-su, su-me
 * sudoers-sidux: sudoers-kanotix, sudores-sidux, sudoers-sidux
 * sitar
@@ -148,8 +151,6 @@ to migrate them into individual git repositories.
 * server-defaults
 
 ###Unsorted historic Packages (pending)
-* configure-networkcard
-* configure-ppp-connections
 * configure-screenres
 * configure-xawtv
 * configure-xawtv-kanotix
@@ -187,7 +188,6 @@ to migrate them into individual git repositories.
 * kanotix-searchplugins
 * kanotix-sounds
 * kanotix-terminalserver
-* kbdconfig-kanotix
 * kdelock-kanotix
 * kdeservicemenus-kanotix
 * kdeservicemenus-sidux
@@ -215,9 +215,6 @@ to migrate them into individual git repositories.
 * mkdosswapfile-kanotix
 * mkpersistenthome
 * mkpersistenthome-kanotix
-* netcardconfig-kanotix
-* networkconfig-kanotix
-* networkconfig-sidux
 * pdf-printerconfig-kanotix
 * playvideodisk
 * playvideodisk-kanotix

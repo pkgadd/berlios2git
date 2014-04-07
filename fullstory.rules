@@ -834,6 +834,42 @@ end match
 # configure-ndiswrapper end
 
 
+# configure-networkcard start
+create repository export/fullstory.morgue/configure-networkcard.git
+end repository
+
+match /(netcardconfig-kanotix|configure-networkcard)/trunk/
+	repository export/fullstory.morgue/configure-networkcard.git
+	branch master
+end match
+
+match /(netcardconfig-kanotix|configure-networkcard)/tags/([^/]+)/
+	repository export/fullstory.morgue/configure-networkcard.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# configure-networkcard end
+
+
+# configure-ppp-connections start
+create repository export/fullstory.morgue/configure-ppp-connections.git
+end repository
+
+match /configure-ppp-connections/trunk/
+	repository export/fullstory.morgue/configure-ppp-connections.git
+	branch master
+end match
+
+match /configure-ppp-connections/tags/([^/]+)/
+	repository export/fullstory.morgue/configure-ppp-connections.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# configure-ppp-connections end
+
+
 # desktop-defaults start
 create repository export/fullstory/desktop-defaults.git
 end repository
@@ -1457,6 +1493,24 @@ match /ndiswrapper/tags/([^/]+)/
 	substitute branch s/:/%/
 end match
 # ndiswrapper end
+
+
+# networkconfig-sidux start
+create repository export/fullstory.morgue/networkconfig-sidux.git
+end repository
+
+match /networkconfig-(kanotix|sidux)/trunk/
+	repository export/fullstory.morgue/networkconfig-sidux.git
+	branch master
+end match
+
+match /networkconfig-(kanotix|sidux)/tags/([^/]+)/
+	repository export/fullstory.morgue/networkconfig-sidux.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# networkconfig-sidux end
 
 
 # omnibook start
