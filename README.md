@@ -212,6 +212,7 @@ to migrate them into individual git repositories.
 * siduxcc: knxcc, siduxcc
 * sitar
 * smbconf-sidux: smbconf-kanotix, smbconf-sidux
+* splashy-theme-kanotix-penguins
 * su-me: kanotix-su, su-me
 * sudoers-sidux: sudoers-kanotix, sudores-sidux, sudoers-sidux
 * teclasat
@@ -226,7 +227,6 @@ to migrate them into individual git repositories.
 * sidux-server-config
 
 ###Unsorted historic Packages (pending)
-* splashy-theme-kanotix-penguins
 * startsyslog
 * startsyslog-kanotix
 * startsyslog-sidux

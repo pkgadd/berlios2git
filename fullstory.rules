@@ -3796,6 +3796,24 @@ end match
 # smbconf-kanotix end
 
 
+# splashy-theme-kanotix-penguins start
+create repository export/fullstory.morgue/splashy-theme-kanotix-penguins.git
+end repository
+
+match /splashy-theme-kanotix-penguins/trunk/
+	repository export/fullstory.morgue/splashy-theme-kanotix-penguins.git
+	branch master
+end match
+
+match /splashy-theme-kanotix-penguins/tags/([^/]+)/
+	repository export/fullstory.morgue/splashy-theme-kanotix-penguins.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# splashy-theme-kanotix-penguins end
+
+
 # sshstart start
 create repository export/fullstory/sshstart.git
 end repository
