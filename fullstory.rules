@@ -762,6 +762,78 @@ end match
 # configure-isdn end
 
 
+# configure-keyboard start
+create repository export/fullstory.morgue/configure-keyboard.git
+end repository
+
+match /(kbdconfig-kanotix|configure-keyboard)/trunk/
+	repository export/fullstory.morgue/configure-keyboard.git
+	branch master
+end match
+
+match /(kbdconfig-kanotix|configure-keyboard)/tags/([^/]+)/
+	repository export/fullstory.morgue/configure-keyboard.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# configure-keyboard end
+
+
+# configure-modemlink start
+create repository export/fullstory.morgue/configure-modemlink.git
+end repository
+
+match /(modemlink-kanotix|configure-modemlink)/trunk/
+	repository export/fullstory.morgue/configure-modemlink.git
+	branch master
+end match
+
+match /(modemlink-kanotix|configure-modemlink)/tags/([^/]+)/
+	repository export/fullstory.morgue/configure-modemlink.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# configure-modemlink end
+
+
+# configure-mouse start
+create repository export/fullstory.morgue/configure-mouse.git
+end repository
+
+match /(mouseconfig-kanotix|configure-mouse)/trunk/
+	repository export/fullstory.morgue/configure-mouse.git
+	branch master
+end match
+
+match /(mouseconfig-kanotix|configure-mouse)/tags/([^/]+)/
+	repository export/fullstory.morgue/configure-mouse.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# configure-mouse end
+
+
+# configure-ndiswrapper start
+create repository export/fullstory.morgue/configure-ndiswrapper.git
+end repository
+
+match /(kanotix-ndiswrapper|configure-ndiswrapper)/trunk/
+	repository export/fullstory.morgue/configure-ndiswrapper.git
+	branch master
+end match
+
+match /(kanotix-ndiswrapper|configure-ndiswrapper)/tags/([^/]+)/
+	repository export/fullstory.morgue/configure-ndiswrapper.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# configure-ndiswrapper end
+
+
 # desktop-defaults start
 create repository export/fullstory/desktop-defaults.git
 end repository

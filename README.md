@@ -80,6 +80,10 @@ to migrate them into individual git repositories.
 * configure-freenx: nxsetup, nxsetup-kanotix, configure-freenx
 * configure-gprs: gprsconnect-kanotix, configure-gprs
 * configure-isdn: kanotix-isdn, configure-isdn
+* configure-keyboard
+* configure-modemlink: modemlink-kanotix, configure-modemlink
+* configure-mouse: mouseconfig-kanotix, configure-mouse
+* configure-ndiswrapper: kanotix-ndiswrapper, configure-ndiswrapper
 * ddcxinfo: ddcxinfo-kanotix, ddcxinfo-sidux
 * fll-builder
 * freenx
@@ -144,10 +148,6 @@ to migrate them into individual git repositories.
 * server-defaults
 
 ###Unsorted historic Packages (pending)
-* configure-keyboard
-* configure-modemlink
-* configure-mouse
-* configure-ndiswrapper
 * configure-networkcard
 * configure-ppp-connections
 * configure-screenres
@@ -182,7 +182,6 @@ to migrate them into individual git repositories.
 * kanotix2sidux
 * kanotix-graphics
 * kanotix-menu
-* kanotix-ndiswrapper
 * kanotix-remountrw
 * kanotix-screenres
 * kanotix-searchplugins
@@ -216,8 +215,6 @@ to migrate them into individual git repositories.
 * mkdosswapfile-kanotix
 * mkpersistenthome
 * mkpersistenthome-kanotix
-* modemlink-kanotix
-* mouseconfig-kanotix
 * netcardconfig-kanotix
 * networkconfig-kanotix
 * networkconfig-sidux
