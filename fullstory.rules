@@ -2034,6 +2034,24 @@ end match
 # knx-installer end
 
 
+# ksplash-theme-kanotix-clouds start
+create repository export/fullstory.morgue/ksplash-theme-kanotix-clouds.git
+end repository
+
+match /ksplash-theme-kanotix-clouds/trunk/
+	repository export/fullstory.morgue/ksplash-theme-kanotix-clouds.git
+	branch master
+end match
+
+match /ksplash-theme-kanotix-clouds/tags/([^/]+)/
+	repository export/fullstory.morgue/ksplash-theme-kanotix-clouds.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# ksplash-theme-kanotix-clouds end
+
+
 # linux-aptosid start
 create repository export/fullstory/linux-aptosid.git
 end repository
