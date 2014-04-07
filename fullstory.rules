@@ -2311,6 +2311,24 @@ end match
 # ltmodem-detect end
 
 
+# mkdesktophdicons-kanotix start
+create repository export/fullstory.morgue/mkdesktophdicons-kanotix.git
+end repository
+
+match /mkdesktophdicons-kanotix/trunk/
+	repository export/fullstory.morgue/mkdesktophdicons-kanotix.git
+	branch master
+end match
+
+match /mkdesktophdicons-kanotix/tags/([^/]+)/
+	repository export/fullstory.morgue/mkdesktophdicons-kanotix.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# mkdesktophdicons-kanotix end
+
+
 # ndiswrapper start
 create repository export/fullstory.morgue/ndiswrapper.git
 end repository
