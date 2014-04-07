@@ -1830,6 +1830,24 @@ end match
 # kanotix2sidux end
 
 
+# kanotix-remountrw start
+create repository export/fullstory.morgue/kanotix-remountrw.git
+end repository
+
+match /kanotix-remountrw/trunk/
+	repository export/fullstory.morgue/kanotix-remountrw.git
+	branch master
+end match
+
+match /kanotix-remountrw/tags/([^/]+)/
+	repository export/fullstory.morgue/kanotix-remountrw.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# kanotix-remountrw end
+
+
 # kdeadmin start
 create repository export/fullstory.zombie/kdeadmin.git
 end repository

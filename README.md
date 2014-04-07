@@ -121,6 +121,7 @@ to migrate them into individual git repositories.
 * k3b-defaults-kanotix
 * kanet
 * kanotix2sidux
+* kanotix-remountrw
 * klik
 * lirc
 * ndiswrapper
@@ -180,7 +181,6 @@ to migrate them into individual git repositories.
 * server-defaults
 
 ###Unsorted historic Packages (pending)
-* kanotix-remountrw
 * kanotix-searchplugins
 * kanotix-sounds
 * kanotix-terminalserver
