@@ -2837,6 +2837,24 @@ end match
 # sambastart end
 
 
+# saveconfig start
+create repository export/fullstory.morgue/saveconfig.git
+end repository
+
+match /(saveconfig-kanotix|saveconfig)/trunk/
+	repository export/fullstory.morgue/saveconfig.git
+	branch master
+end match
+
+match /(saveconfig-kanotix|saveconfig)/tags/([^/]+)/
+	repository export/fullstory.morgue/saveconfig.git
+	branch refs/tags/debian/\2
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# saveconfig end
+
+
 # server-defaults start
 create repository export/fullstory.zombie/server-defaults.git
 end repository
