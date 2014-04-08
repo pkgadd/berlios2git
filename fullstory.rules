@@ -433,16 +433,16 @@ end match
 
 
 # ar5523 start
-create repository export/fullstory.deprecated/ar5523.git
+create repository export/fullstory.morgue/ar5523.git
 end repository
 
 match /ar5523/trunk/
-	repository export/fullstory.deprecated/ar5523.git
+	repository export/fullstory.morgue/ar5523.git
 	branch master
 end match
 
 match /ar5523/tags/([^/]+)/
-	repository export/fullstory.deprecated/ar5523.git
+	repository export/fullstory.morgue/ar5523.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
 	substitute branch s/:/%/
@@ -655,16 +655,16 @@ end match
 
 
 # cliinstaller start
-create repository export/fullstory.deprecated/cliinstaller.git
+create repository export/fullstory.morgue/cliinstaller.git
 end repository
 
 match /cliinstaller/trunk/
-	repository export/fullstory.deprecated/cliinstaller.git
+	repository export/fullstory.morgue/cliinstaller.git
 	branch master
 end match
 
 match /cliinstaller/tags/([^/]+)/
-	repository export/fullstory.deprecated/cliinstaller.git
+	repository export/fullstory.morgue/cliinstaller.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
 	substitute branch s/:/%/
@@ -1213,28 +1213,28 @@ end match
 
 
 # firmware-carl9170 start
-create repository export/fullstory.deprecated/firmware-carl9170.git
+create repository export/fullstory/firmware-carl9170.git
 end repository
 
 match /firmware-carl9170/trunk/
-	repository export/fullstory.deprecated/firmware-carl9170.git
+	repository export/fullstory/firmware-carl9170.git
 	branch master
 end match
 
 match /firmware-carl9170/branches/upstream/current/
-	repository export/fullstory.deprecated/firmware-carl9170.git
+	repository export/fullstory/firmware-carl9170.git
 	branch upstream
 end match
 
 match /firmware-carl9170/branches/upstream/([^/]+)/
-	repository export/fullstory.deprecated/firmware-carl9170.git
+	repository export/fullstory/firmware-carl9170.git
 	branch refs/tags/upstream/\1
 	substitute branch s/~/_/
 	substitute branch s/:/%/
 end match
 
 match /firmware-carl9170/tags/([^/]+)/
-	repository export/fullstory.deprecated/firmware-carl9170.git
+	repository export/fullstory/firmware-carl9170.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
 	substitute branch s/:/%/

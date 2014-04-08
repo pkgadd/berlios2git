@@ -35,6 +35,7 @@ to migrate them into individual git repositories.
 * configure-cups: cupsconfig-kanotix, configure-cups
 * desktop-defaults
 * dmakms
+* firmware-carl9170
 * fll-installer
 * fll-live-initramfs
 * fll-live-initscripts
@@ -54,11 +55,6 @@ to migrate them into individual git repositories.
 * udev-config-aptosid: kanotix-udev-config, udev-config-sidux, udev-config-aptosid
 * xdg-browser-launcher: sidux-browser, xdg-browser-launcher
 
-###Deprecated
-* ar5523
-* cliinstaller
-* firmware-carl9170
-
 ###Morgue
 * acer-acpi
 * acerhk
@@ -71,12 +67,14 @@ to migrate them into individual git repositories.
 * aptosid-manual-transition-helper
 * aptosid-transition-helper
 * aptosid-vdr: kanotix-vdr, sidux-vdr, aptosid-vdr
+* ar5523
 * atl1e
 * aufs
 * automount-kanotix
 * busybox-sidux: busybox-kanotix, busybox-sidux
 * btsco
 * checkmem: checkmem-kanotix, checkmem
+* cliinstaller
 * configure-dsl: kanotix-dsl, configure-dsl
 * configure-freenx: nxsetup, nxsetup-kanotix, configure-freenx
 * configure-gprs: gprsconnect-kanotix, configure-gprs
