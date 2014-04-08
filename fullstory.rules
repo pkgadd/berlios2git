@@ -240,6 +240,24 @@ end match
 # aptosid-art-ponos end
 
 
+# aptosid-art-thanatos start
+create repository export/fullstory/aptosid-art-thanatos.git
+end repository
+
+match /aptosid-art-thanatos/trunk/
+	repository export/fullstory/aptosid-art-thanatos.git
+	branch master
+end match
+
+match /aptosid-art-thanatos/tags/([^/]+)/
+	repository export/fullstory/aptosid-art-thanatos.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# aptosid-art-thanatos end
+
+
 # aptosid-irc start
 create repository export/fullstory/aptosid-irc.git
 end repository

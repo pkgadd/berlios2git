@@ -64,6 +64,7 @@ to migrate them into individual git repositories.
 * aptosid-art-imera
 * aptosid-art-keres: sidux-art-keres, aptosid-art-keres
 * aptosid-art-ponos
+* aptosid-art-thanatos
 * aptosid-manual-reader: sidux-manual-reader, aptosid-manual-reader
 * aptosid-manual-transition-helper
 * aptosid-transition-helper
