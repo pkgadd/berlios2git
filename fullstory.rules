@@ -4042,22 +4042,22 @@ end match
 # vdr-gui end
 
 
-# xdg-browser start
-create repository export/fullstory/xdg-browser.git
+# xdg-browser-launcher start
+create repository export/fullstory/xdg-browser-launcher.git
 end repository
 
-match /(sidux-browser|xdg-browser)/trunk/
-	repository export/fullstory/xdg-browser.git
+match /(sidux-browser|xdg-browser-launcher)/trunk/
+	repository export/fullstory/xdg-browser-launcher.git
 	branch master
 end match
 
-match /(sidux-browser|xdg-browser)/tags/([^/]+)/
-	repository export/fullstory/xdg-browser.git
+match /(sidux-browser|xdg-browser-launcher)/tags/([^/]+)/
+	repository export/fullstory/xdg-browser-launcher.git
 	branch refs/tags/debian/\2
 	substitute branch s/~/_/
 	substitute branch s/:/%/
 end match
-# xdg-browser end
+# xdg-browser-launcher end
 
 
 # xorgconfig start
