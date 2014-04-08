@@ -115,16 +115,16 @@ end match
 
 
 # aptosid-art-hesperides start
-create repository export/fullstory/aptosid-art-hesperides.git
+create repository export/fullstory.morgue/aptosid-art-hesperides.git
 end repository
 
 match /aptosid-art-hesperides/trunk/
-	repository export/fullstory/aptosid-art-hesperides.git
+	repository export/fullstory.morgue/aptosid-art-hesperides.git
 	branch master
 end match
 
 match /aptosid-art-hesperides/tags/([^/]+)/
-	repository export/fullstory/aptosid-art-hesperides.git
+	repository export/fullstory.morgue/aptosid-art-hesperides.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
 	substitute branch s/:/%/
@@ -241,16 +241,16 @@ end match
 
 
 # aptosid-art-thanatos start
-create repository export/fullstory/aptosid-art-thanatos.git
+create repository export/fullstory.morgue/aptosid-art-thanatos.git
 end repository
 
 match /aptosid-art-thanatos/trunk/
-	repository export/fullstory/aptosid-art-thanatos.git
+	repository export/fullstory.morgue/aptosid-art-thanatos.git
 	branch master
 end match
 
 match /aptosid-art-thanatos/tags/([^/]+)/
-	repository export/fullstory/aptosid-art-thanatos.git
+	repository export/fullstory.morgue/aptosid-art-thanatos.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
 	substitute branch s/:/%/
