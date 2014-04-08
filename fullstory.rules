@@ -1713,6 +1713,11 @@ match /initscripts-(kanotix|sidux)-live/trunk/
 	branch master
 end match
 
+match /initscripts-kanotix-live/branches/initscripts-fll-live/
+	repository export/fullstory.morgue/initscripts-sidux-live.git
+	branch initscripts-fll-live
+end match
+
 match /initscripts-(kanotix|sidux)-live/tags/([^/]+)/
 	repository export/fullstory.morgue/initscripts-sidux-live.git
 	branch refs/tags/debian/\2
@@ -2590,7 +2595,6 @@ match /(fll-builder/branches/pyfll|pyfll/trunk)/
 	branch master
 end match
 
-# ignore pyfll-ubuntu
 match /pyfll/branches/pyfll-ubuntu/
 	repository export/fullstory/pyfll.git
 	branch pyfll-ubuntu
