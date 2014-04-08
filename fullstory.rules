@@ -1611,6 +1611,18 @@ match /gtf/trunk/
 	branch master
 end match
 
+match /gtf/branches/upstream/current/
+	repository export/fullstory.morgue/gtf.git
+	branch upstream
+end match
+
+match /gtf/branches/upstream/([^/]+)/
+	repository export/fullstory.morgue/gtf.git
+	branch refs/tags/upstream/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+
 match /gtf/tags/([^/]+)/
 	repository export/fullstory.morgue/gtf.git
 	branch refs/tags/debian/\1
