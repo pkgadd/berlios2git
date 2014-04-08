@@ -2649,14 +2649,14 @@ end match
 create repository export/fullstory.morgue/qt-fll-iso2usb-gui.git
 end repository
 
-match /qt-fll-iso2usb-gui/trunk/
+match /(qt-fll-iso2usb.gui|qt-fll-iso2usb-gui)/trunk/
 	repository export/fullstory.morgue/qt-fll-iso2usb-gui.git
 	branch master
 end match
 
-match /qt-fll-iso2usb-gui/tags/([^/]+)/
+match /(qt-fll-iso2usb.gui|qt-fll-iso2usb-gui)/tags/([^/]+)/
 	repository export/fullstory.morgue/qt-fll-iso2usb-gui.git
-	branch refs/tags/debian/\1
+	branch refs/tags/debian/\2
 	substitute branch s/~/_/
 	substitute branch s/:/%/
 end match
