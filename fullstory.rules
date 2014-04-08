@@ -3770,12 +3770,12 @@ end match
 create repository export/fullstory.morgue/siduxcc.git
 end repository
 
-match /(kanotix|sidux)cc/trunk/
+match /(knx|sidux)cc/trunk/
 	repository export/fullstory.morgue/siduxcc.git
 	branch master
 end match
 
-match /(kanotix|sidux)cc/tags/([^/]+)/
+match /(knx|sidux)cc/tags/([^/]+)/
 	repository export/fullstory.morgue/siduxcc.git
 	branch refs/tags/debian/\2
 	substitute branch s/~/_/
