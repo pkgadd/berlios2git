@@ -2069,6 +2069,24 @@ end match
 # klik end
 
 
+# knxcc start
+create repository export/fullstory.morgue/knxcc.git
+end repository
+
+match /knxcc/trunk/
+	repository export/fullstory.morgue/knxcc.git
+	branch master
+end match
+
+match /knxcc/tags/([^/]+)/
+	repository export/fullstory.morgue/knxcc.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# knxcc end
+
+
 # knx-installer start
 create repository export/fullstory.morgue/knx-installer.git
 end repository
@@ -3786,14 +3804,14 @@ end match
 create repository export/fullstory.morgue/siduxcc.git
 end repository
 
-match /(knx|sidux)cc/trunk/
+match /siduxcc/trunk/
 	repository export/fullstory.morgue/siduxcc.git
 	branch master
 end match
 
-match /(knx|sidux)cc/tags/([^/]+)/
+match /siduxcc/tags/([^/]+)/
 	repository export/fullstory.morgue/siduxcc.git
-	branch refs/tags/debian/\2
+	branch refs/tags/debian/\1
 	substitute branch s/~/_/
 	substitute branch s/:/%/
 end match
