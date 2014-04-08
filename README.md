@@ -208,6 +208,7 @@ to migrate them into individual git repositories.
 * sidux-icons
 * sidux-menu: kanotix-menu, sidux-menu
 * sidux-searchplugins: kanotix-searchplugins, sidux-searchplugins
+* sidux-server-config
 * sidux-xdg
 * siduxcc: knxcc, siduxcc
 * sitar
@@ -232,5 +233,4 @@ to migrate them into individual git repositories.
 * kdeadmin
 * notes.txt
 * server-defaults
-* sidux-server-config
 

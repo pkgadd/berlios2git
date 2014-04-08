@@ -3695,16 +3695,16 @@ end match
 
 
 # sidux-server-config start
-create repository export/fullstory.zombie/sidux-server-config.git
+create repository export/fullstory.morgue/sidux-server-config.git
 end repository
 
 match /sidux-server-config/trunk/
-	repository export/fullstory.zombie/sidux-server-config.git
+	repository export/fullstory.morgue/sidux-server-config.git
 	branch master
 end match
 
 match /sidux-server-config/tags/([^/]+)/
-	repository export/fullstory.zombie/sidux-server-config.git
+	repository export/fullstory.morgue/sidux-server-config.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
 	substitute branch s/:/%/
