@@ -60,6 +60,7 @@ to migrate them into individual git repositories.
 * acerhk
 * aptosid-art-apate
 * aptosid-art-geras
+* aptosid-art-hesperides
 * aptosid-art-imera
 * aptosid-art-keres: sidux-art-keres, aptosid-art-keres
 * aptosid-art-ponos

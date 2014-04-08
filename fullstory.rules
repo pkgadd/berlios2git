@@ -114,6 +114,24 @@ end match
 # aptosid-art-geras end
 
 
+# aptosid-art-hesperides start
+create repository export/fullstory/aptosid-art-hesperides.git
+end repository
+
+match /aptosid-art-hesperides/trunk/
+	repository export/fullstory/aptosid-art-hesperides.git
+	branch master
+end match
+
+match /aptosid-art-hesperides/tags/([^/]+)/
+	repository export/fullstory/aptosid-art-hesperides.git
+	branch refs/tags/debian/\1
+	substitute branch s/~/_/
+	substitute branch s/:/%/
+end match
+# aptosid-art-hesperides end
+
+
 # aptosid-art-imera start
 create repository export/fullstory/aptosid-art-imera.git
 end repository
