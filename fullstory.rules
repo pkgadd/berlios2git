@@ -207,16 +207,16 @@ end match
 
 
 # aptosid-art-nemesis start
-create repository export/fullstory/aptosid-art-nemesis.git
+create repository export/fullstory.morgue/aptosid-art-nemesis.git
 end repository
 
 match /aptosid-art-nemesis/trunk/
-	repository export/fullstory/aptosid-art-nemesis.git
+	repository export/fullstory.morgue/aptosid-art-nemesis.git
 	branch master
 end match
 
 match /aptosid-art-nemesis/tags/([^/]+)/
-	repository export/fullstory/aptosid-art-nemesis.git
+	repository export/fullstory.morgue/aptosid-art-nemesis.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
 	substitute branch s/:/%/
