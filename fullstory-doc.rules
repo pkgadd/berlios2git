@@ -1,0 +1,28 @@
+# fullstory-doc.rules
+# Copyright 2014, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+# License: ISC
+
+# edu-games-manual start
+create repository export/fullstory-doc/edu-games-manual.git
+end repository
+
+match /trunk/edu-games-manual/
+	repository export/fullstory-doc/edu-games-manual.git
+	branch master
+end match
+# edu-games-manual end
+
+# aptosid-manual start
+create repository export/fullstory-doc/aptosid-manual.git
+end repository
+
+match /trunk/
+	repository export/fullstory-doc/aptosid-manual.git
+	branch master
+end match
+# aptosid-manual end
+
+
+# Ignore everything else
+#match /
+#end match

@@ -1,4 +1,6 @@
 # fullstory.rules
+# Copyright 2014, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+# License: ISC
 
 # acer-apci start
 create repository export/fullstory.morgue/acer-acpi.git

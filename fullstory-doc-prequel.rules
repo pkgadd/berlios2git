@@ -1,3 +1,7 @@
+# fullstory-doc-prequel.rules
+# Copyright 2014, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+# License: ISC
+
 # aptosid-manual-prequel start
 create repository export/fullstory-doc/aptosid-manual-prequel.git
 end repository

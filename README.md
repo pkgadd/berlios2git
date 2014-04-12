@@ -10,6 +10,7 @@ to migrate them into individual git repositories.
 - tar -xzf fullstory-doc-svnroot.tar.gz
 - svn-all-fast-export --identity-map=authors-transform.txt --rules fullstory.rules fullstory/
 - svn-all-fast-export --identity-map=authors-transform.txt --rules fullstory-doc-prequel.rules fullstory/
+- svn-all-fast-export --identity-map=authors-transform.txt --rules fullstory-doc.rules fullstory-doc/
 
 ##Further reading
 - https://wiki.debian.org/PackagingWithGit/Svn-buildpackageConversion
@@ -233,4 +234,9 @@ to migrate them into individual git repositories.
 * kdeadmin
 * notes.txt
 * server-defaults
+
+##fullstory-doc
+* aptosid-manual
+* aptosid-manual-prequel
+* edu-games-manual
 
