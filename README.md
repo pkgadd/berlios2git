@@ -12,6 +12,12 @@ to migrate them into individual git repositories.
 - svn-all-fast-export --identity-map=authors-transform.txt --rules fullstory-doc-prequel.rules fullstory/
 - svn-all-fast-export --identity-map=authors-transform.txt --rules fullstory-doc.rules fullstory-doc/
 
+###Backup
+- zcat fullstory-svnroot.tar.gz | pixz -9 > fullstory-svnroot.tar.xz
+- zcat fullstory-doc-svnroot.tar.gz | pixz -9 > fullstory-doc-svnroot.tar.xz
+- svnadmin dump fullstory | pixz -9 > fullstory.dump.xz
+- svnadmin dump fullstory-doc | pixz -9 > fullstory-doc.dump.xz
+
 ##Further reading
 - https://wiki.debian.org/PackagingWithGit/Svn-buildpackageConversion
 - http://techbase.kde.org/Projects/MoveToGit/UsingSvn2Git
