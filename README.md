@@ -34,7 +34,6 @@ to migrate them into individual git repositories.
 * aptosid-manual: sidux-manual, aptosid-manual
 * aptosid-scripts: kanotix-scripts, sidux-scripts, aptosid-scripts
 * aptosid-settings-kde: sidux-settings-kde, aptosid-settings-kde
-* aptosid-settings-lxde: sidux-settings-lxde, aptosid-settings-lxde
 * aptosid-settings-xfce: sidux-settings-xfce, aptosid-settings-xfce
 * b43-asm
 * ceni
@@ -74,6 +73,7 @@ to migrate them into individual git repositories.
 * aptosid-art-thanatos
 * aptosid-manual-reader: sidux-manual-reader, aptosid-manual-reader
 * aptosid-manual-transition-helper
+* aptosid-settings-lxde: sidux-settings-lxde, aptosid-settings-lxde
 * aptosid-transition-helper
 * aptosid-vdr: kanotix-vdr, sidux-vdr, aptosid-vdr
 * ar5523
