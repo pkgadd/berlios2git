@@ -1,0 +1,11 @@
+[vcs/manual/aptosid-manual]
+checkout = git clone git@github.com:/fullstory-doc/aptosid-manual.git aptosid-manual
+
+[vcs/manual/aptosid-manual-prequel]
+checkout = git clone git@github.com:/fullstory-doc/aptosid-manual-prequel.git aptosid-manual-prequel
+skip = [ ! -f "${HOME}/vcs/manual/.aptosid-manual-prequel" ] && [ ! -d "${HOME}/vcs/manual/aptosid-manual-prequel" ]
+
+[vcs/manual/edu-games-manual]
+checkout = git clone git@github.com:/fullstory-doc/edu-games-manual.git edu-games-manual
+skip = [ ! -f "${HOME}/vcs/manual/.edu-games-manual" ] && [ ! -d "${HOME}/vcs/manual/edu-games-manual" ]
+

@@ -1,0 +1,100 @@
+[vcs/fullstory/apt-conf-aptosid]
+checkout = git clone git@github.com:/fullstory/apt-conf-aptosid.git apt-conf-aptosid
+
+[vcs/fullstory/aptosid-art-legacy]
+checkout = git clone git@github.com:/fullstory/aptosid-art-legacy.git aptosid-art-legacy
+
+[vcs/fullstory/aptosid-art-meta]
+checkout = git clone git@github.com:/fullstory/aptosid-art-meta.git aptosid-art-meta
+
+#[vcs/fullstory/aptosid-art-philotis]
+#checkout = git clone git@github.com:/fullstory/aptosid-art-philotis.git aptosid-art-philotis
+
+[vcs/fullstory/aptosid-irc]
+checkout = git clone git@github.com:/fullstory/aptosid-irc.git aptosid-irc
+
+[vcs/fullstory/aptosid-keyring]
+checkout = git clone git@github.com:/fullstory/aptosid-keyring.git aptosid-keyring
+
+[vcs/fullstory/aptosid-manual]
+checkout = git clone git@github.com:/fullstory/aptosid-manual.git aptosid-manual
+
+[vcs/fullstory/aptosid-releasenotes]
+checkout = git clone git@vcs-server:aptosid-releasenotes.git aptosid-releasenotes
+skip = if wget -q --spider http://vcs-server.lan./ ; then false ; else true ; fi
+
+[vcs/fullstory/aptosid-scripts]
+checkout = git clone git@github.com:/fullstory/aptosid-scripts.git aptosid-scripts
+
+[vcs/fullstory/aptosid-settings-kde]
+checkout = git clone git@github.com:/fullstory/aptosid-settings-kde.git aptosid-settings-kde
+
+[vcs/fullstory/aptosid-settings-xfce]
+checkout = git clone git@github.com:/fullstory/aptosid-settings-xfce.git aptosid-settings-xfce
+
+[vcs/fullstory/b43-asm]
+checkout = git clone git@github.com:/fullstory/b43-asm.git b43-asm
+
+[vcs/fullstory/ceni]
+checkout = git clone git@github.com:/fullstory/ceni.git ceni
+
+[vcs/fullstory/configure-cups]
+checkout = git clone git@github.com:/fullstory/configure-cups.git configure-cups
+
+[vcs/fullstory/desktop-defaults]
+checkout = git clone git@github.com:/fullstory/desktop-defaults.git desktop-defaults
+
+[vcs/fullstory/dmakms]
+checkout = git clone git@github.com:/fullstory/dmakms.git dmakms
+
+[vcs/fullstory/fll-installer]
+checkout = git clone git@github.com:/fullstory/fll-installer.git fll-installer
+
+[vcs/fullstory/fll-live-initramfs]
+checkout = git clone git@github.com:/fullstory/fll-live-initramfs.git fll-live-initramfs
+
+[vcs/fullstory/fll-live-initscripts]
+checkout = git clone git@github.com:/fullstory/fll-live-initscripts.git fll-live-initscripts
+
+[vcs/fullstory/gfxboot-themes-aptosid]
+checkout = git clone git@github.com:/fullstory/gfxboot-themes-aptosid.git gfxboot-themes-aptosid
+
+[vcs/fullstory/grub2-fll-fromiso]
+checkout = git clone git@github.com:/fullstory/grub2-fll-fromiso.git grub2-fll-fromiso
+
+[vcs/fullstory/infobash]
+checkout = git clone git@github.com:/fullstory/infobash.git infobash
+
+[vcs/fullstory/install-gui]
+checkout = git clone git@github.com:/fullstory/install-gui.git install-gui
+
+[vcs/fullstory/install-usb-gui]
+checkout = git clone git@github.com:/fullstory/install-usb-gui.git install-usb-gui
+
+[vcs/fullstory/kernel-remover]
+checkout = git clone git@github.com:/fullstory/kernel-remover.git kernel-remover
+
+[vcs/fullstory/linux-aptosid]
+checkout = git clone git@github.com:/fullstory/linux-aptosid.git linux-aptosid
+
+[vcs/fullstory/openfwwf]
+checkout = git clone git@github.com:/fullstory/openfwwf.git openfwwf
+
+[vcs/fullstory/pyfll]
+checkout = git clone git@github.com:/fullstory/pyfll.git pyfll
+
+[vcs/fullstory/python-fll]
+checkout = git clone git@github.com:/fullstory/python-fll.git python-fll
+
+[vcs/fullstory/setpassword]
+checkout = git clone git@github.com:/fullstory/setpassword.git setpassword
+
+[vcs/fullstory/sshstart]
+checkout = git clone git@github.com:/fullstory/sshstart.git sshstart
+
+[vcs/fullstory/udev-config-aptosid]
+checkout = git clone git@github.com:/fullstory/udev-config-aptosid.git udev-config-aptosid
+
+[vcs/fullstory/xdg-browser-launcher]
+checkout = git clone git@github.com:/fullstory/xdg-browser-launcher.git xdg-browser-launcher
+
