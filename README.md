@@ -29,7 +29,6 @@ to migrate them into individual git repositories.
 * apt-conf-aptosid: apt-conf-sidux, apt-conf-aptosid
 * aptosid-art-legacy: sidux-art-legacy, aptosid-art-legacy
 * aptosid-art-meta: sidux-art-meta, aptosid-art-meta
-* aptosid-art-nemesis
 * aptosid-irc: kanotix-irc, sidux-irc, aptosid-irc
 * aptosid-keyring: kanotix-keyring, sidux-keyring, aptosid-keyring
 * aptosid-manual: sidux-manual, aptosid-manual
@@ -70,6 +69,7 @@ to migrate them into individual git repositories.
 * aptosid-art-hesperides
 * aptosid-art-imera
 * aptosid-art-keres: sidux-art-keres, aptosid-art-keres
+* aptosid-art-nemesis
 * aptosid-art-ponos
 * aptosid-art-thanatos
 * aptosid-manual-reader: sidux-manual-reader, aptosid-manual-reader
