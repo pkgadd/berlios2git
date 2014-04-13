@@ -81,16 +81,16 @@ end match
 
 
 # aptosid-art-apate start
-create repository export/fullstory/aptosid-art-apate.git
+create repository export/fullstory.morgue/aptosid-art-apate.git
 end repository
 
 match /aptosid-art-apate/trunk/
-	repository export/fullstory/aptosid-art-apate.git
+	repository export/fullstory.morgue/aptosid-art-apate.git
 	branch master
 end match
 
 match /aptosid-art-apate/tags/([^/]+)/
-	repository export/fullstory/aptosid-art-apate.git
+	repository export/fullstory.morgue/aptosid-art-apate.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
 	substitute branch s/:/%/
@@ -99,16 +99,16 @@ end match
 
 
 # aptosid-art-geras start
-create repository export/fullstory/aptosid-art-geras.git
+create repository export/fullstory.morgue/aptosid-art-geras.git
 end repository
 
 match /aptosid-art-geras/trunk/
-	repository export/fullstory/aptosid-art-geras.git
+	repository export/fullstory.morgue/aptosid-art-geras.git
 	branch master
 end match
 
 match /aptosid-art-geras/tags/([^/]+)/
-	repository export/fullstory/aptosid-art-geras.git
+	repository export/fullstory.morgue/aptosid-art-geras.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
 	substitute branch s/:/%/
@@ -135,16 +135,16 @@ end match
 
 
 # aptosid-art-imera start
-create repository export/fullstory/aptosid-art-imera.git
+create repository export/fullstory.morgue/aptosid-art-imera.git
 end repository
 
 match /aptosid-art-imera/trunk/
-	repository export/fullstory/aptosid-art-imera.git
+	repository export/fullstory.morgue/aptosid-art-imera.git
 	branch master
 end match
 
 match /aptosid-art-imera/tags/([^/]+)/
-	repository export/fullstory/aptosid-art-imera.git
+	repository export/fullstory.morgue/aptosid-art-imera.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
 	substitute branch s/:/%/
@@ -153,16 +153,16 @@ end match
 
 
 # aptosid-art-keres start
-create repository export/fullstory/aptosid-art-keres.git
+create repository export/fullstory.morgue/aptosid-art-keres.git
 end repository
 
 match /(sidux|aptosid)-art-keres/trunk/
-	repository export/fullstory/aptosid-art-keres.git
+	repository export/fullstory.morgue/aptosid-art-keres.git
 	branch master
 end match
 
 match /(sidux|aptosid)-art-keres/tags/([^/]+)/
-	repository export/fullstory/aptosid-art-keres.git
+	repository export/fullstory.morgue/aptosid-art-keres.git
 	branch refs/tags/debian/\2
 	substitute branch s/~/_/
 	substitute branch s/:/%/
@@ -225,16 +225,16 @@ end match
 
 
 # aptosid-art-ponos start
-create repository export/fullstory/aptosid-art-ponos.git
+create repository export/fullstory.morgue/aptosid-art-ponos.git
 end repository
 
 match /aptosid-art-ponos/trunk/
-	repository export/fullstory/aptosid-art-ponos.git
+	repository export/fullstory.morgue/aptosid-art-ponos.git
 	branch master
 end match
 
 match /aptosid-art-ponos/tags/([^/]+)/
-	repository export/fullstory/aptosid-art-ponos.git
+	repository export/fullstory.morgue/aptosid-art-ponos.git
 	branch refs/tags/debian/\1
 	substitute branch s/~/_/
 	substitute branch s/:/%/
