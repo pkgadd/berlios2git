@@ -381,16 +381,16 @@ end match
 
 
 # aptosid-settings-lxde start
-create repository export/fullstory/aptosid-settings-lxde.git
+create repository export/fullstory.morgue/aptosid-settings-lxde.git
 end repository
 
 match /(sidux|aptosid)-settings-lxde/trunk/
-	repository export/fullstory/aptosid-settings-lxde.git
+	repository export/fullstory.morgue/aptosid-settings-lxde.git
 	branch master
 end match
 
 match /(sidux|aptosid)-settings-lxde/tags/([^/]+)/
-	repository export/fullstory/aptosid-settings-lxde.git
+	repository export/fullstory.morgue/aptosid-settings-lxde.git
 	branch refs/tags/debian/\2
 	substitute branch s/~/_/
 	substitute branch s/:/%/
