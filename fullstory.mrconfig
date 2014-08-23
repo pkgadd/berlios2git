@@ -68,8 +68,8 @@ checkout = git clone git@github.com:/fullstory/infobash.git infobash
 [vcs/fullstory/install-gui]
 checkout = git clone git@github.com:/fullstory/install-gui.git install-gui
 
-[vcs/fullstory/install-usb-gui]
-checkout = git clone git@github.com:/fullstory/install-usb-gui.git install-usb-gui
+#[vcs/fullstory/install-usb-gui]
+#checkout = git clone git@github.com:/fullstory/install-usb-gui.git install-usb-gui
 
 [vcs/fullstory/kernel-remover]
 checkout = git clone git@github.com:/fullstory/kernel-remover.git kernel-remover
