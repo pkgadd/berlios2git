@@ -62,6 +62,10 @@ skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
 checkout = git clone git@github.com:/fullstory-morgue/aufs.git aufs
 skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
 
+[vcs/morgue-fullstory/automount-kanotix]
+checkout = git clone git@github.com:/fullstory-morgue/automount-kanotix.git automount-kanotix
+skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
+
 [vcs/morgue-fullstory/install-usb-gui]
 checkout = git clone git@github.com:/fullstory-morgue/install-usb-gui.git install-usb-gui
 skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
