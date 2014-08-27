@@ -102,6 +102,10 @@ skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
 checkout = git clone git@github.com:/fullstory-morgue/configure-modemlink.git configure-modemlink
 skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
 
+[vcs/morgue-fullstory/configure-mouse]
+checkout = git clone git@github.com:/fullstory-morgue/configure-mouse.git configure-mouse
+skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
+
 [vcs/morgue-fullstory/install-usb-gui]
 checkout = git clone git@github.com:/fullstory-morgue/install-usb-gui.git install-usb-gui
 skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
