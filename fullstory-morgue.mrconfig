@@ -42,6 +42,10 @@ skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
 checkout = git clone git@github.com:/fullstory-morgue/aptosid-settings-lxde.git aptosid-settings-lxde
 skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
 
+[vcs/morgue-fullstory/aptosid-transition-helper]
+checkout = git clone git@github.com:/fullstory-morgue/aptosid-transition-helper.git aptosid-transition-helper
+skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
+
 [vcs/morgue-fullstory/install-usb-gui]
 checkout = git clone git@github.com:/fullstory-morgue/install-usb-gui.git install-usb-gui
 skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
