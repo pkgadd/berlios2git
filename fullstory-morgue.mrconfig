@@ -1,7 +1,7 @@
 [vcs/morgue-fullstory/acer-acpi]
-checkout = git clone git@github.com:/morgue-fullstory/acer-acpi.git acer-apci
+checkout = git clone git@github.com:/fullstory-morgue/acer-acpi.git acer-apci
 skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
 
 [vcs/morgue-fullstory/install-usb-gui]
-checkout = git clone git@github.com:/morgue-fullstory/install-usb-gui.git install-usb-gui
+checkout = git clone git@github.com:/fullstory-morgue/install-usb-gui.git install-usb-gui
 skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
