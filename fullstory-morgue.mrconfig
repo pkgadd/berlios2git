@@ -1,5 +1,17 @@
 [vcs/morgue-fullstory/acer-acpi]
-checkout = git clone git@github.com:/fullstory-morgue/acer-acpi.git acer-apci
+checkout = git clone git@github.com:/fullstory-morgue/acer-acpi.git acer-acpi
+skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
+
+[vcs/morgue-fullstory/acerhk]
+checkout = git clone git@github.com:/fullstory-morgue/acerhk.git acerhk
+skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
+
+[vcs/morgue-fullstory/aptosid-art-apate]
+checkout = git clone git@github.com:/fullstory-morgue/aptosid-art-apate.git aptosid-art-apate
+skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
+
+[vcs/morgue-fullstory/aptosid-art-hesperides]
+checkout = git clone git@github.com:/fullstory-morgue/aptosid-art-hesperides.git aptosid-art-hesperides
 skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
 
 [vcs/morgue-fullstory/install-usb-gui]
