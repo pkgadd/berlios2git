@@ -198,6 +198,10 @@ skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
 checkout = git clone git@github.com:/fullstory-morgue/gfxboot.git gfxboot
 skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
 
+[vcs/morgue-fullstory/gfxboot-themes-aptosid]
+checkout = git clone git@github.com:/fullstory-morgue/gfxboot-themes-aptosid.git gfxboot-themes-aptosid
+skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
+
 [vcs/morgue-fullstory/gfxboot-theme-sidux-eros]
 checkout = git clone git@github.com:/fullstory-morgue/gfxboot-theme-sidux-eros.git gfxboot-theme-sidux-eros
 skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]

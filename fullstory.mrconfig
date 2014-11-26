@@ -56,9 +56,6 @@ checkout = git clone git@github.com:/fullstory/fll-live-initramfs.git fll-live-i
 [vcs/fullstory/fll-live-initscripts]
 checkout = git clone git@github.com:/fullstory/fll-live-initscripts.git fll-live-initscripts
 
-[vcs/fullstory/gfxboot-themes-aptosid]
-checkout = git clone git@github.com:/fullstory/gfxboot-themes-aptosid.git gfxboot-themes-aptosid
-
 [vcs/fullstory/grub2-fll-fromiso]
 checkout = git clone git@github.com:/fullstory/grub2-fll-fromiso.git grub2-fll-fromiso
 
