@@ -36,7 +36,6 @@ to migrate them into individual git repositories.
 * aptosid-settings-kde: sidux-settings-kde, aptosid-settings-kde
 * aptosid-settings-xfce: sidux-settings-xfce, aptosid-settings-xfce
 * b43-asm
-* ceni
 * configure-cups: cupsconfig-kanotix, configure-cups
 * desktop-defaults
 * dmakms
@@ -82,6 +81,7 @@ to migrate them into individual git repositories.
 * automount-kanotix
 * busybox-sidux: busybox-kanotix, busybox-sidux
 * btsco
+* ceni
 * checkmem: checkmem-kanotix, checkmem
 * cliinstaller
 * configure-dsl: kanotix-dsl, configure-dsl
