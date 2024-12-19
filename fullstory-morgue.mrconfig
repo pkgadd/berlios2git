@@ -38,8 +38,28 @@ skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
 checkout = git clone git@github.com:/fullstory-morgue/aptosid-manual-transition-helper.git aptosid-manual-transition-helper
 skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
 
+[vcs/morgue-fullstory/aptosid-settings-budgie]
+checkout = git clone git@github.com:/fullstory-morgue/aptosid-settings-budgie.git aptosid-settings-budgie
+skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
+
+[vcs/morgue-fullstory/aptosid-settings-cinnamon]
+checkout = git clone git@github.com:/fullstory-morgue/aptosid-settings-cinnamon.git aptosid-settings-cinnamon
+skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
+
+[vcs/morgue-fullstory/aptosid-settings-gnome]
+checkout = git clone git@github.com:/fullstory-morgue/aptosid-settings-gnome.git aptosid-settings-gnome
+skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
+
+[vcs/morgue-fullstory/aptosid-settings-kde]
+checkout = git clone git@github.com:/fullstory-morgue/aptosid-settings-kde.git aptosid-settings-kde
+skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
+
 [vcs/morgue-fullstory/aptosid-settings-lxde]
 checkout = git clone git@github.com:/fullstory-morgue/aptosid-settings-lxde.git aptosid-settings-lxde
+skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
+
+[vcs/morgue-fullstory/aptosid-settings-xfce]
+checkout = git clone git@github.com:/fullstory-morgue/aptosid-settings-xfce.git aptosid-settings-xfce
 skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
 
 [vcs/morgue-fullstory/aptosid-transition-helper]
@@ -72,6 +92,10 @@ skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
 
 [vcs/morgue-fullstory/busybox-sidux]
 checkout = git clone git@github.com:/fullstory-morgue/busybox-sidux.git busybox-sidux
+skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
+
+[vcs/morgue-fullstory/ceni]
+checkout = git clone git@github.com:/fullstory-morgue/ceni.git ceni
 skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
 
 [vcs/morgue-fullstory/checkmem]
@@ -130,6 +154,10 @@ skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
 checkout = git clone git@github.com:/fullstory-morgue/ddcxinfo.git ddcxinfo
 skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
 
+[vcs/morgue-fullstory/desktop-defaults]
+checkout = git clone git@github.com:/fullstory-morgue/desktop-defaults.git desktop-defaults
+skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
+
 [vcs/morgue-fullstory/distro-defaults]
 checkout = git clone git@github.com:/fullstory-morgue/distro-defaults.git distro-defaults
 skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
@@ -138,12 +166,12 @@ skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
 checkout = git clone git@github.com:/fullstory-morgue/dvb-detect.git dvb-detect
 skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
 
-[vcs/morgue-fullstory/eduversum]
-checkout = git clone git@github.com:/fullstory-morgue/eduversum.git eduversum
-skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
-
 [vcs/morgue-fullstory/eduversum-howto]
 checkout = git clone git@github.com:/fullstory-morgue/eduversum-howto.git eduversum-howto
+skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
+
+[vcs/morgue-fullstory/eduversum]
+checkout = git clone git@github.com:/fullstory-morgue/eduversum.git eduversum
 skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
 
 [vcs/morgue-fullstory/etcskel-sidux]
@@ -172,6 +200,10 @@ skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
 
 [vcs/morgue-fullstory/fll-gfx]
 checkout = git clone git@github.com:/fullstory-morgue/fll-gfx.git fll-gfx
+skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
+
+[vcs/morgue-fullstory/fll-installer]
+checkout = git clone git@github.com:/fullstory-morgue/fll-installer.git fll-installer
 skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
 
 [vcs/morgue-fullstory/freenx]
@@ -232,6 +264,10 @@ skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
 
 [vcs/morgue-fullstory/initscripts-sidux-live]
 checkout = git clone git@github.com:/fullstory-morgue/initscripts-sidux-live.git initscripts-sidux-live
+skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
+
+[vcs/morgue-fullstory/install-gui]
+checkout = git clone git@github.com:/fullstory-morgue/install-gui.git install-gui
 skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
 
 [vcs/morgue-fullstory/install-meta]
@@ -382,6 +418,14 @@ skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
 checkout = git clone git@github.com:/fullstory-morgue/pyfll-installer.git pyfll-installer
 skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
 
+[vcs/morgue-fullstory/pyfll-ubuntu]
+checkout = git clone git@github.com:/fullstory-morgue/pyfll-ubuntu.git pyfll-ubuntu
+skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
+
+[vcs/morgue-fullstory/python-fll]
+checkout = git clone git@github.com:/fullstory-morgue/python-fll.git python-fll
+skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
+
 [vcs/morgue-fullstory/qt-fll-iso2usb-gui]
 checkout = git clone git@github.com:/fullstory-morgue/qt-fll-iso2usb-gui.git qt-fll-iso2usb-gui
 skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
@@ -430,10 +474,6 @@ skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
 checkout = git clone git@github.com:/fullstory-morgue/scanpartitions.git scanpartitions
 skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
 
-[vcs/morgue-fullstory/seminarix]
-checkout = git clone git@github.com:/fullstory-morgue/seminarix.git seminarix
-skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
-
 [vcs/morgue-fullstory/seminarix-handbook]
 checkout = git clone git@github.com:/fullstory-morgue/seminarix-handbook.git seminarix-handbook
 skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
@@ -444,6 +484,10 @@ skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
 
 [vcs/morgue-fullstory/seminarix-notebook-training]
 checkout = git clone git@github.com:/fullstory-morgue/seminarix-notebook-training.git seminarix-notebook-training
+skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
+
+[vcs/morgue-fullstory/seminarix]
+checkout = git clone git@github.com:/fullstory-morgue/seminarix.git seminarix
 skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
 
 [vcs/morgue-fullstory/seminarix-samples]
@@ -470,12 +514,12 @@ skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
 checkout = git clone git@github.com:/fullstory-morgue/sidux-art-gnome-gaia.git sidux-art-gnome-gaia
 skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
 
-[vcs/morgue-fullstory/sidux-art-gnome]
-checkout = git clone git@github.com:/fullstory-morgue/sidux-art-gnome.git sidux-art-gnome
-skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
-
 [vcs/morgue-fullstory/sidux-art-gnome-nyx]
 checkout = git clone git@github.com:/fullstory-morgue/sidux-art-gnome-nyx.git sidux-art-gnome-nyx
+skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
+
+[vcs/morgue-fullstory/sidux-art-gnome]
+checkout = git clone git@github.com:/fullstory-morgue/sidux-art-gnome.git sidux-art-gnome
 skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
 
 [vcs/morgue-fullstory/sidux-art-hypnos]
@@ -490,12 +534,12 @@ skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
 checkout = git clone git@github.com:/fullstory-morgue/sidux-art-kde-gaia.git sidux-art-kde-gaia
 skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
 
-[vcs/morgue-fullstory/sidux-art-kde]
-checkout = git clone git@github.com:/fullstory-morgue/sidux-art-kde.git sidux-art-kde
-skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
-
 [vcs/morgue-fullstory/sidux-art-kde-nyx]
 checkout = git clone git@github.com:/fullstory-morgue/sidux-art-kde-nyx.git sidux-art-kde-nyx
+skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
+
+[vcs/morgue-fullstory/sidux-art-kde]
+checkout = git clone git@github.com:/fullstory-morgue/sidux-art-kde.git sidux-art-kde
 skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
 
 [vcs/morgue-fullstory/sidux-art-kde-tartaros]
@@ -542,16 +586,16 @@ skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
 checkout = git clone git@github.com:/fullstory-morgue/sidux-art-wallpaper-gaia.git sidux-art-wallpaper-gaia
 skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
 
-[vcs/morgue-fullstory/sidux-art-wallpaper]
-checkout = git clone git@github.com:/fullstory-morgue/sidux-art-wallpaper.git sidux-art-wallpaper
-skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
-
 [vcs/morgue-fullstory/sidux-art-wallpaper-nyx-edu]
 checkout = git clone git@github.com:/fullstory-morgue/sidux-art-wallpaper-nyx-edu.git sidux-art-wallpaper-nyx-edu
 skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
 
 [vcs/morgue-fullstory/sidux-art-wallpaper-nyx]
 checkout = git clone git@github.com:/fullstory-morgue/sidux-art-wallpaper-nyx.git sidux-art-wallpaper-nyx
+skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
+
+[vcs/morgue-fullstory/sidux-art-wallpaper]
+checkout = git clone git@github.com:/fullstory-morgue/sidux-art-wallpaper.git sidux-art-wallpaper
 skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
 
 [vcs/morgue-fullstory/sidux-art-wallpaper-tartaros]
@@ -648,6 +692,10 @@ skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
 
 [vcs/morgue-fullstory/ttf-sidux]
 checkout = git clone git@github.com:/fullstory-morgue/ttf-sidux.git ttf-sidux
+skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
+
+[vcs/morgue-fullstory/udev-config-aptosid]
+checkout = git clone git@github.com:/fullstory-morgue/udev-config-aptosid.git udev-config-aptosid
 skip = [ ! -d "${HOME}/vcs/morgue-fullstory" ]
 
 [vcs/morgue-fullstory/usleep-kanotix]

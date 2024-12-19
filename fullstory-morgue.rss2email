@@ -1,0 +1,537 @@
+[feed.fullstory-morgue_acer-acpi]
+url = https://github.com/fullstory-morgue/acer-acpi/commits/master.atom
+
+[feed.fullstory-morgue_acerhk]
+url = https://github.com/fullstory-morgue/acerhk/commits/master.atom
+
+[feed.fullstory-morgue_aptosid-art-apate]
+url = https://github.com/fullstory-morgue/aptosid-art-apate/commits/master.atom
+
+[feed.fullstory-morgue_aptosid-art-hesperides]
+url = https://github.com/fullstory-morgue/aptosid-art-hesperides/commits/master.atom
+
+[feed.fullstory-morgue_aptosid-art-imera]
+url = https://github.com/fullstory-morgue/aptosid-art-imera/commits/master.atom
+
+[feed.fullstory-morgue_aptosid-art-keres]
+url = https://github.com/fullstory-morgue/aptosid-art-keres/commits/master.atom
+
+[feed.fullstory-morgue_aptosid-art-nemesis]
+url = https://github.com/fullstory-morgue/aptosid-art-nemesis/commits/master.atom
+
+[feed.fullstory-morgue_aptosid-art-ponos]
+url = https://github.com/fullstory-morgue/aptosid-art-ponos/commits/master.atom
+
+[feed.fullstory-morgue_aptosid-manual-reader]
+url = https://github.com/fullstory-morgue/aptosid-manual-reader/commits/master.atom
+
+[feed.fullstory-morgue_aptosid-manual-transition-helper]
+url = https://github.com/fullstory-morgue/aptosid-manual-transition-helper/commits/master.atom
+
+[feed.fullstory-morgue_aptosid-settings-budgie]
+url = https://github.com/fullstory-morgue/aptosid-settings-budgie/commits/master.atom
+
+[feed.fullstory-morgue_aptosid-settings-cinnamon]
+url = https://github.com/fullstory-morgue/aptosid-settings-cinnamon/commits/master.atom
+
+[feed.fullstory-morgue_aptosid-settings-gnome]
+url = https://github.com/fullstory-morgue/aptosid-settings-gnome/commits/master.atom
+
+[feed.fullstory-morgue_aptosid-settings-kde]
+url = https://github.com/fullstory-morgue/aptosid-settings-kde/commits/master.atom
+
+[feed.fullstory-morgue_aptosid-settings-lxde]
+url = https://github.com/fullstory-morgue/aptosid-settings-lxde/commits/master.atom
+
+[feed.fullstory-morgue_aptosid-settings-xfce]
+url = https://github.com/fullstory-morgue/aptosid-settings-xfce/commits/master.atom
+
+[feed.fullstory-morgue_aptosid-transition-helper]
+url = https://github.com/fullstory-morgue/aptosid-transition-helper/commits/master.atom
+
+[feed.fullstory-morgue_aptosid-vdr]
+url = https://github.com/fullstory-morgue/aptosid-vdr/commits/master.atom
+
+[feed.fullstory-morgue_ar5523]
+url = https://github.com/fullstory-morgue/ar5523/commits/master.atom
+
+[feed.fullstory-morgue_atl1e]
+url = https://github.com/fullstory-morgue/atl1e/commits/master.atom
+
+[feed.fullstory-morgue_aufs]
+url = https://github.com/fullstory-morgue/aufs/commits/master.atom
+
+[feed.fullstory-morgue_automount-kanotix]
+url = https://github.com/fullstory-morgue/automount-kanotix/commits/master.atom
+
+[feed.fullstory-morgue_btsco]
+url = https://github.com/fullstory-morgue/btsco/commits/master.atom
+
+[feed.fullstory-morgue_busybox-sidux]
+url = https://github.com/fullstory-morgue/busybox-sidux/commits/master.atom
+
+[feed.fullstory-morgue_ceni]
+url = https://github.com/fullstory-morgue/ceni/commits/master.atom
+
+[feed.fullstory-morgue_checkmem]
+url = https://github.com/fullstory-morgue/checkmem/commits/master.atom
+
+[feed.fullstory-morgue_cliinstaller]
+url = https://github.com/fullstory-morgue/cliinstaller/commits/master.atom
+
+[feed.fullstory-morgue_configure-dsl]
+url = https://github.com/fullstory-morgue/configure-dsl/commits/master.atom
+
+[feed.fullstory-morgue_configure-freenx]
+url = https://github.com/fullstory-morgue/configure-freenx/commits/master.atom
+
+[feed.fullstory-morgue_configure-gprs]
+url = https://github.com/fullstory-morgue/configure-gprs/commits/master.atom
+
+[feed.fullstory-morgue_configure-isdn]
+url = https://github.com/fullstory-morgue/configure-isdn/commits/master.atom
+
+[feed.fullstory-morgue_configure-keyboard]
+url = https://github.com/fullstory-morgue/configure-keyboard/commits/master.atom
+
+[feed.fullstory-morgue_configure-modemlink]
+url = https://github.com/fullstory-morgue/configure-modemlink/commits/master.atom
+
+[feed.fullstory-morgue_configure-mouse]
+url = https://github.com/fullstory-morgue/configure-mouse/commits/master.atom
+
+[feed.fullstory-morgue_configure-ndiswrapper]
+url = https://github.com/fullstory-morgue/configure-ndiswrapper/commits/master.atom
+
+[feed.fullstory-morgue_configure-networkcard]
+url = https://github.com/fullstory-morgue/configure-networkcard/commits/master.atom
+
+[feed.fullstory-morgue_configure-screenres]
+url = https://github.com/fullstory-morgue/configure-screenres/commits/master.atom
+
+[feed.fullstory-morgue_configure-xawtv]
+url = https://github.com/fullstory-morgue/configure-xawtv/commits/master.atom
+
+[feed.fullstory-morgue_ddcxinfo]
+url = https://github.com/fullstory-morgue/ddcxinfo/commits/master.atom
+
+[feed.fullstory-morgue_desktop-defaults]
+url = https://github.com/fullstory-morgue/desktop-defaults/commits/master.atom
+
+[feed.fullstory-morgue_distro-defaults]
+url = https://github.com/fullstory-morgue/distro-defaults/commits/master.atom
+
+[feed.fullstory-morgue_dvb-detect]
+url = https://github.com/fullstory-morgue/dvb-detect/commits/master.atom
+
+[feed.fullstory-morgue_eduversum-howto]
+url = https://github.com/fullstory-morgue/eduversum-howto/commits/master.atom
+
+[feed.fullstory-morgue_eduversum]
+url = https://github.com/fullstory-morgue/eduversum/commits/master.atom
+
+[feed.fullstory-morgue_etcskel-sidux]
+url = https://github.com/fullstory-morgue/etcskel-sidux/commits/master.atom
+
+[feed.fullstory-morgue_firewall-kanotix]
+url = https://github.com/fullstory-morgue/firewall-kanotix/commits/master.atom
+
+[feed.fullstory-morgue_fix-cdrom]
+url = https://github.com/fullstory-morgue/fix-cdrom/commits/master.atom
+
+[feed.fullstory-morgue_fix-fonts]
+url = https://github.com/fullstory-morgue/fix-fonts/commits/master.atom
+
+[feed.fullstory-morgue_fll-builder]
+url = https://github.com/fullstory-morgue/fll-builder/commits/master.atom
+
+[feed.fullstory-morgue_fll-fshelper]
+url = https://github.com/fullstory-morgue/fll-fshelper/commits/master.atom
+
+[feed.fullstory-morgue_fll-gfx]
+url = https://github.com/fullstory-morgue/fll-gfx/commits/master.atom
+
+[feed.fullstory-morgue_fll-installer]
+url = https://github.com/fullstory-morgue/fll-installer/commits/master.atom
+
+[feed.fullstory-morgue_freenx]
+url = https://github.com/fullstory-morgue/freenx/commits/master.atom
+
+[feed.fullstory-morgue_fsam7400]
+url = https://github.com/fullstory-morgue/fsam7400/commits/master.atom
+
+[feed.fullstory-morgue_fusecram]
+url = https://github.com/fullstory-morgue/fusecram/commits/master.atom
+
+[feed.fullstory-morgue_fuseiso]
+url = https://github.com/fullstory-morgue/fuseiso/commits/master.atom
+
+[feed.fullstory-morgue_gdm-themes-sidux]
+url = https://github.com/fullstory-morgue/gdm-themes-sidux/commits/master.atom
+
+[feed.fullstory-morgue_gfxboot]
+url = https://github.com/fullstory-morgue/gfxboot/commits/master.atom
+
+[feed.fullstory-morgue_gfxboot-themes-aptosid]
+url = https://github.com/fullstory-morgue/gfxboot-themes-aptosid/commits/master.atom
+
+[feed.fullstory-morgue_gfxboot-theme-sidux-eros]
+url = https://github.com/fullstory-morgue/gfxboot-theme-sidux-eros/commits/master.atom
+
+[feed.fullstory-morgue_grub-gfxboot]
+url = https://github.com/fullstory-morgue/grub-gfxboot/commits/master.atom
+
+[feed.fullstory-morgue_gtf]
+url = https://github.com/fullstory-morgue/gtf/commits/master.atom
+
+[feed.fullstory-morgue_hotplug-kanotix]
+url = https://github.com/fullstory-morgue/hotplug-kanotix/commits/master.atom
+
+[feed.fullstory-morgue_hwdata-kanotix]
+url = https://github.com/fullstory-morgue/hwdata-kanotix/commits/master.atom
+
+[feed.fullstory-morgue_hwsetup-kanotix]
+url = https://github.com/fullstory-morgue/hwsetup-kanotix/commits/master.atom
+
+[feed.fullstory-morgue_hwsetup-ng]
+url = https://github.com/fullstory-morgue/hwsetup-ng/commits/master.atom
+
+[feed.fullstory-morgue_initscripts-sidux-live]
+url = https://github.com/fullstory-morgue/initscripts-sidux-live/commits/master.atom
+
+[feed.fullstory-morgue_install-gui]
+url = https://github.com/fullstory-morgue/install-gui/commits/master.atom
+
+[feed.fullstory-morgue_install-meta]
+url = https://github.com/fullstory-morgue/install-meta/commits/master.atom
+
+[feed.fullstory-morgue_install-progressbar]
+url = https://github.com/fullstory-morgue/install-progressbar/commits/master.atom
+
+[feed.fullstory-morgue_install-usb-gui]
+url = https://github.com/fullstory-morgue/install-usb-gui/commits/master.atom
+
+[feed.fullstory-morgue_k3b-defaults-kanotix]
+url = https://github.com/fullstory-morgue/k3b-defaults-kanotix/commits/master.atom
+
+[feed.fullstory-morgue_kanet]
+url = https://github.com/fullstory-morgue/kanet/commits/master.atom
+
+[feed.fullstory-morgue_kanotix2sidux]
+url = https://github.com/fullstory-morgue/kanotix2sidux/commits/master.atom
+
+[feed.fullstory-morgue_kanotix-remountrw]
+url = https://github.com/fullstory-morgue/kanotix-remountrw/commits/master.atom
+
+[feed.fullstory-morgue_kdelock-kanotix]
+url = https://github.com/fullstory-morgue/kdelock-kanotix/commits/master.atom
+
+[feed.fullstory-morgue_kdeservicemenus-sidux]
+url = https://github.com/fullstory-morgue/kdeservicemenus-sidux/commits/master.atom
+
+[feed.fullstory-morgue_kde-services-sidux]
+url = https://github.com/fullstory-morgue/kde-services-sidux/commits/master.atom
+
+[feed.fullstory-morgue_kdm-theme-kanotix-penguins]
+url = https://github.com/fullstory-morgue/kdm-theme-kanotix-penguins/commits/master.atom
+
+[feed.fullstory-morgue_klik]
+url = https://github.com/fullstory-morgue/klik/commits/master.atom
+
+[feed.fullstory-morgue_knxcc]
+url = https://github.com/fullstory-morgue/knxcc/commits/master.atom
+
+[feed.fullstory-morgue_knx-installer]
+url = https://github.com/fullstory-morgue/knx-installer/commits/master.atom
+
+[feed.fullstory-morgue_ksplash-theme-kanotix-clouds]
+url = https://github.com/fullstory-morgue/ksplash-theme-kanotix-clouds/commits/master.atom
+
+[feed.fullstory-morgue_ksplash-theme-kanotix-penguins]
+url = https://github.com/fullstory-morgue/ksplash-theme-kanotix-penguins/commits/master.atom
+
+[feed.fullstory-morgue_ksplash-theme-sidux-2006]
+url = https://github.com/fullstory-morgue/ksplash-theme-sidux-2006/commits/master.atom
+
+[feed.fullstory-morgue_ksplash-theme-sidux-preview]
+url = https://github.com/fullstory-morgue/ksplash-theme-sidux-preview/commits/master.atom
+
+[feed.fullstory-morgue_kudzu-kanotix]
+url = https://github.com/fullstory-morgue/kudzu-kanotix/commits/master.atom
+
+[feed.fullstory-morgue_libconfig-source-perl]
+url = https://github.com/fullstory-morgue/libconfig-source-perl/commits/master.atom
+
+[feed.fullstory-morgue_linux-modules-sidux-main-2.6]
+url = https://github.com/fullstory-morgue/linux-modules-sidux-main-2.6/commits/master.atom
+
+[feed.fullstory-morgue_lirc]
+url = https://github.com/fullstory-morgue/lirc/commits/master.atom
+
+[feed.fullstory-morgue_live-initrd-sidux]
+url = https://github.com/fullstory-morgue/live-initrd-sidux/commits/master.atom
+
+[feed.fullstory-morgue_live-terminalserver-sidux]
+url = https://github.com/fullstory-morgue/live-terminalserver-sidux/commits/master.atom
+
+[feed.fullstory-morgue_liveusb-creator]
+url = https://github.com/fullstory-morgue/liveusb-creator/commits/master.atom
+
+[feed.fullstory-morgue_ltmodem-detect]
+url = https://github.com/fullstory-morgue/ltmodem-detect/commits/master.atom
+
+[feed.fullstory-morgue_mkdesktophdicons-kanotix]
+url = https://github.com/fullstory-morgue/mkdesktophdicons-kanotix/commits/master.atom
+
+[feed.fullstory-morgue_mkdosswapfile]
+url = https://github.com/fullstory-morgue/mkdosswapfile/commits/master.atom
+
+[feed.fullstory-morgue_mkpersistenthome]
+url = https://github.com/fullstory-morgue/mkpersistenthome/commits/master.atom
+
+[feed.fullstory-morgue_ndiswrapper]
+url = https://github.com/fullstory-morgue/ndiswrapper/commits/master.atom
+
+[feed.fullstory-morgue_networkconfig-sidux]
+url = https://github.com/fullstory-morgue/networkconfig-sidux/commits/master.atom
+
+[feed.fullstory-morgue_omnibook]
+url = https://github.com/fullstory-morgue/omnibook/commits/master.atom
+
+[feed.fullstory-morgue_pdf-printerconfig-kanotix]
+url = https://github.com/fullstory-morgue/pdf-printerconfig-kanotix/commits/master.atom
+
+[feed.fullstory-morgue_playvideodisk]
+url = https://github.com/fullstory-morgue/playvideodisk/commits/master.atom
+
+[feed.fullstory-morgue_ppp-scripts]
+url = https://github.com/fullstory-morgue/ppp-scripts/commits/master.atom
+
+[feed.fullstory-morgue_print-utils-pfeifle-kanotix]
+url = https://github.com/fullstory-morgue/print-utils-pfeifle-kanotix/commits/master.atom
+
+[feed.fullstory-morgue_pyfll-installer]
+url = https://github.com/fullstory-morgue/pyfll-installer/commits/master.atom
+
+[feed.fullstory-morgue_pyfll-ubuntu]
+url = https://github.com/fullstory-morgue/pyfll-ubuntu/commits/master.atom
+
+[feed.fullstory-morgue_python-fll]
+url = https://github.com/fullstory-morgue/python-fll/commits/master.atom
+
+[feed.fullstory-morgue_qt-fll-iso2usb-gui]
+url = https://github.com/fullstory-morgue/qt-fll-iso2usb-gui/commits/master.atom
+
+[feed.fullstory-morgue_r5u870]
+url = https://github.com/fullstory-morgue/r5u870/commits/master.atom
+
+[feed.fullstory-morgue_ralink-fwcutter]
+url = https://github.com/fullstory-morgue/ralink-fwcutter/commits/master.atom
+
+[feed.fullstory-morgue_rebuildfstab]
+url = https://github.com/fullstory-morgue/rebuildfstab/commits/master.atom
+
+[feed.fullstory-morgue_restartx]
+url = https://github.com/fullstory-morgue/restartx/commits/master.atom
+
+[feed.fullstory-morgue_rfswitch]
+url = https://github.com/fullstory-morgue/rfswitch/commits/master.atom
+
+[feed.fullstory-morgue_rootshell]
+url = https://github.com/fullstory-morgue/rootshell/commits/master.atom
+
+[feed.fullstory-morgue_rt61]
+url = https://github.com/fullstory-morgue/rt61/commits/master.atom
+
+[feed.fullstory-morgue_rt73-legacy]
+url = https://github.com/fullstory-morgue/rt73-legacy/commits/master.atom
+
+[feed.fullstory-morgue_sambastart]
+url = https://github.com/fullstory-morgue/sambastart/commits/master.atom
+
+[feed.fullstory-morgue_saveconfig]
+url = https://github.com/fullstory-morgue/saveconfig/commits/master.atom
+
+[feed.fullstory-morgue_scanpartitions]
+url = https://github.com/fullstory-morgue/scanpartitions/commits/master.atom
+
+[feed.fullstory-morgue_seminarix-handbook]
+url = https://github.com/fullstory-morgue/seminarix-handbook/commits/master.atom
+
+[feed.fullstory-morgue_seminarix-latex]
+url = https://github.com/fullstory-morgue/seminarix-latex/commits/master.atom
+
+[feed.fullstory-morgue_seminarix-notebook-training]
+url = https://github.com/fullstory-morgue/seminarix-notebook-training/commits/master.atom
+
+[feed.fullstory-morgue_seminarix]
+url = https://github.com/fullstory-morgue/seminarix/commits/master.atom
+
+[feed.fullstory-morgue_seminarix-samples]
+url = https://github.com/fullstory-morgue/seminarix-samples/commits/master.atom
+
+[feed.fullstory-morgue_sidux-art-aether]
+url = https://github.com/fullstory-morgue/sidux-art-aether/commits/master.atom
+
+[feed.fullstory-morgue_sidux-art-erebos]
+url = https://github.com/fullstory-morgue/sidux-art-erebos/commits/master.atom
+
+[feed.fullstory-morgue_sidux-art-gfxbootsplash]
+url = https://github.com/fullstory-morgue/sidux-art-gfxbootsplash/commits/master.atom
+
+[feed.fullstory-morgue_sidux-art-gnome-eros]
+url = https://github.com/fullstory-morgue/sidux-art-gnome-eros/commits/master.atom
+
+[feed.fullstory-morgue_sidux-art-gnome-gaia]
+url = https://github.com/fullstory-morgue/sidux-art-gnome-gaia/commits/master.atom
+
+[feed.fullstory-morgue_sidux-art-gnome-nyx]
+url = https://github.com/fullstory-morgue/sidux-art-gnome-nyx/commits/master.atom
+
+[feed.fullstory-morgue_sidux-art-gnome]
+url = https://github.com/fullstory-morgue/sidux-art-gnome/commits/master.atom
+
+[feed.fullstory-morgue_sidux-art-hypnos]
+url = https://github.com/fullstory-morgue/sidux-art-hypnos/commits/master.atom
+
+[feed.fullstory-morgue_sidux-art-kde-eros]
+url = https://github.com/fullstory-morgue/sidux-art-kde-eros/commits/master.atom
+
+[feed.fullstory-morgue_sidux-art-kde-gaia]
+url = https://github.com/fullstory-morgue/sidux-art-kde-gaia/commits/master.atom
+
+[feed.fullstory-morgue_sidux-art-kde-nyx]
+url = https://github.com/fullstory-morgue/sidux-art-kde-nyx/commits/master.atom
+
+[feed.fullstory-morgue_sidux-art-kde]
+url = https://github.com/fullstory-morgue/sidux-art-kde/commits/master.atom
+
+[feed.fullstory-morgue_sidux-art-kde-tartaros]
+url = https://github.com/fullstory-morgue/sidux-art-kde-tartaros/commits/master.atom
+
+[feed.fullstory-morgue_sidux-art-momos]
+url = https://github.com/fullstory-morgue/sidux-art-momos/commits/master.atom
+
+[feed.fullstory-morgue_sidux-art-moros]
+url = https://github.com/fullstory-morgue/sidux-art-moros/commits/master.atom
+
+[feed.fullstory-morgue_sidux-art-ouranos]
+url = https://github.com/fullstory-morgue/sidux-art-ouranos/commits/master.atom
+
+[feed.fullstory-morgue_sidux-art-ourea]
+url = https://github.com/fullstory-morgue/sidux-art-ourea/commits/master.atom
+
+[feed.fullstory-morgue_sidux-art-pontos]
+url = https://github.com/fullstory-morgue/sidux-art-pontos/commits/master.atom
+
+[feed.fullstory-morgue_sidux-art-wallpaper-erebos-edu]
+url = https://github.com/fullstory-morgue/sidux-art-wallpaper-erebos-edu/commits/master.atom
+
+[feed.fullstory-morgue_sidux-art-wallpaper-erebos]
+url = https://github.com/fullstory-morgue/sidux-art-wallpaper-erebos/commits/master.atom
+
+[feed.fullstory-morgue_sidux-art-wallpaper-eros-edu]
+url = https://github.com/fullstory-morgue/sidux-art-wallpaper-eros-edu/commits/master.atom
+
+[feed.fullstory-morgue_sidux-art-wallpaper-eros]
+url = https://github.com/fullstory-morgue/sidux-art-wallpaper-eros/commits/master.atom
+
+[feed.fullstory-morgue_sidux-art-wallpaper-gaia]
+url = https://github.com/fullstory-morgue/sidux-art-wallpaper-gaia/commits/master.atom
+
+[feed.fullstory-morgue_sidux-art-wallpaper-nyx-edu]
+url = https://github.com/fullstory-morgue/sidux-art-wallpaper-nyx-edu/commits/master.atom
+
+[feed.fullstory-morgue_sidux-art-wallpaper-nyx]
+url = https://github.com/fullstory-morgue/sidux-art-wallpaper-nyx/commits/master.atom
+
+[feed.fullstory-morgue_sidux-art-wallpaper]
+url = https://github.com/fullstory-morgue/sidux-art-wallpaper/commits/master.atom
+
+[feed.fullstory-morgue_sidux-art-wallpaper-tartaros]
+url = https://github.com/fullstory-morgue/sidux-art-wallpaper-tartaros/commits/master.atom
+
+[feed.fullstory-morgue_sidux-art-website]
+url = https://github.com/fullstory-morgue/sidux-art-website/commits/master.atom
+
+[feed.fullstory-morgue_sidux-artwork-competition]
+url = https://github.com/fullstory-morgue/sidux-artwork-competition/commits/master.atom
+
+[feed.fullstory-morgue_sidux-art-xfce]
+url = https://github.com/fullstory-morgue/sidux-art-xfce/commits/master.atom
+
+[feed.fullstory-morgue_sidux-binary-gfx]
+url = https://github.com/fullstory-morgue/sidux-binary-gfx/commits/master.atom
+
+[feed.fullstory-morgue_siduxcc]
+url = https://github.com/fullstory-morgue/siduxcc/commits/master.atom
+
+[feed.fullstory-morgue_sidux-edu]
+url = https://github.com/fullstory-morgue/sidux-edu/commits/master.atom
+
+[feed.fullstory-morgue_sidux-framework]
+url = https://github.com/fullstory-morgue/sidux-framework/commits/master.atom
+
+[feed.fullstory-morgue_sidux-graphics]
+url = https://github.com/fullstory-morgue/sidux-graphics/commits/master.atom
+
+[feed.fullstory-morgue_sidux-hermes]
+url = https://github.com/fullstory-morgue/sidux-hermes/commits/master.atom
+
+[feed.fullstory-morgue_sidux-icons]
+url = https://github.com/fullstory-morgue/sidux-icons/commits/master.atom
+
+[feed.fullstory-morgue_sidux-menu]
+url = https://github.com/fullstory-morgue/sidux-menu/commits/master.atom
+
+[feed.fullstory-morgue_sidux-searchplugins]
+url = https://github.com/fullstory-morgue/sidux-searchplugins/commits/master.atom
+
+[feed.fullstory-morgue_sidux-server-config]
+url = https://github.com/fullstory-morgue/sidux-server-config/commits/master.atom
+
+[feed.fullstory-morgue_sidux-xdg]
+url = https://github.com/fullstory-morgue/sidux-xdg/commits/master.atom
+
+[feed.fullstory-morgue_sitar]
+url = https://github.com/fullstory-morgue/sitar/commits/master.atom
+
+[feed.fullstory-morgue_smbconf-kanotix]
+url = https://github.com/fullstory-morgue/smbconf-kanotix/commits/master.atom
+
+[feed.fullstory-morgue_splashy-theme-kanotix-penguins]
+url = https://github.com/fullstory-morgue/splashy-theme-kanotix-penguins/commits/master.atom
+
+[feed.fullstory-morgue_startsyslog]
+url = https://github.com/fullstory-morgue/startsyslog/commits/master.atom
+
+[feed.fullstory-morgue_sudoers-sidux]
+url = https://github.com/fullstory-morgue/sudoers-sidux/commits/master.atom
+
+[feed.fullstory-morgue_su-me]
+url = https://github.com/fullstory-morgue/su-me/commits/master.atom
+
+[feed.fullstory-morgue_sysv-freeze]
+url = https://github.com/fullstory-morgue/sysv-freeze/commits/master.atom
+
+[feed.fullstory-morgue_teclasat]
+url = https://github.com/fullstory-morgue/teclasat/commits/master.atom
+
+[feed.fullstory-morgue_ttf-sidux]
+url = https://github.com/fullstory-morgue/ttf-sidux/commits/master.atom
+
+[feed.fullstory-morgue_udev-config-aptosid]
+url = https://github.com/fullstory-morgue/udev-config-aptosid/commits/master.atom
+
+[feed.fullstory-morgue_usleep-kanotix]
+url = https://github.com/fullstory-morgue/usleep-kanotix/commits/master.atom
+
+[feed.fullstory-morgue_vdr-gui]
+url = https://github.com/fullstory-morgue/vdr-gui/commits/master.atom
+
+[feed.fullstory-morgue_xsession-initscript-sidux]
+url = https://github.com/fullstory-morgue/xsession-initscript-sidux/commits/master.atom
+
+[feed.fullstory-morgue_xsession-sidux]
+url = https://github.com/fullstory-morgue/xsession-sidux/commits/master.atom
+

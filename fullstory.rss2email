@@ -1,0 +1,69 @@
+[feed.fullstory_apt-conf-aptosid]
+url = https://github.com/fullstory/apt-conf-aptosid/commits/master.atom
+
+[feed.fullstory_aptosid-art-legacy]
+url = https://github.com/fullstory/aptosid-art-legacy/commits/master.atom
+
+[feed.fullstory_aptosid-art-meta]
+url = https://github.com/fullstory/aptosid-art-meta/commits/master.atom
+
+[feed.fullstory_aptosid-irc]
+url = https://github.com/fullstory/aptosid-irc/commits/master.atom
+
+[feed.fullstory_aptosid-keyring]
+url = https://github.com/fullstory/aptosid-keyring/commits/master.atom
+
+[feed.fullstory_aptosid-manual]
+url = https://github.com/fullstory/aptosid-manual/commits/master.atom
+
+[feed.fullstory_aptosid-scripts]
+url = https://github.com/fullstory/aptosid-scripts/commits/master.atom
+
+[feed.fullstory_aptosid-settings-desktop]
+url = https://github.com/fullstory/aptosid-settings-desktop/commits/master.atom
+
+[feed.fullstory_b43-asm]
+url = https://github.com/fullstory/b43-asm/commits/master.atom
+
+[feed.fullstory_calamares-settings-aptosid]
+url = https://github.com/fullstory/calamares-settings-aptosid/commits/master.atom
+
+[feed.fullstory_configure-cups]
+url = https://github.com/fullstory/configure-cups/commits/master.atom
+
+[feed.fullstory_dmakms]
+url = https://github.com/fullstory/dmakms/commits/master.atom
+
+[feed.fullstory_fll-live-initramfs]
+url = https://github.com/fullstory/fll-live-initramfs/commits/master.atom
+
+[feed.fullstory_fll-live-initscripts]
+url = https://github.com/fullstory/fll-live-initscripts/commits/master.atom
+
+[feed.fullstory_grub2-fll-fromiso]
+url = https://github.com/fullstory/grub2-fll-fromiso/commits/master.atom
+
+[feed.fullstory_infobash]
+url = https://github.com/fullstory/infobash/commits/master.atom
+
+[feed.fullstory_kernel-remover]
+url = https://github.com/fullstory/kernel-remover/commits/master.atom
+
+[feed.fullstory_linux-aptosid]
+url = https://github.com/fullstory/linux-aptosid/commits/master.atom
+
+[feed.fullstory_openfwwf]
+url = https://github.com/fullstory/openfwwf/commits/master.atom
+
+[feed.fullstory_pyfll]
+url = https://github.com/fullstory/pyfll/commits/master.atom
+
+[feed.fullstory_setpassword]
+url = https://github.com/fullstory/setpassword/commits/master.atom
+
+[feed.fullstory_sshstart]
+url = https://github.com/fullstory/sshstart/commits/master.atom
+
+[feed.fullstory_xdg-browser-launcher]
+url = https://github.com/fullstory/xdg-browser-launcher/commits/master.atom
+
